@@ -1,6 +1,6 @@
 ## List of Supported Projects
 
-1. [REDTOP](redtop.md)
+1. [REDTOP](Redtop.md)
 2. IceCube
 3. LIGO
 4. LSST
