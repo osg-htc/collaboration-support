@@ -1,4 +1,4 @@
-
+# Weekly schedule of collaborative meetings/calls
 
 OSG Area Coordinators meeting When: Wednesdays 2-3 pm Central URL: https://unl.zoom.us/j/865025296
 
