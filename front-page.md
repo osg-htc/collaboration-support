@@ -6,7 +6,7 @@ Welcome to the home page of the OSG Collaboration Support Team!
 
 The mission of OSG Collaboration support is to enable access and lower the barrier for Midscale collaborations to leverage the
 the high throughput computing ecosystem of OSG for their research.
-A list of currently supported projects is maintained here: [projects/project-list.md]
+A list of currently supported projects is maintained [here](projects/project-list.md)
 
 ## Contact Us
 
