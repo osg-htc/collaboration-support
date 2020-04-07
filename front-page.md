@@ -1,4 +1,4 @@
-OSG Collaborations Support
+## OSG Collaborations Support
 
 Welcome to the home page of the OSG Collaboration Support Team!
 
