@@ -1,6 +1,6 @@
 ## List of Supported Projects
 
-1. REDTOP
+1. REDTOP [a relative link](opensciencegrid/collaboration-support/projects/redtop.md)
 2. IceCube
 3. LIGO
 4. LSST
