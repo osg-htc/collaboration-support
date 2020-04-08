@@ -6,8 +6,8 @@ theme:
 
 pages:
   - Home: 'index.md'
-  - Current Collaborations
-  - Meeting/Call schedule
+  - Current Collaborations: 'projects/project-list.md'
+  - Meeting/Call schedule: 'misc/meeting-schedule.md'
 
 markdown_extensions:
   - admonition
