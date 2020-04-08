@@ -1,7 +1,7 @@
 # Weekly schedule of collaborative meetings/calls
 
-OSG Area Coordinators meeting 
-When: Wednesdays 2-3pm Central 
+OSG Area Coordinators meeting  
+When: Wednesdays 2-3pm Central  
 URL: https://unl.zoom.us/j/865025296
 
 Ceser/LIGO support meetting 
