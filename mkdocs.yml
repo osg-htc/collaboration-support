@@ -13,5 +13,5 @@ markdown_extensions:
   - admonition
   - codehilite:
       guess_lang: False
-  - toc:
-      permalink: True
+  #  - toc(permalink=true)
+  - toc
