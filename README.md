@@ -1,3 +1,3 @@
-# Collaboration-support
+# Collaboration support
 
 Home of OSG Collaboration Support Webpages
