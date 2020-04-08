@@ -1,9 +1,13 @@
 site_name: OSG Collaboration Support
 site_url: https://opensciencegrid.org/collaboration-support
 repo_name: https://github.com/opensciencegrid/collaboration-support
+theme: 
+  name: material
 
 pages:
   - Home: 'index.md'
+  - Current Collaborations
+  - Meeting/Call schedule
 
 markdown_extensions:
   - admonition
