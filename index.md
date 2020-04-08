@@ -19,6 +19,6 @@ Open a Ticket by sending an email to help@opensciencegrid.org and request suppor
 ***
 
 ## Recurring Collaborative meeting schedule
-Collaboration support holds and participates in meetings during the week to assist and coordinate on projects. A list of the weekly meeting schedule is maintained [here](meeting-schedule.md)
+Collaboration support holds and participates in meetings during the week to assist and coordinate on projects. A list of the weekly meeting schedule is maintained [here](misc/meeting-schedule.md)
 
 
