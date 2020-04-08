@@ -6,7 +6,16 @@ theme:
 
 pages:
   - Home: 'index.md'
-  - Current Collaborations: 'projects/project-list.md'
+  - Current Collaborations:
+    - Overview: 'projects/project-list.md'
+    - REDTOP: 'projects/Redtop.md'
+    - IceCube: 'projects/icecube.md'
+    - LIGO: 'projects/ligo.md'
+    - LSST: 'projects/lsst.md'
+    - PSD UChicago: 'projects/psd.md'
+    - South Pole Telescope: 'projects/spt.md'
+    - VERITAS: 'projects/veritas.md'
+    - XENON: 'projects/xenon.md'
   - Meeting/Call schedule: 'misc/meeting-schedule.md'
 
 markdown_extensions:
