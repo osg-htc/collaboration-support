@@ -1,0 +1,129 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "OSG Collaborations Support\n\u00b6\n\n\nWelcome to the home page of the OSG Collaboration Support Team!\n\n\n\n\nMission\n\u00b6\n\n\nThe mission of OSG Collaboration support is to enable access and lower the barrier for Midscale collaborations to leverage the\nthe high throughput computing ecosystem of OSG for their research.\nA list of currently supported projects is maintained \nhere\n\n\n\n\nContact Us\n\u00b6\n\n\nOpen a Ticket by sending an email to help@opensciencegrid.org and request support for your collaboration project.\n\n\n\n\nRegular Meeting schedule\n\u00b6\n\n\nCollaboration support holds and participates in meetings during the week to assist and coordinate on projects. A list of the weekly meeting schedule is maintained \nhere",
+            "title": "Home"
+        },
+        {
+            "location": "/#osg-collaborations-support",
+            "text": "Welcome to the home page of the OSG Collaboration Support Team!",
+            "title": "OSG Collaborations Support"
+        },
+        {
+            "location": "/#mission",
+            "text": "The mission of OSG Collaboration support is to enable access and lower the barrier for Midscale collaborations to leverage the\nthe high throughput computing ecosystem of OSG for their research.\nA list of currently supported projects is maintained  here",
+            "title": "Mission"
+        },
+        {
+            "location": "/#contact-us",
+            "text": "Open a Ticket by sending an email to help@opensciencegrid.org and request support for your collaboration project.",
+            "title": "Contact Us"
+        },
+        {
+            "location": "/#regular-meeting-schedule",
+            "text": "Collaboration support holds and participates in meetings during the week to assist and coordinate on projects. A list of the weekly meeting schedule is maintained  here",
+            "title": "Regular Meeting schedule"
+        },
+        {
+            "location": "/projects/project-list/",
+            "text": "List of Supported Projects\n\u00b6\n\n\n\n\nREDTOP\n\n\nIceCube\n\n\nLIGO\n\n\nLSST\n\n\nPSD UChicago\n\n\nSouth Pole Telescope\n\n\nVERITAS\n\n\nXENON\n\n\nKOTO",
+            "title": "Overview"
+        },
+        {
+            "location": "/projects/project-list/#list-of-supported-projects",
+            "text": "REDTOP  IceCube  LIGO  LSST  PSD UChicago  South Pole Telescope  VERITAS  XENON  KOTO",
+            "title": "List of Supported Projects"
+        },
+        {
+            "location": "/projects/Redtop/",
+            "text": "REDTOP\n\u00b6\n\n\nComputational plan for Redtop can be enterred here",
+            "title": "REDTOP"
+        },
+        {
+            "location": "/projects/Redtop/#redtop",
+            "text": "Computational plan for Redtop can be enterred here",
+            "title": "REDTOP"
+        },
+        {
+            "location": "/projects/icecube/",
+            "text": "IceCube\n\u00b6",
+            "title": "IceCube"
+        },
+        {
+            "location": "/projects/icecube/#icecube",
+            "text": "",
+            "title": "IceCube"
+        },
+        {
+            "location": "/projects/ligo/",
+            "text": "LIGO\n\u00b6\n\n\nSupport of LIGO via the Ceser project\n\n\nLIGO wide ticket support system in: https://github.com/lscsoft/osg-igwn/",
+            "title": "LIGO"
+        },
+        {
+            "location": "/projects/ligo/#ligo",
+            "text": "Support of LIGO via the Ceser project  LIGO wide ticket support system in: https://github.com/lscsoft/osg-igwn/",
+            "title": "LIGO"
+        },
+        {
+            "location": "/projects/lsst/",
+            "text": "LSST via Duke\n\u00b6\n\n\nDuke Portal: login.duke.ci-connect.net",
+            "title": "LSST"
+        },
+        {
+            "location": "/projects/lsst/#lsst-via-duke",
+            "text": "Duke Portal: login.duke.ci-connect.net",
+            "title": "LSST via Duke"
+        },
+        {
+            "location": "/projects/psd/",
+            "text": "Physical Sciences Division UChicago\n\u00b6",
+            "title": "PSD UChicago"
+        },
+        {
+            "location": "/projects/psd/#physical-sciences-division-uchicago",
+            "text": "",
+            "title": "Physical Sciences Division UChicago"
+        },
+        {
+            "location": "/projects/spt/",
+            "text": "South Pole Telescope\n\u00b6\n\n\nUseful links\n\n\nhttps://github.com/SouthPoleTelescope/spt3g_software/blob/osg-doc-updates/doc/osg/osg_guide.md\n\n\nhttps://pole.uchicago.edu/spt3g/index.php/Computing#spt3g_software_Quick_Start_Documentation",
+            "title": "South Pole Telescope"
+        },
+        {
+            "location": "/projects/spt/#south-pole-telescope",
+            "text": "Useful links  https://github.com/SouthPoleTelescope/spt3g_software/blob/osg-doc-updates/doc/osg/osg_guide.md  https://pole.uchicago.edu/spt3g/index.php/Computing#spt3g_software_Quick_Start_Documentation",
+            "title": "South Pole Telescope"
+        },
+        {
+            "location": "/projects/veritas/",
+            "text": "VERITAS Collaboration\n\u00b6",
+            "title": "VERITAS"
+        },
+        {
+            "location": "/projects/veritas/#veritas-collaboration",
+            "text": "",
+            "title": "VERITAS Collaboration"
+        },
+        {
+            "location": "/projects/xenon/",
+            "text": "XENON\n\u00b6",
+            "title": "XENON"
+        },
+        {
+            "location": "/projects/xenon/#xenon",
+            "text": "",
+            "title": "XENON"
+        },
+        {
+            "location": "/misc/meeting-schedule/",
+            "text": "Weekly schedule of collaborative meetings/calls\n\u00b6\n\n\nOSG Area Coordinators meeting\n\nWhen: Wednesdays 2-3pm Central\n\nURL: https://unl.zoom.us/j/865025296\n\n\nCeser/LIGO support meetting\n\nWhen: Tuesdays 12:30pm-1:30pm Central\n\nURL: https://uchicago.zoom.us/s/4250591437\n\nMinutes: https://docs.google.com/document/d/146OP2zqQC7BB4SAmgLuv-TeYLTTesiPs_NfCttdwliA/edit#heading=h.i2ed2c4usz4v\n\n\nCeser/Icecube sync up\n\nWhen: Tentatively Friday 10:00am-11:00am Central (bi-weekly)\n\nURL: https://uchicago.zoom.us/s/4250591437\n\n\nXenon Analysis/Compute meeting\n\nWhen: Thursdays 10:00am-11:00am Central\n\nURL: https://riceuniversity.zoom.us/j/4815153031\n\nMinutes:https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenon1t:analysistools:200402 \n\n\nIGWN support meeting\n\nWhen: Thursdays 9:00am-10:00am Central\n\nURL: https://caltech.zoom.us/j/689991481\n\nMinutes:https://github.com/lscsoft/osg-igwn/\n\n\nKoto support meetting \nWhen: Thursdays 3:00pm - 4:00pm Central \nURL: https://uchicago.zoom.us/s/4250591437\n\n\nxCache meetting\n\nWhen: Thursdays 1:00pm-2:00pm\n\nCentral URL: https://unl.zoom.us/j/651969661\n\n\nInternet2 meetting\n\nWhen: Fridays 2:00pm-3:00pm Central\n\nURL: https://internet2.zoom.us/j/668736847",
+            "title": "Meeting/Call schedule"
+        },
+        {
+            "location": "/misc/meeting-schedule/#weekly-schedule-of-collaborative-meetingscalls",
+            "text": "OSG Area Coordinators meeting \nWhen: Wednesdays 2-3pm Central \nURL: https://unl.zoom.us/j/865025296  Ceser/LIGO support meetting \nWhen: Tuesdays 12:30pm-1:30pm Central \nURL: https://uchicago.zoom.us/s/4250591437 \nMinutes: https://docs.google.com/document/d/146OP2zqQC7BB4SAmgLuv-TeYLTTesiPs_NfCttdwliA/edit#heading=h.i2ed2c4usz4v  Ceser/Icecube sync up \nWhen: Tentatively Friday 10:00am-11:00am Central (bi-weekly) \nURL: https://uchicago.zoom.us/s/4250591437  Xenon Analysis/Compute meeting \nWhen: Thursdays 10:00am-11:00am Central \nURL: https://riceuniversity.zoom.us/j/4815153031 \nMinutes:https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenon1t:analysistools:200402   IGWN support meeting \nWhen: Thursdays 9:00am-10:00am Central \nURL: https://caltech.zoom.us/j/689991481 \nMinutes:https://github.com/lscsoft/osg-igwn/  Koto support meetting \nWhen: Thursdays 3:00pm - 4:00pm Central \nURL: https://uchicago.zoom.us/s/4250591437  xCache meetting \nWhen: Thursdays 1:00pm-2:00pm \nCentral URL: https://unl.zoom.us/j/651969661  Internet2 meetting \nWhen: Fridays 2:00pm-3:00pm Central \nURL: https://internet2.zoom.us/j/668736847",
+            "title": "Weekly schedule of collaborative meetings/calls"
+        }
+    ]
+}

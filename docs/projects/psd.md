@@ -1,1 +1,0 @@
-## Physical Sciences Division UChicago
