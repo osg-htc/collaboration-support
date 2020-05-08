@@ -8,4 +8,4 @@
 6. [South Pole Telescope](spt.md)
 7. [VERITAS](veritas.md)
 8. [XENON](xenon.md)
-9. [KOTO](koto.md)
+9. KOTO
