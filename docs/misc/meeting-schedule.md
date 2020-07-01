@@ -6,7 +6,7 @@ URL: https://unl.zoom.us/j/865025296
 
 ### IGWN-CESER meetting  
 When: Tuesdays 12:30pm-1:30pm Central  
-Details in [docs/projects/ligo.md]  
+[Details in](../projects/ligo.md)  
 
 
 Ceser/Icecube sync up  
