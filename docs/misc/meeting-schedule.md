@@ -23,19 +23,19 @@ When: Thursdays 10:00am-11:00am Central
 [Details in the XENON Collaboration page](../projects/xenon.md)
 
 
-## IGWN production meeting  
+### IGWN production meeting  
 When: Thursdays 9:00am-10:00am Central  
 
 [Details in the IGWN Collaboration page](../projects/ligo.md)
 
-Koto support meetting 
+### Koto support meetting 
 When: Thursdays 3:00pm - 4:00pm Central 
 URL: https://uchicago.zoom.us/s/4250591437
 
-xCache meetting  
+### xCache meetting  
 When: Thursdays 1:00pm-2:00pm  
 Central URL: https://unl.zoom.us/j/651969661
 
-Internet2 meetting  
+### Internet2-CESER meeting
 When: Fridays 2:00pm-3:00pm Central  
 URL: https://internet2.zoom.us/j/668736847
