@@ -1,13 +1,13 @@
-# Weekly schedule of collaborative meetings/calls
+## Schedule of collaborative meetings/calls
 
-OSG Area Coordinators meeting  
+### OSG Area Coordinators meeting  
 When: Wednesdays 2-3pm Central  
 URL: https://unl.zoom.us/j/865025296
 
-Ceser/LIGO support meetting  
+### IGWN-CESER meetting  
 When: Tuesdays 12:30pm-1:30pm Central  
-URL: https://uchicago.zoom.us/s/4250591437  
-Minutes: https://docs.google.com/document/d/146OP2zqQC7BB4SAmgLuv-TeYLTTesiPs_NfCttdwliA/edit#heading=h.i2ed2c4usz4v
+Details in [/docs/projects/ligo.md]  
+
 
 Ceser/Icecube sync up  
 When: Tentatively Friday 10:00am-11:00am Central (bi-weekly)  
