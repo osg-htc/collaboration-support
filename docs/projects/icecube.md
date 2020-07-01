@@ -1,4 +1,4 @@
-## IceCube 
+## IceCube-CESER
 
 
 Icecube is supported by OSG Collaborations via the CESER project. 
