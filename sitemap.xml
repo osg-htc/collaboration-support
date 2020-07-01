@@ -2,57 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://opensciencegrid.org/collaboration-support/</loc>
-     <lastmod>2020-05-08</lastmod>
+     <lastmod>2020-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/collaboration-support/projects/project-list/</loc>
-     <lastmod>2020-05-08</lastmod>
+     <lastmod>2020-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/collaboration-support/projects/Redtop/</loc>
-     <lastmod>2020-05-08</lastmod>
+     <lastmod>2020-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/collaboration-support/projects/icecube/</loc>
-     <lastmod>2020-05-08</lastmod>
+     <lastmod>2020-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/collaboration-support/projects/ligo/</loc>
-     <lastmod>2020-05-08</lastmod>
+     <lastmod>2020-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/collaboration-support/projects/lsst/</loc>
-     <lastmod>2020-05-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://opensciencegrid.org/collaboration-support/projects/psd/</loc>
-     <lastmod>2020-05-08</lastmod>
+     <lastmod>2020-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/collaboration-support/projects/spt/</loc>
-     <lastmod>2020-05-08</lastmod>
+     <lastmod>2020-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/collaboration-support/projects/veritas/</loc>
-     <lastmod>2020-05-08</lastmod>
+     <lastmod>2020-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/collaboration-support/projects/xenon/</loc>
-     <lastmod>2020-05-08</lastmod>
+     <lastmod>2020-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/collaboration-support/misc/meeting-schedule/</loc>
-     <lastmod>2020-05-08</lastmod>
+     <lastmod>2020-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

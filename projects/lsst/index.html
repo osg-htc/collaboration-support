@@ -280,6 +280,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#news" title="News" class="md-nav__link">
+    News
+  </a>
+  
+</li>
+      
       
       
       
@@ -288,18 +295,6 @@
   
 </nav>
     
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../psd/" title="PSD UChicago" class="md-nav__link">
-      PSD UChicago
-    </a>
   </li>
 
         
@@ -381,6 +376,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#news" title="News" class="md-nav__link">
+    News
+  </a>
+  
+</li>
+      
       
       
       
@@ -401,7 +403,19 @@
                   <h1>LSST</h1>
                 
                 <h2 id="lsst-via-duke">LSST via Duke<a class="headerlink" href="#lsst-via-duke" title="Permanent link">&para;</a></h2>
-<p>Duke Portal: login.duke.ci-connect.net</p>
+<p>LSST is supported by OSG Collaboration Services via the duke.lsst osg project</p>
+<p>Sign up to get access to the OSG submit node here: <a href="http://login.duke.ci-connect.net">Duke CI-Connect Access Portal</a></p>
+<h2 id="news">News<a class="headerlink" href="#news" title="Permanent link">&para;</a></h2>
+<p>You can now use stashcp to transfer data to and from OSG as part of your computational workflow. You must transfer your 
+input files to a new namespace. </p>
+<p>From your active session on the duke login node the namespace is located in: /collab/users and /collab/project/lsst
+Users can create their own private directories in users or shared directories in lsst. New accounts will create the user
+directories automatically and provide read,write permissions in the project/lsst folder</p>
+<p>To transfer files to a remote site via a job enter this stashcp command in your execution script:</p>
+<p>stashcp /osgconnect/collab/users/<your_directory>/<your-file> .</p>
+<p>To transfer files, such as output, from the remote site where your jobs is running to your space on stash, enter 
+ this command in your execution script</p>
+<p>stashcp <file> stash:///osgconnect/collab/users/<your_directory>/.</p>
                 
                   
                 
@@ -437,13 +451,13 @@
           </a>
         
         
-          <a href="../psd/" title="PSD UChicago" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../spt/" title="South Pole Telescope" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                PSD UChicago
+                South Pole Telescope
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
