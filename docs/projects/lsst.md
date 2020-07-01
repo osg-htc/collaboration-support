@@ -20,4 +20,4 @@ stashcp /osgconnect/collab/users/<your_directory>/<your-file> .
  To transfer files, such as output, from the remote site where your jobs is running to your space on stash, enter 
  this command in your execution script
  
- stashc <file> stash:///osgconnect/collab/users/<your_directory>/.
+ stashcp <file> stash:///osgconnect/collab/users/<your_directory>/.
