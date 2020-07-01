@@ -24,6 +24,6 @@ Collaboration support holds and participates in meetings during the week to assi
 
 ### List of supported collaboratoins
 
-[Collaboration list]
+[Collaboration list](projects/project-list.md)
 
 
