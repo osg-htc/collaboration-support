@@ -1,5 +1,6 @@
 ## South Pole Telescope SPT-3G
 
+![SPT logo](https://spt.ci-connect.net/static/img/spt-logo.jpg)
 South Pole Telescope is supported by OSG Collaborations with infrastructure at UC, submit hosts to the OSG, 
 and a local condor pool for access to MWT2 and IRISHEP-SSL clusters
 
