@@ -6,22 +6,20 @@ URL: https://unl.zoom.us/j/865025296
 
 ### IGWN-CESER meetting  
 When: Tuesdays 12:30pm-1:30pm Central  
-[Details in](../projects/ligo.md)  
+[Details in the IGWN Collaboration page](../projects/ligo.md)  
 
 
-Ceser/Icecube sync up  
-When: Tentatively Friday 10:00am-11:00am Central (bi-weekly)  
-URL: https://uchicago.zoom.us/s/4250591437
+### Icecube-CESER meeting  
+When: Biweeklyy on Mondays 3:00 pm-4:00pm Central
+[Detais in the Icecube Collaboration page](../projects/icecube.md)
 
-Xenon Analysis/Compute meeting  
+### XENON Analysis/Compute meeting  
 When: Thursdays 10:00am-11:00am Central  
-URL: https://riceuniversity.zoom.us/j/4815153031  
-Minutes:https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenon1t:analysistools:200402 
+[Details in the XENON Collaboration page](../projects/xenon.md)
 
-IGWN support meeting  
+## IGWN production meeting  
 When: Thursdays 9:00am-10:00am Central  
-URL: https://caltech.zoom.us/j/689991481  
-Minutes:https://github.com/lscsoft/osg-igwn/
+[Details in the IGWN Collaboration page](../projects/ligo.md)
 
 Koto support meetting 
 When: Thursdays 3:00pm - 4:00pm Central 
