@@ -42,5 +42,18 @@ Password: (sent to participants by Peter Couvares)
 https://github.com/lscsoft/osg-igwn/wiki/20200625-Agenda-and-Minutes
 
 
+## Bi-Weekly IGWN-Rucio meeting
+Time: 9:30 AM Central Time (US and Canada)
+       Every two weeks on Fri
+
+Join Zoom Meeting: https://uchicago.zoom.us/s/4250591437
+
+Agenda and minutes doc:
+https://docs.google.com/document/d/1QtrZaosjaZINfoxVyaoSyF8ubJv46RnIVKuxxDEE9ko/
+
+### Minutes
+
+https://docs.google.com/document/d/1QtrZaosjaZINfoxVyaoSyF8ubJv46RnIVKuxxDEE9ko/edit
+
 
 
