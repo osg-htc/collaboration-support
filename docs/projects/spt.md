@@ -3,7 +3,7 @@
 South Pole Telescope is supported by OSG Collaborations with infrastructure at UC, submit hosts to the OSG, 
 and a local condor pool for access to MWT2 and IRISHEP-SSL clusters
 
-[Portal for accounting](http://spt.ci-connect.net)
+[Account Portal and sign up for Access to Resources](http://spt.ci-connect.net)
 
 [SPT Local Storage Dashboard](https://grafana.mwt2.org/d/0HbLiB_Wk/spt-storage?orgId=1&refresh=5m&from=now-30m&to=now)
 
