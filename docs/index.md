@@ -1,8 +1,5 @@
 ## OSG Collaborations Support
 
-Welcome to the home page of the Collaboration Support Team!
-
-***
 
 ### Mission
 
