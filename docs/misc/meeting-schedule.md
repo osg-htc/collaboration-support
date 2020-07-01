@@ -13,9 +13,11 @@ When: Tuesdays 12:30pm-1:30pm Central
 When: Biweeklyy on Mondays 3:00 pm-4:00pm Central
 [Detais in the Icecube Collaboration page](../projects/icecube.md)
 
+
 ### XENON Analysis/Compute meeting  
 When: Thursdays 10:00am-11:00am Central  
 [Details in the XENON Collaboration page](../projects/xenon.md)
+
 
 ## IGWN production meeting  
 When: Thursdays 9:00am-10:00am Central  
