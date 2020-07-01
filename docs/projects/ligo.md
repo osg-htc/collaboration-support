@@ -13,7 +13,7 @@ https://uchicago.zoom.us/j/92646382791?pwd=WFIreDc2SU1RRXliU21vanpVYjNwQT09
 
 Password: (sent to participants)
 
-# Minutes
+### Minutes
 
 [06-30-20](https://docs.google.com/document/d/146OP2zqQC7BB4SAmgLuv-TeYLTTesiPs_NfCttdwliA/edit#heading=h.e71plsjp8zi9)
 
@@ -37,7 +37,7 @@ Password: (sent to participants by Peter Couvares)
 
 [LIGO wide ticket support system](https://github.com/lscsoft/osg-igwn/)
 
-# Minutes
+### Minutes
 
 https://github.com/lscsoft/osg-igwn/wiki/20200625-Agenda-and-Minutes
 
