@@ -1,7 +1,7 @@
-## LIGO 
+## IGWN-CESER
 
-Support of LIGO via the Ceser project
+Collaboration Services supports IGWN via the CESER project
 
-LIGO wide ticket support system in: https://github.com/lscsoft/osg-igwn/
+[LIGO wide ticket support system](https://github.com/lscsoft/osg-igwn/)
 
 
