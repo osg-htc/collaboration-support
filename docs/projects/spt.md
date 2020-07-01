@@ -12,12 +12,14 @@ and a local condor pool for access to MWT2 and IRISHEP-SSL clusters
 
 [SPT Grid Storage Dashboard](https://grafana.mwt2.org/d/0HbLiB_Wk/spt-storage?viewPanel=4&orgId=1&refresh=5m&from=now-30m&to=now)
 
+![SPT Infrastructure](https://raw.githubusercontent.com/SouthPoleTelescope/spt3g_software/master/doc/osg/Processing_flows.png?token=AFZESXIU7LBLWHTEIHMG5TS7AXZKK)
+
 ## Information fo Users
 
 
-Useful links
-
 [Guide to access OSG resources](https://github.com/SouthPoleTelescope/spt3g_software/blob/osg-doc-updates/doc/osg/osg_guide.md)
+
+[Guid to obtain Grid Certificates](https://pole.uchicago.edu/spt3g/index.php/Grid_Certificate_How-To)
 
 [General Information on Software availability and documenation](https://pole.uchicago.edu/spt3g/index.php/Computing#spt3g_software_Quick_Start_Documentation)
 
