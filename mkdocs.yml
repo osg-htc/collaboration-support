@@ -4,7 +4,7 @@ repo_name: https://github.com/opensciencegrid/collaboration-support
 theme: 
   name: material
 
-pages:
+nav:
   - Home: 'index.md'
   - Current Collaborations:
     - Overview: 'projects/project-list.md'
