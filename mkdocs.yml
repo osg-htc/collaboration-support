@@ -1,6 +1,6 @@
 site_name: OSG Collaboration Support
-site_url: https://opensciencegrid.org/collaboration-support
-repo_name: https://github.com/opensciencegrid/collaboration-support
+site_url: https://osg-htc.org/collaboration-support
+repo_name: https://github.com/osg-htc/collaboration-support
 theme: 
   name: material
 
