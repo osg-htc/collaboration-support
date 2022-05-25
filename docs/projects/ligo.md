@@ -21,4 +21,7 @@ Time: 9:00 AM Central Time (US and Canada)
        
 Links to be updated. Currently access is only restricted to people with ligo credentials.
 
+## Weekly IGWN Condor meeting
+TB updated
+
 
