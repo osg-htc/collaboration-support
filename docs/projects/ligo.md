@@ -35,8 +35,6 @@ https://caltech.zoom.us/j/689991481?pwd=Z2NnZGh4SzdzcllUY0RkcFI2Z09ZUT09
 
 Password: (sent to participants by Peter Couvares)
 
-[LIGO wide ticket support system](https://github.com/lscsoft/osg-igwn/)
-
 ### Minutes
 
 https://github.com/lscsoft/osg-igwn/wiki/20200625-Agenda-and-Minutes
