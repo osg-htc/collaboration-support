@@ -1,6 +1,8 @@
 ## IGWN-PATh
 
-Collaboration Services supports IGWN-PATh.
+<iframe src="igwn-institutes.html" height="500" width="700"></iframe>
+
+Collaboration Support Services and PATh support of IGWN.
 
 ## Weekly IGWN-PATh meeting
 
