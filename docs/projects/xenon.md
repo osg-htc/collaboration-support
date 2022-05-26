@@ -5,9 +5,9 @@ storage (dCache & Ceph), Data Management with Rucio, monitoring, software and do
 
 ## Status of Services
 
-[Rucio Server Ganglia](http://gmetad-kvm.mwt2.org/?c=MWT2%20KVM&h=rucio-xenon.grid.uchicago.edu&m=cpu_report&r=hour&s=descending&hc=4&mc=2)
+[Rucio Server Ganglia](http://ganglia.grid.uchicago.edu/?r=hour&cs=&ce=&c=Head&h=rucio-xenon.grid.uchicago.edu&tab=m&vn=&tz=&hide-hf=false&m=load_one&sh=1&z=small&hc=4&host_regex=&max_graphs=0&s=by+name)
 
-[FTS Server Ganglia](http://gmetad-kvm.mwt2.org/?c=MWT2%20KVM&h=fts.mwt2.org&m=cpu_report&r=hour&s=descending&hc=4&mc=2)
+[FTS Server Ganglia](http://ganglia.grid.uchicago.edu/?r=hour&cs=&ce=&c=Head&h=fts.mwt2.org&tab=m&vn=&tz=&hide-hf=false&m=load_one&sh=1&z=small&hc=4&host_regex=&max_graphs=0&s=by+name)
 
 [Check-mk Xenon Rucio Group](https://connect-mon.mwt2.org/checkmk/check_mk/index.py?start_url=%2Fcheckmk%2Fcheck_mk%2Fview.py%3Fhost%3Drucio-xenon.grid.uchicago.edu%26site%3Dcheckmk%26view_name%3Dhost)
 
