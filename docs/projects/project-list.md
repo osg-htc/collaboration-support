@@ -8,7 +8,7 @@
 7. [VERITAS](veritas.md)
 8. [XENON](xenon.md)
 9. [SNOWMASS21](snowmass.md)
-9. KOTO
+9. [KOTO](koto.md)
 10. [CLAS12](clas12.md)
 11. [GLUEX](gluex.md)
 12. [EIC](eic.md)
