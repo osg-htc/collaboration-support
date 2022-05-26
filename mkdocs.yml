@@ -10,7 +10,7 @@ nav:
     - Overview: 'projects/project-list.md'
     - REDTOP: 'projects/Redtop.md'
     - IceCube: 'projects/icecube.md'
-    - LIGO: 'projects/igwn.md'
+    - IGWN: 'projects/igwn.md'
     - LSST: 'projects/lsst.md'
     - South Pole Telescope: 'projects/spt.md'
     - VERITAS: 'projects/veritas.md'
@@ -20,6 +20,7 @@ nav:
     - MOLLER: 'projects/moller.md'
     - EIC: 'projects/eic.md'
     - Snowmass: 'projects/snowmass.md'
+    - KOTO: 'projects/koto.md'
   - Meeting/Call schedule: 'misc/meeting-schedule.md'
 
 markdown_extensions:
