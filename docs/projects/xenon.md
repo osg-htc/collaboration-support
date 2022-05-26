@@ -1,7 +1,10 @@
 ## XENON
 
-Collaboration services supports XENON with local infrastructure and services at UChicago which includes submit/login nodes,
-storage (dCache & Ceph), Data Management with Rucio, monitoring, software and documentation
+Support areas for XENON include data management, infrastructure (Submit host, dCache storage, FTS service for Rucio managed third-party transfers, Rucio Service), and best practices for software and job management. XENON is supported by NSF institutional grants  PHY-2112796 at UChicago, PHY-2112851 at Columbia University, PHY-2112801 at Rice University, PHY-2112802 at UC San Diego and PHY-21128-3 at  Purdue University. 
+Data Production team Lead: Evan Shockley eshockley@physics.ucsd.edu
+MC Production team Lead: Diego Ramirez diego.ramirez@physik.uni-freiburg.de 
+At present, XENON consumes ~6 PB of distributed storage f in the US & Europe managed by Rucio. Total storage utilization has remained constant in time, as the collaboration is deleting older data - from XENON 1T - while it continues to gather fresh data from the current phase - XENON nT. Nonetheless, the overall replicated distributed storage is expected to increase by the end of the 5-year lifetime of the experiment because the amount of data volume for the nT phase is projected to be five times larger than the 1T volume.
+
 
 ## Status of Services
 
