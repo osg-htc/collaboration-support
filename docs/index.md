@@ -8,11 +8,11 @@ the distributed High Throughput Computing (dHTC) ecosystem of OSG for their rese
 
 ## IGWN world distribution of member institutions
 
-<iframe src="igwn-institutes.html" height="600" width="800"></iframe>
+<iframe src="igwn-institutes.html" height="500" width="900"></iframe>
 
 ## IGWN world distribution of Entry Points to compute resources
 
-<iframe src="igwn-pool.html" height="600" width="800"></iframe>
+<iframe src="igwn-pool.html" height="500" width="900"></iframe>
 
 ***
 
