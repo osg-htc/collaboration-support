@@ -6,10 +6,13 @@
 The mission of OSG Collaboration support is to enable access and lower the barrier for Midsize collaborations to leverage the
 the distributed High Throughput Computing (dHTC) ecosystem of OSG for their research.
 
-## World distribution of member institutions in the IGWN collaboration
+## IGWN world distribution of member institutions
 
 <iframe src="igwn-institutes.html" height="400" width="700"></iframe>
 
+## IGWN world distribution of Entry Points to compute resources
+
+<iframe src="igwn-pool.html" height="400" width="700"></iframe>
 
 ***
 
