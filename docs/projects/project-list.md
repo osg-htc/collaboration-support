@@ -2,7 +2,7 @@
 
 1. [REDTOP](Redtop.md)
 2. [IceCube](icecube.md)
-3. [IGWN](ligo.md)
+3. [IGWN](igwn.md)
 4. [LSST-Duke](lsst.md)
 6. [South Pole Telescope](spt.md)
 7. [VERITAS](veritas.md)
