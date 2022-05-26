@@ -18,7 +18,7 @@ nav:
     - GLUEX: 'projects/gluex.md'
     - GLAS12: 'projects/clas12.md'
     - MOLLER: 'projects/moller.md'
-    - EIC: 'projects/moller.md'
+    - EIC: 'projects/eic.md'
     - Snowmass: 'projects/snowmass.md'
   - Meeting/Call schedule: 'misc/meeting-schedule.md'
 
