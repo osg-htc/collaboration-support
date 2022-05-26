@@ -1,0 +1,3038 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9bcb7a258dd276e57ad4b320df9dcc35 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9bcb7a258dd276e57ad4b320df9dcc35" ></div>
+        
+</body>
+<script>    
+    
+            var map_9bcb7a258dd276e57ad4b320df9dcc35 = L.map(
+                "map_9bcb7a258dd276e57ad4b320df9dcc35",
+                {
+                    center: [30.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2.1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f645af39176c75385c4575e8c07db7e8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var marker_a92bdad62a3410c0d87c73e68409369d = L.marker(
+                [34.13701375, -118.1252882487961],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_041266e86ec77a172cf789a90c9a28a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a92bdad62a3410c0d87c73e68409369d.setIcon(icon_041266e86ec77a172cf789a90c9a28a5);
+        
+    
+        var popup_c0de642b530a3f43e479e7f0a8a50db1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dd9375864cf2202e7b3a3d2baecfb8e = $(`<div id="html_1dd9375864cf2202e7b3a3d2baecfb8e" style="width: 100.0%; height: 100.0%;">Institute:  California Institute of Technology<br>City: Pasadena California<br>Country:  USA<br>#Groups: 2<br>Coordinates: [34.13701375, -118.1252882487961]</div>`)[0];
+            popup_c0de642b530a3f43e479e7f0a8a50db1.setContent(html_1dd9375864cf2202e7b3a3d2baecfb8e);
+        
+
+        marker_a92bdad62a3410c0d87c73e68409369d.bindPopup(popup_c0de642b530a3f43e479e7f0a8a50db1)
+        ;
+
+        
+    
+    
+            var marker_d2bd1083eea1ebd7ad5d9c8ea49eba01 = L.marker(
+                [-37.9136326, 145.1318299],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_69b578c90d92497549533118205d3c70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d2bd1083eea1ebd7ad5d9c8ea49eba01.setIcon(icon_69b578c90d92497549533118205d3c70);
+        
+    
+        var popup_b851b6b4f57db33345e0098541875b12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b3aa9ac10db32431ed995f24098f50b = $(`<div id="html_2b3aa9ac10db32431ed995f24098f50b" style="width: 100.0%; height: 100.0%;">Institute:  Monash University<br>City: Melbourne<br>Country:  Australia<br>#Groups: 1<br>Coordinates: [-37.9136326, 145.1318299]</div>`)[0];
+            popup_b851b6b4f57db33345e0098541875b12.setContent(html_2b3aa9ac10db32431ed995f24098f50b);
+        
+
+        marker_d2bd1083eea1ebd7ad5d9c8ea49eba01.bindPopup(popup_b851b6b4f57db33345e0098541875b12)
+        ;
+
+        
+    
+    
+            var marker_317ceaca7cb4547c1110027504888934 = L.marker(
+                [40.803448, -77.85442353315453],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_7af8ff7c3a0e26f5c374bbab4ecb1219 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_317ceaca7cb4547c1110027504888934.setIcon(icon_7af8ff7c3a0e26f5c374bbab4ecb1219);
+        
+    
+        var popup_ed09fde6c8aaaeec4699950a65a80a91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_512cdd76c314b190fa3a24562309631a = $(`<div id="html_512cdd76c314b190fa3a24562309631a" style="width: 100.0%; height: 100.0%;">Institute: The Pennsylvania State University<br>City: College Township Pennsylvania<br>Country:  USA<br>#Groups: 1<br>Coordinates: [40.803448, -77.85442353315453]</div>`)[0];
+            popup_ed09fde6c8aaaeec4699950a65a80a91.setContent(html_512cdd76c314b190fa3a24562309631a);
+        
+
+        marker_317ceaca7cb4547c1110027504888934.bindPopup(popup_ed09fde6c8aaaeec4699950a65a80a91)
+        ;
+
+        
+    
+    
+            var marker_b4fabb1d4b2b821742218ed3a2f22696 = L.marker(
+                [43.0775181, -87.8812647],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_09e6ab1eb8b820591faca179242d9006 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b4fabb1d4b2b821742218ed3a2f22696.setIcon(icon_09e6ab1eb8b820591faca179242d9006);
+        
+    
+        var popup_d2afe0a039412df7c50dac03058b6740 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9497c27a2145d79c4c59f359cc51febd = $(`<div id="html_9497c27a2145d79c4c59f359cc51febd" style="width: 100.0%; height: 100.0%;">Institute: University of Wisconsin-Milwaukee<br>City: Milwaukee Wisconsin<br>Country:  USA<br>#Groups: 1<br>Coordinates: [43.0775181, -87.8812647]</div>`)[0];
+            popup_d2afe0a039412df7c50dac03058b6740.setContent(html_9497c27a2145d79c4c59f359cc51febd);
+        
+
+        marker_b4fabb1d4b2b821742218ed3a2f22696.bindPopup(popup_d2afe0a039412df7c50dac03058b6740)
+        ;
+
+        
+    
+    
+            var marker_9b50497cd5b2e33a7d26c83ecb8f015f = L.marker(
+                [30.4459596, -91.18738],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_718189385f0f0b1c681901d0c8c0273c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b50497cd5b2e33a7d26c83ecb8f015f.setIcon(icon_718189385f0f0b1c681901d0c8c0273c);
+        
+    
+        var popup_01ab1e4ef9fa2d07dcb228fe6af673c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68dda7066be7e8737fe2da256e0ce032 = $(`<div id="html_68dda7066be7e8737fe2da256e0ce032" style="width: 100.0%; height: 100.0%;">Institute: Louisiana State University<br>City: Baton Rouge Louisiana<br>Country:  USA<br>#Groups: 1<br>Coordinates: [30.4459596, -91.18738]</div>`)[0];
+            popup_01ab1e4ef9fa2d07dcb228fe6af673c4.setContent(html_68dda7066be7e8737fe2da256e0ce032);
+        
+
+        marker_9b50497cd5b2e33a7d26c83ecb8f015f.bindPopup(popup_01ab1e4ef9fa2d07dcb228fe6af673c4)
+        ;
+
+        
+    
+    
+            var marker_c5706dc2ef7aef37610fef414bb8d23e = L.marker(
+                [-35.28121335, 149.11677886464528],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_0c3a930faf0c15d7d55caf098e77ed24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5706dc2ef7aef37610fef414bb8d23e.setIcon(icon_0c3a930faf0c15d7d55caf098e77ed24);
+        
+    
+        var popup_d8973814318cb74fe4503f0b96576d25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_362293ae3b71395b4bbfd21f63ee00fa = $(`<div id="html_362293ae3b71395b4bbfd21f63ee00fa" style="width: 100.0%; height: 100.0%;">Institute:  Australian National University<br>City: North Canberra<br>Country:  Australia<br>#Groups: 1<br>Coordinates: [-35.28121335, 149.11677886464528]</div>`)[0];
+            popup_d8973814318cb74fe4503f0b96576d25.setContent(html_362293ae3b71395b4bbfd21f63ee00fa);
+        
+
+        marker_c5706dc2ef7aef37610fef414bb8d23e.bindPopup(popup_d8973814318cb74fe4503f0b96576d25)
+        ;
+
+        
+    
+    
+            var marker_055a734686970cb6a4d2fa174057d265 = L.marker(
+                [52.3918822, 9.717448506507452],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_b948124e022fb43a6c2eaab0047e33b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_055a734686970cb6a4d2fa174057d265.setIcon(icon_b948124e022fb43a6c2eaab0047e33b1);
+        
+    
+        var popup_b8c258ffcd7005c385128bf902f3dadb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7ac20ade506cdc60025ab62254ab9a7 = $(`<div id="html_d7ac20ade506cdc60025ab62254ab9a7" style="width: 100.0%; height: 100.0%;">Institute: Max Planck Institute for Gravitational Physics (Albert Einstein Institute) Hannover<br>City: Hanover<br>Country:  Germany<br>#Groups: 1<br>Coordinates: [52.3918822, 9.717448506507452]</div>`)[0];
+            popup_b8c258ffcd7005c385128bf902f3dadb.setContent(html_d7ac20ade506cdc60025ab62254ab9a7);
+        
+
+        marker_055a734686970cb6a4d2fa174057d265.bindPopup(popup_b8c258ffcd7005c385128bf902f3dadb)
+        ;
+
+        
+    
+    
+            var marker_8c1645cefbdf6b8f733628ba1c8dc54c = L.marker(
+                [52.3918822, 9.717448506507452],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_3451ac09d114b3fdb6bd4962f65ce72c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8c1645cefbdf6b8f733628ba1c8dc54c.setIcon(icon_3451ac09d114b3fdb6bd4962f65ce72c);
+        
+    
+        var popup_8f5ed93a02f7dec98d6db583e88dc241 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aaaa379daf9a9feec449cb5cc5a1fa1 = $(`<div id="html_5aaaa379daf9a9feec449cb5cc5a1fa1" style="width: 100.0%; height: 100.0%;">Institute: Leibniz Universit¨at Hannover<br>City: Hanover<br>Country:  Germany<br>#Groups: 1<br>Coordinates: [52.3918822, 9.717448506507452]</div>`)[0];
+            popup_8f5ed93a02f7dec98d6db583e88dc241.setContent(html_5aaaa379daf9a9feec449cb5cc5a1fa1);
+        
+
+        marker_8c1645cefbdf6b8f733628ba1c8dc54c.bindPopup(popup_8f5ed93a02f7dec98d6db583e88dc241)
+        ;
+
+        
+    
+    
+            var marker_c801238f16478eeba1822dd544f59cf4 = L.marker(
+                [18.521428, 73.8544541],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_ec765e416dd0c4da4af7c787349a4aec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c801238f16478eeba1822dd544f59cf4.setIcon(icon_ec765e416dd0c4da4af7c787349a4aec);
+        
+    
+        var popup_4c2cdc1ebeacbdf4bc390dad0278130e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca3ed93763caee3bb7808c5d3ccb129d = $(`<div id="html_ca3ed93763caee3bb7808c5d3ccb129d" style="width: 100.0%; height: 100.0%;">Institute: Inter-University Centre for Astronomy and Astrophysics<br>City: Pune<br>Country:  India<br>#Groups: 1<br>Coordinates: [18.521428, 73.8544541]</div>`)[0];
+            popup_4c2cdc1ebeacbdf4bc390dad0278130e.setContent(html_ca3ed93763caee3bb7808c5d3ccb129d);
+        
+
+        marker_c801238f16478eeba1822dd544f59cf4.bindPopup(popup_4c2cdc1ebeacbdf4bc390dad0278130e)
+        ;
+
+        
+    
+    
+            var marker_6475dd8e2c76ff17127f31d96c14b2f8 = L.marker(
+                [52.197584649999996, 0.13915373736874398],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_7d988a4d4e3818ad74780cac68e1bcea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6475dd8e2c76ff17127f31d96c14b2f8.setIcon(icon_7d988a4d4e3818ad74780cac68e1bcea);
+        
+    
+        var popup_c39b9d35f12e77722856334cfa9ba753 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67824ee585f192eb7ca1f1e209fb79d8 = $(`<div id="html_67824ee585f192eb7ca1f1e209fb79d8" style="width: 100.0%; height: 100.0%;">Institute: University of Cambridge<br>City: Cambridge<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [52.197584649999996, 0.13915373736874398]</div>`)[0];
+            popup_c39b9d35f12e77722856334cfa9ba753.setContent(html_67824ee585f192eb7ca1f1e209fb79d8);
+        
+
+        marker_6475dd8e2c76ff17127f31d96c14b2f8.bindPopup(popup_c39b9d35f12e77722856334cfa9ba753)
+        ;
+
+        
+    
+    
+            var marker_0bb8167abace43d0177edb109b1a80c5 = L.marker(
+                [-23.20918605, -45.85996025017859],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_894f7dd21661cb6925d2626794798a93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_0bb8167abace43d0177edb109b1a80c5.setIcon(icon_894f7dd21661cb6925d2626794798a93);
+        
+    
+        var popup_d8582b4456a42ad57d791104d09ae4af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88829251d4ebdb85b125327028d52f64 = $(`<div id="html_88829251d4ebdb85b125327028d52f64" style="width: 100.0%; height: 100.0%;">Institute: Instituto Nacional de Pesquisas Espaciais<br>City: São José dos Campos<br>Country:  Brazil<br>#Groups: 1<br>Coordinates: [-23.20918605, -45.85996025017859]</div>`)[0];
+            popup_d8582b4456a42ad57d791104d09ae4af.setContent(html_88829251d4ebdb85b125327028d52f64);
+        
+
+        marker_0bb8167abace43d0177edb109b1a80c5.bindPopup(popup_d8582b4456a42ad57d791104d09ae4af)
+        ;
+
+        
+    
+    
+            var marker_f14b68d92f0e588b4f378eea1391c6fc = L.marker(
+                [51.4816546, -3.1791934],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_d4008da5ebb82def1046dd0856a18271 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f14b68d92f0e588b4f378eea1391c6fc.setIcon(icon_d4008da5ebb82def1046dd0856a18271);
+        
+    
+        var popup_47086dda433d6492f9a4662c1032b39c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a006be7f1fad956e1436ee1786877367 = $(`<div id="html_a006be7f1fad956e1436ee1786877367" style="width: 100.0%; height: 100.0%;">Institute: Cardiff University<br>City: Cardiff<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [51.4816546, -3.1791934]</div>`)[0];
+            popup_47086dda433d6492f9a4662c1032b39c.setContent(html_a006be7f1fad956e1436ee1786877367);
+        
+
+        marker_f14b68d92f0e588b4f378eea1391c6fc.bindPopup(popup_47086dda433d6492f9a4662c1032b39c)
+        ;
+
+        
+    
+    
+            var marker_91919f2fa59a44d98c1334bee9800fa6 = L.marker(
+                [13.146183383333332, 77.51340622850348],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_ff0270e5ae27d164879838cc868f923a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_91919f2fa59a44d98c1334bee9800fa6.setIcon(icon_ff0270e5ae27d164879838cc868f923a);
+        
+    
+        var popup_89bb56dd3fd6cdfe3296a9eef7a0d8d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad612bd3edb57748096c5251616f296d = $(`<div id="html_ad612bd3edb57748096c5251616f296d" style="width: 100.0%; height: 100.0%;">Institute:  Tata Institute of Fundamental Research<br>City: Shivakote<br>Country:  India<br>#Groups: 1<br>Coordinates: [13.146183383333332, 77.51340622850348]</div>`)[0];
+            popup_89bb56dd3fd6cdfe3296a9eef7a0d8d4.setContent(html_ad612bd3edb57748096c5251616f296d);
+        
+
+        marker_91919f2fa59a44d98c1334bee9800fa6.bindPopup(popup_89bb56dd3fd6cdfe3296a9eef7a0d8d4)
+        ;
+
+        
+    
+    
+            var marker_3a4d394b23bf3476b39f669f6ca926e8 = L.marker(
+                [55.8713412, -4.2896538],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f402132d9bf886a91eb71f712dbee117 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a4d394b23bf3476b39f669f6ca926e8.setIcon(icon_f402132d9bf886a91eb71f712dbee117);
+        
+    
+        var popup_00f4a6d3510eb75734dd00b3585595b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fd16e0ccfa0b4d770c3861a7d943ed5 = $(`<div id="html_2fd16e0ccfa0b4d770c3861a7d943ed5" style="width: 100.0%; height: 100.0%;">Institute:  University of Glasgow<br>City: Glasgow<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [55.8713412, -4.2896538]</div>`)[0];
+            popup_00f4a6d3510eb75734dd00b3585595b4.setContent(html_2fd16e0ccfa0b4d770c3861a7d943ed5);
+        
+
+        marker_3a4d394b23bf3476b39f669f6ca926e8.bindPopup(popup_00f4a6d3510eb75734dd00b3585595b4)
+        ;
+
+        
+    
+    
+            var marker_c3fad72b28e7ccfba1266e4a05a06c65 = L.marker(
+                [34.5399962, -112.4687616],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_fd440bb4a8eff1e762d19bc278e79f20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c3fad72b28e7ccfba1266e4a05a06c65.setIcon(icon_fd440bb4a8eff1e762d19bc278e79f20);
+        
+    
+        var popup_15396d1d53b861a5f80fc223e0c01c4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ac153916eb6a8eb9931a7cf7fe3565b = $(`<div id="html_3ac153916eb6a8eb9931a7cf7fe3565b" style="width: 100.0%; height: 100.0%;">Institute: Embry-Riddle Aeronautical University<br>City: Prescott Arizona<br>Country:  USA<br>#Groups: 1<br>Coordinates: [34.5399962, -112.4687616]</div>`)[0];
+            popup_15396d1d53b861a5f80fc223e0c01c4e.setContent(html_3ac153916eb6a8eb9931a7cf7fe3565b);
+        
+
+        marker_c3fad72b28e7ccfba1266e4a05a06c65.bindPopup(popup_15396d1d53b861a5f80fc223e0c01c4e)
+        ;
+
+        
+    
+    
+            var marker_6f08872f9aa18176508dbc52875f7675 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_58b2942a75a70ea4748e0f29405795af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f08872f9aa18176508dbc52875f7675.setIcon(icon_58b2942a75a70ea4748e0f29405795af);
+        
+    
+        var popup_87112e47a67f48188c3ec69ec27801b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad3313b06a77d72874fe65fd63498b5e = $(`<div id="html_ad3313b06a77d72874fe65fd63498b5e" style="width: 100.0%; height: 100.0%;">Institute: American University<br>City: Washington District of Columbia<br>Country:  USA<br>#Groups: 1<br>Coordinates: [38.8950368, -77.0365427]</div>`)[0];
+            popup_87112e47a67f48188c3ec69ec27801b5.setContent(html_ad3313b06a77d72874fe65fd63498b5e);
+        
+
+        marker_6f08872f9aa18176508dbc52875f7675.bindPopup(popup_87112e47a67f48188c3ec69ec27801b5)
+        ;
+
+        
+    
+    
+            var marker_4da00c660e66e202747bed12125664ee = L.marker(
+                [33.8708215, -117.9294165],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_22b7dda793bb357b38afa81c7c7182f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4da00c660e66e202747bed12125664ee.setIcon(icon_22b7dda793bb357b38afa81c7c7182f6);
+        
+    
+        var popup_73ef2c4ea0073db7cbbd2194919cacf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3ea3780057b1bd836952b7ec8ea6e3c = $(`<div id="html_e3ea3780057b1bd836952b7ec8ea6e3c" style="width: 100.0%; height: 100.0%;">Institute: California State University Fullerton<br>City: Fullerton California<br>Country:  USA<br>#Groups: 1<br>Coordinates: [33.8708215, -117.9294165]</div>`)[0];
+            popup_73ef2c4ea0073db7cbbd2194919cacf2.setContent(html_e3ea3780057b1bd836952b7ec8ea6e3c);
+        
+
+        marker_4da00c660e66e202747bed12125664ee.bindPopup(popup_73ef2c4ea0073db7cbbd2194919cacf2)
+        ;
+
+        
+    
+    
+            var marker_9a87eaeda51f51d47485253794806d9b = L.marker(
+                [33.7489924, -84.3902644],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_02cd43401e25f287841a7b925e4dc03a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a87eaeda51f51d47485253794806d9b.setIcon(icon_02cd43401e25f287841a7b925e4dc03a);
+        
+    
+        var popup_a49c78290b51805cd1e3c73adce9ec7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91d18660e758d23329602c32ef15fa77 = $(`<div id="html_91d18660e758d23329602c32ef15fa77" style="width: 100.0%; height: 100.0%;">Institute: Georgia Institute of Technology<br>City: Atlanta Georgia<br>Country:  USA<br>#Groups: 1<br>Coordinates: [33.7489924, -84.3902644]</div>`)[0];
+            popup_a49c78290b51805cd1e3c73adce9ec7d.setContent(html_91d18660e758d23329602c32ef15fa77);
+        
+
+        marker_9a87eaeda51f51d47485253794806d9b.bindPopup(popup_a49c78290b51805cd1e3c73adce9ec7d)
+        ;
+
+        
+    
+    
+            var marker_9d46721788f7cfbda2fdcf83b3e2954c = L.marker(
+                [13.0503377, 80.2299377],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_6c969a70e7bad8a5d13256100f4aa440 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9d46721788f7cfbda2fdcf83b3e2954c.setIcon(icon_6c969a70e7bad8a5d13256100f4aa440);
+        
+    
+        var popup_b524965d9966a1798f59b110a59ab882 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ce1bc4718580e0c2e45191a5c32ddb7 = $(`<div id="html_7ce1bc4718580e0c2e45191a5c32ddb7" style="width: 100.0%; height: 100.0%;">Institute: Chennai Mathematical Institute<br>City: Chennai<br>Country:  India<br>#Groups: 1<br>Coordinates: [13.0503377, 80.2299377]</div>`)[0];
+            popup_b524965d9966a1798f59b110a59ab882.setContent(html_7ce1bc4718580e0c2e45191a5c32ddb7);
+        
+
+        marker_9d46721788f7cfbda2fdcf83b3e2954c.bindPopup(popup_b524965d9966a1798f59b110a59ab882)
+        ;
+
+        
+    
+    
+            var marker_0a6020c6980183a2a5d553afb61d1091 = L.marker(
+                [51.4266213, -0.17547638638864702],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_28200f6974f827f2ba3fefc0d27b624c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a6020c6980183a2a5d553afb61d1091.setIcon(icon_28200f6974f827f2ba3fefc0d27b624c);
+        
+    
+        var popup_474ad8e82ee258f4f12672c82b79f39d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f35503c16d49c652b5c7f9c435c077a = $(`<div id="html_5f35503c16d49c652b5c7f9c435c077a" style="width: 100.0%; height: 100.0%;">Institute: Royal Holloway University of London<br>City: London<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [51.4266213, -0.17547638638864702]</div>`)[0];
+            popup_474ad8e82ee258f4f12672c82b79f39d.setContent(html_5f35503c16d49c652b5c7f9c435c077a);
+        
+
+        marker_0a6020c6980183a2a5d553afb61d1091.bindPopup(popup_474ad8e82ee258f4f12672c82b79f39d)
+        ;
+
+        
+    
+    
+            var marker_b0608436c356551686b70e77032d906e = L.marker(
+                [30.490775, -90.74506160124608],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_a8018964e35a815ef86877e2afaf948a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0608436c356551686b70e77032d906e.setIcon(icon_a8018964e35a815ef86877e2afaf948a);
+        
+    
+        var popup_f6c4ef8244deaaa9b5701ea19cb0bfaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b133a86bc24199c3a0aafbc8cec9fbd0 = $(`<div id="html_b133a86bc24199c3a0aafbc8cec9fbd0" style="width: 100.0%; height: 100.0%;">Institute: LIGO Livingston Observatory<br>City: Livingston Louisiana<br>Country:  USA<br>#Groups: 1<br>Coordinates: [30.490775, -90.74506160124608]</div>`)[0];
+            popup_f6c4ef8244deaaa9b5701ea19cb0bfaa.setContent(html_b133a86bc24199c3a0aafbc8cec9fbd0);
+        
+
+        marker_b0608436c356551686b70e77032d906e.bindPopup(popup_f6c4ef8244deaaa9b5701ea19cb0bfaa)
+        ;
+
+        
+    
+    
+            var marker_9441b8c6c36116fc784a1b84a231ea33 = L.marker(
+                [51.520219, -0.12985939246987815],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_7db7b7f776ccd7ac5784fe8530eda1a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9441b8c6c36116fc784a1b84a231ea33.setIcon(icon_7db7b7f776ccd7ac5784fe8530eda1a7);
+        
+    
+        var popup_04b2f091748418b3930a9339133573a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a3c5e6e61d724f510dbd6ddf78f560a = $(`<div id="html_7a3c5e6e61d724f510dbd6ddf78f560a" style="width: 100.0%; height: 100.0%;">Institute: King’s College London<br>City: London<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [51.520219, -0.12985939246987815]</div>`)[0];
+            popup_04b2f091748418b3930a9339133573a3.setContent(html_7a3c5e6e61d724f510dbd6ddf78f560a);
+        
+
+        marker_9441b8c6c36116fc784a1b84a231ea33.bindPopup(popup_04b2f091748418b3930a9339133573a3)
+        ;
+
+        
+    
+    
+            var marker_bd814311b700d01ed8239664bce295f1 = L.marker(
+                [36.3496, 127.3848],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_b957cc541598e1d3519cb1ec0c61d038 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bd814311b700d01ed8239664bce295f1.setIcon(icon_b957cc541598e1d3519cb1ec0c61d038);
+        
+    
+        var popup_c6c27a0cc6c3adc570d2f1435b60ca06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbad8bc0012b7d5eff4ffd2503c2077d = $(`<div id="html_cbad8bc0012b7d5eff4ffd2503c2077d" style="width: 100.0%; height: 100.0%;">Institute: Korea Institute of Science and Technology Information<br>City: Daejeon<br>Country:  Republic of Korea<br>#Groups: 1<br>Coordinates: [36.3496, 127.3848]</div>`)[0];
+            popup_c6c27a0cc6c3adc570d2f1435b60ca06.setContent(html_cbad8bc0012b7d5eff4ffd2503c2077d);
+        
+
+        marker_bd814311b700d01ed8239664bce295f1.bindPopup(popup_c6c27a0cc6c3adc570d2f1435b60ca06)
+        ;
+
+        
+    
+    
+            var marker_ce866c4c865c4f52b65edca8cd7646a0 = L.marker(
+                [40.375643, -82.3970994],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_e3ca2373a7f1bf594d3fb7375bcbce48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce866c4c865c4f52b65edca8cd7646a0.setIcon(icon_e3ca2373a7f1bf594d3fb7375bcbce48);
+        
+    
+        var popup_aac7aef6969df784bfcd27a8a36562fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6082459d98d1164b364fc4b82d27417 = $(`<div id="html_e6082459d98d1164b364fc4b82d27417" style="width: 100.0%; height: 100.0%;">Institute: Kenyon College<br>City: Gambier Ohio<br>Country:  USA<br>#Groups: 1<br>Coordinates: [40.375643, -82.3970994]</div>`)[0];
+            popup_aac7aef6969df784bfcd27a8a36562fa.setContent(html_e6082459d98d1164b364fc4b82d27417);
+        
+
+        marker_ce866c4c865c4f52b65edca8cd7646a0.bindPopup(popup_aac7aef6969df784bfcd27a8a36562fa)
+        ;
+
+        
+    
+    
+            var marker_612d2356cb925459990f5767c8b4d782 = L.marker(
+                [44.0505054, -123.0950506],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_5be55f89bc2ac2f98cd356498e533747 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_612d2356cb925459990f5767c8b4d782.setIcon(icon_5be55f89bc2ac2f98cd356498e533747);
+        
+    
+        var popup_2a0b0a3240e8215a240fdcca98fe3e5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6ba13e5469538afc786be06bae1c666 = $(`<div id="html_f6ba13e5469538afc786be06bae1c666" style="width: 100.0%; height: 100.0%;">Institute: University of Oregon<br>City: Eugene Oregon<br>Country:  USA<br>#Groups: 1<br>Coordinates: [44.0505054, -123.0950506]</div>`)[0];
+            popup_2a0b0a3240e8215a240fdcca98fe3e5b.setContent(html_f6ba13e5469538afc786be06bae1c666);
+        
+
+        marker_612d2356cb925459990f5767c8b4d782.bindPopup(popup_2a0b0a3240e8215a240fdcca98fe3e5b)
+        ;
+
+        
+    
+    
+            var marker_eabacd731c1e4ffeccc087f0fbc47788 = L.marker(
+                [43.0355579, -76.14099681510547],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f29b26d37ef986ad1ec9e018e8310d8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eabacd731c1e4ffeccc087f0fbc47788.setIcon(icon_f29b26d37ef986ad1ec9e018e8310d8e);
+        
+    
+        var popup_eb59e1a205b74a98c3c6b449f847a8e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87bc3e45128ce41549babefa61147646 = $(`<div id="html_87bc3e45128ce41549babefa61147646" style="width: 100.0%; height: 100.0%;">Institute: Syracuse University<br>City: Syracuse New York<br>Country:  USA<br>#Groups: 1<br>Coordinates: [43.0355579, -76.14099681510547]</div>`)[0];
+            popup_eb59e1a205b74a98c3c6b449f847a8e0.setContent(html_87bc3e45128ce41549babefa61147646);
+        
+
+        marker_eabacd731c1e4ffeccc087f0fbc47788.bindPopup(popup_eb59e1a205b74a98c3c6b449f847a8e0)
+        ;
+
+        
+    
+    
+            var marker_6717d68d5c957b9d568cae066fcaecc8 = L.marker(
+                [42.0447388, -87.6930459],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_33e05073aee6fb6df5f70dc6bc67b38f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6717d68d5c957b9d568cae066fcaecc8.setIcon(icon_33e05073aee6fb6df5f70dc6bc67b38f);
+        
+    
+        var popup_8566f16f74aace4c0560aa1edd839206 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87eb1dde556cb467eba471afaab49a04 = $(`<div id="html_87eb1dde556cb467eba471afaab49a04" style="width: 100.0%; height: 100.0%;">Institute: Northwestern University<br>City: Evanston Illinois<br>Country:  USA<br>#Groups: 1<br>Coordinates: [42.0447388, -87.6930459]</div>`)[0];
+            popup_8566f16f74aace4c0560aa1edd839206.setContent(html_87eb1dde556cb467eba471afaab49a04);
+        
+
+        marker_6717d68d5c957b9d568cae066fcaecc8.bindPopup(popup_8566f16f74aace4c0560aa1edd839206)
+        ;
+
+        
+    
+    
+            var marker_9e240d5c0d7761a92d9d519f96cde26d = L.marker(
+                [46.2804298, -119.2752055],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_7d5a503f5fa559baea6fb8bb93bab946 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9e240d5c0d7761a92d9d519f96cde26d.setIcon(icon_7d5a503f5fa559baea6fb8bb93bab946);
+        
+    
+        var popup_7f6c9ad2a5aee8491ee536b71369e2a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb0e7336671fb4e4620407ac7b80d770 = $(`<div id="html_cb0e7336671fb4e4620407ac7b80d770" style="width: 100.0%; height: 100.0%;">Institute: LIGO Hanford Observatory<br>City: Richland Washington<br>Country:  USA<br>#Groups: 1<br>Coordinates: [46.2804298, -119.2752055]</div>`)[0];
+            popup_7f6c9ad2a5aee8491ee536b71369e2a8.setContent(html_cb0e7336671fb4e4620407ac7b80d770);
+        
+
+        marker_9e240d5c0d7761a92d9d519f96cde26d.bindPopup(popup_7f6c9ad2a5aee8491ee536b71369e2a8)
+        ;
+
+        
+    
+    
+            var marker_8d13fa8f7fb69ef830937c8a7a19a221 = L.marker(
+                [42.3582393, -71.09663495185691],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_fe71722d88b306231326f94afd66dfad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8d13fa8f7fb69ef830937c8a7a19a221.setIcon(icon_fe71722d88b306231326f94afd66dfad);
+        
+    
+        var popup_a031bfdd6a5afac15113366e9dfa371e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce73c011c3378c39009af30a190899eb = $(`<div id="html_ce73c011c3378c39009af30a190899eb" style="width: 100.0%; height: 100.0%;">Institute:  Massachusetts Institute of Technology<br>City: Cambridge Massachusetts<br>Country:  USA<br>#Groups: 1<br>Coordinates: [42.3582393, -71.09663495185691]</div>`)[0];
+            popup_a031bfdd6a5afac15113366e9dfa371e.setContent(html_ce73c011c3378c39009af30a190899eb);
+        
+
+        marker_8d13fa8f7fb69ef830937c8a7a19a221.bindPopup(popup_a031bfdd6a5afac15113366e9dfa371e)
+        ;
+
+        
+    
+    
+            var marker_a7c2c37bb121dbd34b7e85b6b9535103 = L.marker(
+                [29.6519684, -82.3249846],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_21a3edf8e5a7a046f124a64a893e0517 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7c2c37bb121dbd34b7e85b6b9535103.setIcon(icon_21a3edf8e5a7a046f124a64a893e0517);
+        
+    
+        var popup_c614240a8c979b6d25182aef5bd5e13d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fafe77af638c755cc1c52e30219ba30 = $(`<div id="html_0fafe77af638c755cc1c52e30219ba30" style="width: 100.0%; height: 100.0%;">Institute: University of Florida<br>City: Gainesville Florida<br>Country:  USA<br>#Groups: 1<br>Coordinates: [29.6519684, -82.3249846]</div>`)[0];
+            popup_c614240a8c979b6d25182aef5bd5e13d.setContent(html_0fafe77af638c755cc1c52e30219ba30);
+        
+
+        marker_a7c2c37bb121dbd34b7e85b6b9535103.bindPopup(popup_c614240a8c979b6d25182aef5bd5e13d)
+        ;
+
+        
+    
+    
+            var marker_3722d7f1cd37279c042e3f8f222cba2d = L.marker(
+                [37.426540700000004, -122.17029258409187],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_ac6f03f850590d3cfd57152c6336af38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3722d7f1cd37279c042e3f8f222cba2d.setIcon(icon_ac6f03f850590d3cfd57152c6336af38);
+        
+    
+        var popup_92d9f6bee3e1e158376c557d61eafacf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99bb8ec983f6e3dd8f6972b58a421e6e = $(`<div id="html_99bb8ec983f6e3dd8f6972b58a421e6e" style="width: 100.0%; height: 100.0%;">Institute: Stanford University<br>City: Stanford California<br>Country:  USA<br>#Groups: 1<br>Coordinates: [37.426540700000004, -122.17029258409187]</div>`)[0];
+            popup_92d9f6bee3e1e158376c557d61eafacf.setContent(html_99bb8ec983f6e3dd8f6972b58a421e6e);
+        
+
+        marker_3722d7f1cd37279c042e3f8f222cba2d.bindPopup(popup_92d9f6bee3e1e158376c557d61eafacf)
+        ;
+
+        
+    
+    
+            var marker_6394f7f494bf3bb7ab62b70fdd4008a1 = L.marker(
+                [45.6794293, -111.044047],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_61a42b2d5c4ca1251a2fd0f8e29f2b9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6394f7f494bf3bb7ab62b70fdd4008a1.setIcon(icon_61a42b2d5c4ca1251a2fd0f8e29f2b9c);
+        
+    
+        var popup_3a81dcd9327e41c5c1135a9cf65a0246 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f698c368eaffb580ebc05a0dbff8fb8 = $(`<div id="html_7f698c368eaffb580ebc05a0dbff8fb8" style="width: 100.0%; height: 100.0%;">Institute: Montana State University<br>City: Bozeman Montana<br>Country:  USA<br>#Groups: 1<br>Coordinates: [45.6794293, -111.044047]</div>`)[0];
+            popup_3a81dcd9327e41c5c1135a9cf65a0246.setContent(html_7f698c368eaffb580ebc05a0dbff8fb8);
+        
+
+        marker_6394f7f494bf3bb7ab62b70fdd4008a1.bindPopup(popup_3a81dcd9327e41c5c1135a9cf65a0246)
+        ;
+
+        
+    
+    
+            var marker_b81f1ef892e975eede3dc52f929750d4 = L.marker(
+                [23.1026771, 72.6329349],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_8db082dd52ce69a4230287d99a4c61be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b81f1ef892e975eede3dc52f929750d4.setIcon(icon_8db082dd52ce69a4230287d99a4c61be);
+        
+    
+        var popup_311d0f94a1b17ecd3fc0c3dc6e43ac45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b23692dbe5f70d407318cb4cb4593aa = $(`<div id="html_1b23692dbe5f70d407318cb4cb4593aa" style="width: 100.0%; height: 100.0%;">Institute: Institute for Plasma Research<br>City: Bhat<br>Country:  India<br>#Groups: 1<br>Coordinates: [23.1026771, 72.6329349]</div>`)[0];
+            popup_311d0f94a1b17ecd3fc0c3dc6e43ac45.setContent(html_1b23692dbe5f70d407318cb4cb4593aa);
+        
+
+        marker_b81f1ef892e975eede3dc52f929750d4.bindPopup(popup_311d0f94a1b17ecd3fc0c3dc6e43ac45)
+        ;
+
+        
+    
+    
+            var marker_0826dbd8f30d37ae037c97517288caa3 = L.marker(
+                [-34.9189226, 138.60423667410745],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f68f35fc6ce124cc3dbcfb3e49f25c56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0826dbd8f30d37ae037c97517288caa3.setIcon(icon_f68f35fc6ce124cc3dbcfb3e49f25c56);
+        
+    
+        var popup_5c48c3b4270ae03d3a75a04c7902f475 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b24f9cd9ad3401e51c07f84030d68cbc = $(`<div id="html_b24f9cd9ad3401e51c07f84030d68cbc" style="width: 100.0%; height: 100.0%;">Institute:  University of Adelaide<br>City: Adelaide<br>Country:  Australia<br>#Groups: 1<br>Coordinates: [-34.9189226, 138.60423667410745]</div>`)[0];
+            popup_5c48c3b4270ae03d3a75a04c7902f475.setContent(html_b24f9cd9ad3401e51c07f84030d68cbc);
+        
+
+        marker_0826dbd8f30d37ae037c97517288caa3.bindPopup(popup_5c48c3b4270ae03d3a75a04c7902f475)
+        ;
+
+        
+    
+    
+            var marker_17838eb7da8dfef6071e8d8e33ea42bf = L.marker(
+                [44.9722438, -93.26822484758796],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_8bff1f857abe4970351accc40b0de8e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_17838eb7da8dfef6071e8d8e33ea42bf.setIcon(icon_8bff1f857abe4970351accc40b0de8e8);
+        
+    
+        var popup_b58f4468c2fc2b91c2599da006a79517 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_585c4dc9dde6bc5b8df4fa33eee9cf7b = $(`<div id="html_585c4dc9dde6bc5b8df4fa33eee9cf7b" style="width: 100.0%; height: 100.0%;">Institute: University of Minnesota<br>City: Minneapolis Minnesota<br>Country:  USA<br>#Groups: 1<br>Coordinates: [44.9722438, -93.26822484758796]</div>`)[0];
+            popup_b58f4468c2fc2b91c2599da006a79517.setContent(html_585c4dc9dde6bc5b8df4fa33eee9cf7b);
+        
+
+        marker_17838eb7da8dfef6071e8d8e33ea42bf.bindPopup(popup_b58f4468c2fc2b91c2599da006a79517)
+        ;
+
+        
+    
+    
+            var marker_000b5fab59e6355668d0e274e70ae6da = L.marker(
+                [53.531075599999994, 10.011913309675322],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_63a186d0576eda98541245f3b53ce791 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_000b5fab59e6355668d0e274e70ae6da.setIcon(icon_63a186d0576eda98541245f3b53ce791);
+        
+    
+        var popup_b1c6db4936ba8d0490fa463ce0471459 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b4d0006d6ce2b32071decee139f617c = $(`<div id="html_9b4d0006d6ce2b32071decee139f617c" style="width: 100.0%; height: 100.0%;">Institute: Universit¨at Hamburg<br>City: Hamburg<br>Country:  Germany<br>#Groups: 1<br>Coordinates: [53.531075599999994, 10.011913309675322]</div>`)[0];
+            popup_b1c6db4936ba8d0490fa463ce0471459.setContent(html_9b4d0006d6ce2b32071decee139f617c);
+        
+
+        marker_000b5fab59e6355668d0e274e70ae6da.bindPopup(popup_b1c6db4936ba8d0490fa463ce0471459)
+        ;
+
+        
+    
+    
+            var marker_515583feef97fea58d3832d994d0b96c = L.marker(
+                [55.8618812, -4.241956565778082],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_99b8c8ee31fa8cff5acfb847d308330a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_515583feef97fea58d3832d994d0b96c.setIcon(icon_99b8c8ee31fa8cff5acfb847d308330a);
+        
+    
+        var popup_a9bf55f3e2b7c1722f1eb434372f4042 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f67379e5da891e9d5683a696cc406d9d = $(`<div id="html_f67379e5da891e9d5683a696cc406d9d" style="width: 100.0%; height: 100.0%;">Institute:  University of Strathclyde<br>City: Glasgow<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [55.8618812, -4.241956565778082]</div>`)[0];
+            popup_a9bf55f3e2b7c1722f1eb434372f4042.setContent(html_f67379e5da891e9d5683a696cc406d9d);
+        
+
+        marker_515583feef97fea58d3832d994d0b96c.bindPopup(popup_a9bf55f3e2b7c1722f1eb434372f4042)
+        ;
+
+        
+    
+    
+            var marker_41983f28e581d84008675da0f7e37d33 = L.marker(
+                [39.5537713, 2.7295611],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_c1a486111619637da311efe84bcd2d57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_41983f28e581d84008675da0f7e37d33.setIcon(icon_c1a486111619637da311efe84bcd2d57);
+        
+    
+        var popup_2c65befd756dc08697412cd6941eb248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b34c3654db3f77c0c4267cfb18b5257 = $(`<div id="html_0b34c3654db3f77c0c4267cfb18b5257" style="width: 100.0%; height: 100.0%;">Institute: IAC3–IEEC<br>City: Palma<br>Country:  Spain<br>#Groups: 1<br>Coordinates: [39.5537713, 2.7295611]</div>`)[0];
+            popup_2c65befd756dc08697412cd6941eb248.setContent(html_0b34c3654db3f77c0c4267cfb18b5257);
+        
+
+        marker_41983f28e581d84008675da0f7e37d33.bindPopup(popup_2c65befd756dc08697412cd6941eb248)
+        ;
+
+        
+    
+    
+            var marker_85bdc8156803f93d0ba6998b6c0eae80 = L.marker(
+                [-31.95040445, 115.79790157357621],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_7a0e54baee72cde788ae0b6b3e8ee9c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85bdc8156803f93d0ba6998b6c0eae80.setIcon(icon_7a0e54baee72cde788ae0b6b3e8ee9c3);
+        
+    
+        var popup_109e779aea24f9ecc9d6d619f3d97a7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_206c73b056afd25e9418d54893cefa4b = $(`<div id="html_206c73b056afd25e9418d54893cefa4b" style="width: 100.0%; height: 100.0%;">Institute:  University of Western Australia<br>City: Mount Claremont<br>Country:  Australia<br>#Groups: 1<br>Coordinates: [-31.95040445, 115.79790157357621]</div>`)[0];
+            popup_109e779aea24f9ecc9d6d619f3d97a7f.setContent(html_206c73b056afd25e9418d54893cefa4b);
+        
+
+        marker_85bdc8156803f93d0ba6998b6c0eae80.bindPopup(popup_109e779aea24f9ecc9d6d619f3d97a7f)
+        ;
+
+        
+    
+    
+            var marker_93c85b915e53af6a5b61e50abad5630c = L.marker(
+                [24.9772666, 77.858262],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_d4505eb4c229c8d5f40f10f4a0495765 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_93c85b915e53af6a5b61e50abad5630c.setIcon(icon_d4505eb4c229c8d5f40f10f4a0495765);
+        
+    
+        var popup_3acb8ccce9737f90905e7a49479c1fd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8f6cbb3c7a40c206a91434d488abbf1 = $(`<div id="html_f8f6cbb3c7a40c206a91434d488abbf1" style="width: 100.0%; height: 100.0%;">Institute: RRCAT<br>City: Kadwaya<br>Country:  India<br>#Groups: 1<br>Coordinates: [24.9772666, 77.858262]</div>`)[0];
+            popup_3acb8ccce9737f90905e7a49479c1fd0.setContent(html_f8f6cbb3c7a40c206a91434d488abbf1);
+        
+
+        marker_93c85b915e53af6a5b61e50abad5630c.bindPopup(popup_3acb8ccce9737f90905e7a49479c1fd0)
+        ;
+
+        
+    
+    
+            var marker_c344b7cbb2ea65f569f9803137a1ba45 = L.marker(
+                [37.9509324, -91.7708076],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_94a8c3a373df6e74689c2484d3f2a16e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c344b7cbb2ea65f569f9803137a1ba45.setIcon(icon_94a8c3a373df6e74689c2484d3f2a16e);
+        
+    
+        var popup_36f6bdbb7b8677a422bdf08c0ce3bac1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_384ae423eee8992f7d6fec3463efbafa = $(`<div id="html_384ae423eee8992f7d6fec3463efbafa" style="width: 100.0%; height: 100.0%;">Institute: Missouri University of Science and Technology<br>City: Rolla Missouri<br>Country:  USA<br>#Groups: 1<br>Coordinates: [37.9509324, -91.7708076]</div>`)[0];
+            popup_36f6bdbb7b8677a422bdf08c0ce3bac1.setContent(html_384ae423eee8992f7d6fec3463efbafa);
+        
+
+        marker_c344b7cbb2ea65f569f9803137a1ba45.bindPopup(popup_36f6bdbb7b8677a422bdf08c0ce3bac1)
+        ;
+
+        
+    
+    
+            var marker_090b5cbcb4e6512d36c3a97adf0b1e6c = L.marker(
+                [55.7504461, 37.6174943],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_2515539cdb94ce6aa5342240f91a6787 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_090b5cbcb4e6512d36c3a97adf0b1e6c.setIcon(icon_2515539cdb94ce6aa5342240f91a6787);
+        
+    
+        var popup_030d32706b175c454daed2335fbc1bad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c85675b4b43bbf7f09ea3e4623bce184 = $(`<div id="html_c85675b4b43bbf7f09ea3e4623bce184" style="width: 100.0%; height: 100.0%;">Institute: Lomonosov Moscow State University<br>City: Moscow<br>Country:  Russia<br>#Groups: 1<br>Coordinates: [55.7504461, 37.6174943]</div>`)[0];
+            popup_030d32706b175c454daed2335fbc1bad.setContent(html_c85675b4b43bbf7f09ea3e4623bce184);
+        
+
+        marker_090b5cbcb4e6512d36c3a97adf0b1e6c.bindPopup(popup_030d32706b175c454daed2335fbc1bad)
+        ;
+
+        
+    
+    
+            var marker_900c4f95d9b36081dc2cda788988d763 = L.marker(
+                [32.0686867, 34.8246812],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_1bbec3f246869a93ad4eec3c3395d993 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_900c4f95d9b36081dc2cda788988d763.setIcon(icon_1bbec3f246869a93ad4eec3c3395d993);
+        
+    
+        var popup_1fa051d752504f9bbc7696441114edcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_694aea175cf8aff78a4ad569361b9841 = $(`<div id="html_694aea175cf8aff78a4ad569361b9841" style="width: 100.0%; height: 100.0%;">Institute: Bar-Ilan University<br>City: Ramat Gan<br>Country:  Israel<br>#Groups: 1<br>Coordinates: [32.0686867, 34.8246812]</div>`)[0];
+            popup_1fa051d752504f9bbc7696441114edcc.setContent(html_694aea175cf8aff78a4ad569361b9841);
+        
+
+        marker_900c4f95d9b36081dc2cda788988d763.bindPopup(popup_1fa051d752504f9bbc7696441114edcc)
+        ;
+
+        
+    
+    
+            var marker_719d3dd3553bbf337b3ee1974341db21 = L.marker(
+                [19.1187195, 72.9073476],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_d751245283a89996f65b931d745c00ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_719d3dd3553bbf337b3ee1974341db21.setIcon(icon_d751245283a89996f65b931d745c00ae);
+        
+    
+        var popup_f247cba9504d2d723195029828873458 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0206e592ebe9754823ae63eb752dfe42 = $(`<div id="html_0206e592ebe9754823ae63eb752dfe42" style="width: 100.0%; height: 100.0%;">Institute: Indian Institute of Technology Bombay<br>City: Mumbai<br>Country:  India<br>#Groups: 1<br>Coordinates: [19.1187195, 72.9073476]</div>`)[0];
+            popup_f247cba9504d2d723195029828873458.setContent(html_0206e592ebe9754823ae63eb752dfe42);
+        
+
+        marker_719d3dd3553bbf337b3ee1974341db21.bindPopup(popup_f247cba9504d2d723195029828873458)
+        ;
+
+        
+    
+    
+            var marker_f1526056568e8eb0d6e3501eb6494e98 = L.marker(
+                [37.0914429, -76.5213892],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_41e4e46f12ce216dc67da9a3be1d753c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f1526056568e8eb0d6e3501eb6494e98.setIcon(icon_41e4e46f12ce216dc67da9a3be1d753c);
+        
+    
+        var popup_eadf9817a35c2b740c3c26b92b68e395 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b07b68b3b370ad2c0b934b9f8389717 = $(`<div id="html_4b07b68b3b370ad2c0b934b9f8389717" style="width: 100.0%; height: 100.0%;">Institute: Christopher Newport University<br>City: Maxwell Garden Virginia<br>Country:  USA<br>#Groups: 1<br>Coordinates: [37.0914429, -76.5213892]</div>`)[0];
+            popup_eadf9817a35c2b740c3c26b92b68e395.setContent(html_4b07b68b3b370ad2c0b934b9f8389717);
+        
+
+        marker_f1526056568e8eb0d6e3501eb6494e98.bindPopup(popup_eadf9817a35c2b740c3c26b92b68e395)
+        ;
+
+        
+    
+    
+            var marker_3651907ea5974590bd99c925e7dcce8b = L.marker(
+                [52.4796992, -1.9026911],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_0c83ac5bb60522c9243a82902cf05376 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3651907ea5974590bd99c925e7dcce8b.setIcon(icon_0c83ac5bb60522c9243a82902cf05376);
+        
+    
+        var popup_47729e756d2a83d81da0d89d06919fe2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d116fb517d14fb20e0dc01c84f71de56 = $(`<div id="html_d116fb517d14fb20e0dc01c84f71de56" style="width: 100.0%; height: 100.0%;">Institute: University of Birmingham<br>City: Birmingham<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [52.4796992, -1.9026911]</div>`)[0];
+            popup_47729e756d2a83d81da0d89d06919fe2.setContent(html_d116fb517d14fb20e0dc01c84f71de56);
+        
+
+        marker_3651907ea5974590bd99c925e7dcce8b.bindPopup(popup_47729e756d2a83d81da0d89d06919fe2)
+        ;
+
+        
+    
+    
+            var marker_5fc0a8c796a6a5a674e71ce0595c6f4d = L.marker(
+                [38.99203005, -76.94610290199051],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_54999f54d8a7fa31f1b2699953c0bd55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5fc0a8c796a6a5a674e71ce0595c6f4d.setIcon(icon_54999f54d8a7fa31f1b2699953c0bd55);
+        
+    
+        var popup_9e02fd1deb63f9131ea7e9ad35f0c8fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41de00ef53d9487ee7ed8f92efd010e4 = $(`<div id="html_41de00ef53d9487ee7ed8f92efd010e4" style="width: 100.0%; height: 100.0%;">Institute: University of Maryland<br>City: Adelphi Maryland<br>Country:  USA<br>#Groups: 1<br>Coordinates: [38.99203005, -76.94610290199051]</div>`)[0];
+            popup_9e02fd1deb63f9131ea7e9ad35f0c8fe.setContent(html_41de00ef53d9487ee7ed8f92efd010e4);
+        
+
+        marker_5fc0a8c796a6a5a674e71ce0595c6f4d.bindPopup(popup_9e02fd1deb63f9131ea7e9ad35f0c8fe)
+        ;
+
+        
+    
+    
+            var marker_6ea203ec94f05b2a0d9e881d0890b397 = L.marker(
+                [52.4390035, 13.015017279245283],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f883bea52b81cd4906d569951d943a9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6ea203ec94f05b2a0d9e881d0890b397.setIcon(icon_f883bea52b81cd4906d569951d943a9b);
+        
+    
+        var popup_2907214976c4f61f843b7c60cca9c1de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24d7600e70d760a2d9792c2e0539fb8c = $(`<div id="html_24d7600e70d760a2d9792c2e0539fb8c" style="width: 100.0%; height: 100.0%;">Institute: Max Planck Institute for Gravitational Physics (Albert Einstein Institute) Potsdam<br>City: Potsdam<br>Country:  Germany<br>#Groups: 1<br>Coordinates: [52.4390035, 13.015017279245283]</div>`)[0];
+            popup_2907214976c4f61f843b7c60cca9c1de.setContent(html_24d7600e70d760a2d9792c2e0539fb8c);
+        
+
+        marker_6ea203ec94f05b2a0d9e881d0890b397.bindPopup(popup_2907214976c4f61f843b7c60cca9c1de)
+        ;
+
+        
+    
+    
+            var marker_a546bd39dd04bd78c3baa2bbe48c7859 = L.marker(
+                [50.8185413, -1.0808710664982244],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_602f700e2ede8de7a39e068f9bd7a398 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a546bd39dd04bd78c3baa2bbe48c7859.setIcon(icon_602f700e2ede8de7a39e068f9bd7a398);
+        
+    
+        var popup_e12968ced2987ec6fd38e3ce51148238 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcfef83a98c002a509ec751cf41fb18f = $(`<div id="html_fcfef83a98c002a509ec751cf41fb18f" style="width: 100.0%; height: 100.0%;">Institute: University of Portsmouth<br>City: Portsmouth<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [50.8185413, -1.0808710664982244]</div>`)[0];
+            popup_e12968ced2987ec6fd38e3ce51148238.setContent(html_fcfef83a98c002a509ec751cf41fb18f);
+        
+
+        marker_a546bd39dd04bd78c3baa2bbe48c7859.bindPopup(popup_e12968ced2987ec6fd38e3ce51148238)
+        ;
+
+        
+    
+    
+            var marker_8f2b784d0cff120af63f21008e09be87 = L.marker(
+                [42.8786789, -8.54245040081301],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_cbe6d7efbaff77259bdab9387edb7336 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8f2b784d0cff120af63f21008e09be87.setIcon(icon_cbe6d7efbaff77259bdab9387edb7336);
+        
+    
+        var popup_20d1a4fc32d4d0588bc8fdfe33b314da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8497d585c6b0bd778e79447bd699eaf = $(`<div id="html_a8497d585c6b0bd778e79447bd699eaf" style="width: 100.0%; height: 100.0%;">Institute: IGFAE<br>City: Santiago de Compostela<br>Country:  Spain<br>#Groups: 1<br>Coordinates: [42.8786789, -8.54245040081301]</div>`)[0];
+            popup_20d1a4fc32d4d0588bc8fdfe33b314da.setContent(html_a8497d585c6b0bd778e79447bd699eaf);
+        
+
+        marker_8f2b784d0cff120af63f21008e09be87.bindPopup(popup_20d1a4fc32d4d0588bc8fdfe33b314da)
+        ;
+
+        
+    
+    
+            var marker_bc4a806cf67398a40f28361013784a71 = L.marker(
+                [40.9191556, -73.1293464],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_6adbbdb3795f9becc8fe492bc461e56e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc4a806cf67398a40f28361013784a71.setIcon(icon_6adbbdb3795f9becc8fe492bc461e56e);
+        
+    
+        var popup_5464dc6ca08d6e9218b1984948d809d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac1d7623f2c2b8e4d9b40ba625204030 = $(`<div id="html_ac1d7623f2c2b8e4d9b40ba625204030" style="width: 100.0%; height: 100.0%;">Institute: Stony Brook University<br>City: Stony Brook New York<br>Country:  USA<br>#Groups: 1<br>Coordinates: [40.9191556, -73.1293464]</div>`)[0];
+            popup_5464dc6ca08d6e9218b1984948d809d3.setContent(html_ac1d7623f2c2b8e4d9b40ba625204030);
+        
+
+        marker_bc4a806cf67398a40f28361013784a71.bindPopup(popup_5464dc6ca08d6e9218b1984948d809d3)
+        ;
+
+        
+    
+    
+            var marker_0d24d9bb93e06c0635485f4745512763 = L.marker(
+                [39.004607, -76.8756838],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_5e7dc3046e408a463a8f774a9ba28270 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d24d9bb93e06c0635485f4745512763.setIcon(icon_5e7dc3046e408a463a8f774a9ba28270);
+        
+    
+        var popup_a3486021b8ed3bd1985570fcaa923df9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68bd634df3d6980d357078c4fdec8eb6 = $(`<div id="html_68bd634df3d6980d357078c4fdec8eb6" style="width: 100.0%; height: 100.0%;">Institute: NASA Goddard Space Flight Center<br>City: Greenbelt Maryland<br>Country:  USA<br>#Groups: 1<br>Coordinates: [39.004607, -76.8756838]</div>`)[0];
+            popup_a3486021b8ed3bd1985570fcaa923df9.setContent(html_68bd634df3d6980d357078c4fdec8eb6);
+        
+
+        marker_0d24d9bb93e06c0635485f4745512763.bindPopup(popup_a3486021b8ed3bd1985570fcaa923df9)
+        ;
+
+        
+    
+    
+            var marker_5963c5599e5c1c7cd1b3f591aa0d8c16 = L.marker(
+                [35.6828387, 139.7594549],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_1a52f0458204db353da1a3249931f066 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5963c5599e5c1c7cd1b3f591aa0d8c16.setIcon(icon_1a52f0458204db353da1a3249931f066);
+        
+    
+        var popup_7c0a4239991471bb0d2f864d02f46ac4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e698a1ec90d8afe03c8342dc27b8d08 = $(`<div id="html_2e698a1ec90d8afe03c8342dc27b8d08" style="width: 100.0%; height: 100.0%;">Institute: University of Tokyo<br>City: Chiyoda<br>Country:  Japan<br>#Groups: 1<br>Coordinates: [35.6828387, 139.7594549]</div>`)[0];
+            popup_7c0a4239991471bb0d2f864d02f46ac4.setContent(html_2e698a1ec90d8afe03c8342dc27b8d08);
+        
+
+        marker_5963c5599e5c1c7cd1b3f591aa0d8c16.bindPopup(popup_7c0a4239991471bb0d2f864d02f46ac4)
+        ;
+
+        
+    
+    
+            var marker_4b48d413ffba96ed6eae4ba870d4db02 = L.marker(
+                [30.5955289, -96.3071042],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_ede239365602dfc29abd18a2d454212a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4b48d413ffba96ed6eae4ba870d4db02.setIcon(icon_ede239365602dfc29abd18a2d454212a);
+        
+    
+        var popup_757246c8f3642939a8704a8be8e166f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f46662dd673f13d292f5f5102712c0f1 = $(`<div id="html_f46662dd673f13d292f5f5102712c0f1" style="width: 100.0%; height: 100.0%;">Institute: Texas A&M University<br>City: College Station Texas<br>Country:  USA<br>#Groups: 1<br>Coordinates: [30.5955289, -96.3071042]</div>`)[0];
+            popup_757246c8f3642939a8704a8be8e166f3.setContent(html_f46662dd673f13d292f5f5102712c0f1);
+        
+
+        marker_4b48d413ffba96ed6eae4ba870d4db02.bindPopup(popup_757246c8f3642939a8704a8be8e166f3)
+        ;
+
+        
+    
+    
+            var marker_18aeeb25983983b6478ae0820e2cf78b = L.marker(
+                [-37.8001204, 144.9634789],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_52ec303a843c36da1b0480e97f454dc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18aeeb25983983b6478ae0820e2cf78b.setIcon(icon_52ec303a843c36da1b0480e97f454dc5);
+        
+    
+        var popup_59cb7f78f1a5e7a59924cbfa096005e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e30a42cc517963abdaaa9c4162ff47e2 = $(`<div id="html_e30a42cc517963abdaaa9c4162ff47e2" style="width: 100.0%; height: 100.0%;">Institute:  University of Melbourne<br>City: Melbourne<br>Country:  Australia<br>#Groups: 1<br>Coordinates: [-37.8001204, 144.9634789]</div>`)[0];
+            popup_59cb7f78f1a5e7a59924cbfa096005e9.setContent(html_e30a42cc517963abdaaa9c4162ff47e2);
+        
+
+        marker_18aeeb25983983b6478ae0820e2cf78b.bindPopup(popup_59cb7f78f1a5e7a59924cbfa096005e9)
+        ;
+
+        
+    
+    
+            var marker_69a880ea09560ffd55618afb05300881 = L.marker(
+                [40.8358846, 14.2487679],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_a97bb523e9eae853e51d1dea3aaece72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_69a880ea09560ffd55618afb05300881.setIcon(icon_a97bb523e9eae853e51d1dea3aaece72);
+        
+    
+        var popup_34ee0a88b83f732de11f1998b240d016 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5801fc6178a3a696033c4ba13f2479f2 = $(`<div id="html_5801fc6178a3a696033c4ba13f2479f2" style="width: 100.0%; height: 100.0%;">Institute: University of Sannio at Benevento<br>City: Naples<br>Country:  Italy<br>#Groups: 1<br>Coordinates: [40.8358846, 14.2487679]</div>`)[0];
+            popup_34ee0a88b83f732de11f1998b240d016.setContent(html_5801fc6178a3a696033c4ba13f2479f2);
+        
+
+        marker_69a880ea09560ffd55618afb05300881.bindPopup(popup_34ee0a88b83f732de11f1998b240d016)
+        ;
+
+        
+    
+    
+            var marker_c8a546ba6782b81bc024c40db9d80dcd = L.marker(
+                [43.157285, -77.615214],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_a8f04fb4d220d696e8d96f4c307424ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c8a546ba6782b81bc024c40db9d80dcd.setIcon(icon_a8f04fb4d220d696e8d96f4c307424ff);
+        
+    
+        var popup_8deef572d302e516870c46dd69ae89a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53705214245039de50640c16d49e7704 = $(`<div id="html_53705214245039de50640c16d49e7704" style="width: 100.0%; height: 100.0%;">Institute: Rochester Institute of Technology<br>City: Rochester New York<br>Country:  USA<br>#Groups: 1<br>Coordinates: [43.157285, -77.615214]</div>`)[0];
+            popup_8deef572d302e516870c46dd69ae89a6.setContent(html_53705214245039de50640c16d49e7704);
+        
+
+        marker_c8a546ba6782b81bc024c40db9d80dcd.bindPopup(popup_8deef572d302e516870c46dd69ae89a6)
+        ;
+
+        
+    
+    
+            var marker_a01fa051212aadaee2d053c346e08666 = L.marker(
+                [24.81127, 120.9693],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_77d98f2b41d31fa3460f5b6afe926da3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a01fa051212aadaee2d053c346e08666.setIcon(icon_77d98f2b41d31fa3460f5b6afe926da3);
+        
+    
+        var popup_eed3e723414512b7ad645fac7fcacc8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18f75fcc107bd6a1e5cde14554b3e230 = $(`<div id="html_18f75fcc107bd6a1e5cde14554b3e230" style="width: 100.0%; height: 100.0%;">Institute: National Tsing Hua University<br>City: Hsinchu<br>Country:  Republic of China<br>#Groups: 1<br>Coordinates: [24.81127, 120.9693]</div>`)[0];
+            popup_eed3e723414512b7ad645fac7fcacc8d.setContent(html_18f75fcc107bd6a1e5cde14554b3e230);
+        
+
+        marker_a01fa051212aadaee2d053c346e08666.bindPopup(popup_eed3e723414512b7ad645fac7fcacc8d)
+        ;
+
+        
+    
+    
+            var marker_4be2914142d9100fd398e44e8d8f339e = L.marker(
+                [22.39690375, 114.20952710255952],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_863fc506c9b2455fdb22ff7fc6e66d55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_4be2914142d9100fd398e44e8d8f339e.setIcon(icon_863fc506c9b2455fdb22ff7fc6e66d55);
+        
+    
+        var popup_c7dba28f7ed333ebdd3bf7d36342d517 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_987d79ea72ee569926d339fa31e74aaf = $(`<div id="html_987d79ea72ee569926d339fa31e74aaf" style="width: 100.0%; height: 100.0%;">Institute: The Chinese University of Hong Kong<br>City: Lok Lo Ha Village<br>Country:  Hong Kong<br>#Groups: 1<br>Coordinates: [22.39690375, 114.20952710255952]</div>`)[0];
+            popup_c7dba28f7ed333ebdd3bf7d36342d517.setContent(html_987d79ea72ee569926d339fa31e74aaf);
+        
+
+        marker_4be2914142d9100fd398e44e8d8f339e.bindPopup(popup_c7dba28f7ed333ebdd3bf7d36342d517)
+        ;
+
+        
+    
+    
+            var marker_a88ce1f5f7bc3ba1a22d860bad703819 = L.marker(
+                [-35.0636071, 147.3552234],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_5a0c25208bcfe6a25bfe495ef9a99921 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a88ce1f5f7bc3ba1a22d860bad703819.setIcon(icon_5a0c25208bcfe6a25bfe495ef9a99921);
+        
+    
+        var popup_a96f0019065747fd4f50f6d187eefe79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca247c211fd87463a144e751f88e2a57 = $(`<div id="html_ca247c211fd87463a144e751f88e2a57" style="width: 100.0%; height: 100.0%;">Institute:  Charles Sturt University<br>City: Wagga Wagga City Council<br>Country:  Australia<br>#Groups: 1<br>Coordinates: [-35.0636071, 147.3552234]</div>`)[0];
+            popup_a96f0019065747fd4f50f6d187eefe79.setContent(html_ca247c211fd87463a144e751f88e2a57);
+        
+
+        marker_a88ce1f5f7bc3ba1a22d860bad703819.bindPopup(popup_a96f0019065747fd4f50f6d187eefe79)
+        ;
+
+        
+    
+    
+            var marker_4e8fed8915ccef186cee9514a9b05bfa = L.marker(
+                [-37.820558500000004, 145.03857627268115],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_a5ce21227f87741a9b31a82bd0d4d1cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e8fed8915ccef186cee9514a9b05bfa.setIcon(icon_a5ce21227f87741a9b31a82bd0d4d1cf);
+        
+    
+        var popup_d5ae49ff059416a76135ed846d3f0dbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bb1f8d06248b5c0830112d54f96f6e7 = $(`<div id="html_6bb1f8d06248b5c0830112d54f96f6e7" style="width: 100.0%; height: 100.0%;">Institute:  Swinburne University of Technology<br>City: Melbourne<br>Country:  Australia<br>#Groups: 1<br>Coordinates: [-37.820558500000004, 145.03857627268115]</div>`)[0];
+            popup_d5ae49ff059416a76135ed846d3f0dbd.setContent(html_6bb1f8d06248b5c0830112d54f96f6e7);
+        
+
+        marker_4e8fed8915ccef186cee9514a9b05bfa.bindPopup(popup_d5ae49ff059416a76135ed846d3f0dbd)
+        ;
+
+        
+    
+    
+            var marker_8097a07b9b06dc7906bb00fa4f05c85f = L.marker(
+                [50.8465573, 4.351697],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f0d2ed9a432a7523303dca822f3c077c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8097a07b9b06dc7906bb00fa4f05c85f.setIcon(icon_f0d2ed9a432a7523303dca822f3c077c);
+        
+    
+        var popup_6a5c4572a9b48c51ff28528149efa966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f65d4127680b1dd86460b0f37a90e76 = $(`<div id="html_6f65d4127680b1dd86460b0f37a90e76" style="width: 100.0%; height: 100.0%;">Institute: Universit´e Libre de Bruxelles<br>City: Brussels<br>Country:  Belgium<br>#Groups: 1<br>Coordinates: [50.8465573, 4.351697]</div>`)[0];
+            popup_6a5c4572a9b48c51ff28528149efa966.setContent(html_6f65d4127680b1dd86460b0f37a90e76);
+        
+
+        marker_8097a07b9b06dc7906bb00fa4f05c85f.bindPopup(popup_6a5c4572a9b48c51ff28528149efa966)
+        ;
+
+        
+    
+    
+            var marker_1e15b64c402951da7886ae81b76fd923 = L.marker(
+                [33.5635206, -101.879336],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_10232af15a53ffe724420363685afdeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e15b64c402951da7886ae81b76fd923.setIcon(icon_10232af15a53ffe724420363685afdeb);
+        
+    
+        var popup_3dc34266e7715fca1d0145a743087317 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f62b7468fd6786a7a06d72a36bb263ce = $(`<div id="html_f62b7468fd6786a7a06d72a36bb263ce" style="width: 100.0%; height: 100.0%;">Institute: Texas Tech University<br>City: Lubbock Texas<br>Country:  USA<br>#Groups: 1<br>Coordinates: [33.5635206, -101.879336]</div>`)[0];
+            popup_3dc34266e7715fca1d0145a743087317.setContent(html_f62b7468fd6786a7a06d72a36bb263ce);
+        
+
+        marker_1e15b64c402951da7886ae81b76fd923.bindPopup(popup_3dc34266e7715fca1d0145a743087317)
+        ;
+
+        
+    
+    
+            var marker_d72dfff237960908b3b97f595033c23a = L.marker(
+                [49.24384085, -123.12709478775174],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f1f640effbe019f341d89b1ab40e2da8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_d72dfff237960908b3b97f595033c23a.setIcon(icon_f1f640effbe019f341d89b1ab40e2da8);
+        
+    
+        var popup_31c5436efef91b13acf563a657e294e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_844a59448400c30c9e8eb2834175d904 = $(`<div id="html_844a59448400c30c9e8eb2834175d904" style="width: 100.0%; height: 100.0%;">Institute: University of British Columbia<br>City: Vancouver<br>Country:  Canada<br>#Groups: 1<br>Coordinates: [49.24384085, -123.12709478775174]</div>`)[0];
+            popup_31c5436efef91b13acf563a657e294e2.setContent(html_844a59448400c30c9e8eb2834175d904);
+        
+
+        marker_d72dfff237960908b3b97f595033c23a.bindPopup(popup_31c5436efef91b13acf563a657e294e2)
+        ;
+
+        
+    
+    
+            var marker_e611b128afef40c9c376a780d4f1f699 = L.marker(
+                [40.7830439, -73.9527658],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_4520119f4ab8517bbcc5c9b83a8787c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e611b128afef40c9c376a780d4f1f699.setIcon(icon_4520119f4ab8517bbcc5c9b83a8787c6);
+        
+    
+        var popup_18a3983ba79fbcfbc4a79a68ee8b4ff2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d67eddb5b4d356137515316d3bcd323 = $(`<div id="html_3d67eddb5b4d356137515316d3bcd323" style="width: 100.0%; height: 100.0%;">Institute: Columbia University<br>City: New York New York<br>Country:  USA<br>#Groups: 1<br>Coordinates: [40.7830439, -73.9527658]</div>`)[0];
+            popup_18a3983ba79fbcfbc4a79a68ee8b4ff2.setContent(html_3d67eddb5b4d356137515316d3bcd323);
+        
+
+        marker_e611b128afef40c9c376a780d4f1f699.bindPopup(popup_18a3983ba79fbcfbc4a79a68ee8b4ff2)
+        ;
+
+        
+    
+    
+            var marker_f7fb13bb8878e8c765981330b1e91e89 = L.marker(
+                [41.4729285, -71.52234712149811],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_86469a3170733591ed81b3c4800c9563 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f7fb13bb8878e8c765981330b1e91e89.setIcon(icon_86469a3170733591ed81b3c4800c9563);
+        
+    
+        var popup_a9555a7292dd26276f4ebbdd897decd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8e8c380566f0e7d19c0f1d268162c72 = $(`<div id="html_e8e8c380566f0e7d19c0f1d268162c72" style="width: 100.0%; height: 100.0%;">Institute: University of Rhode Island<br>City: South Kingstown Rhode Island<br>Country:  USA<br>#Groups: 1<br>Coordinates: [41.4729285, -71.52234712149811]</div>`)[0];
+            popup_a9555a7292dd26276f4ebbdd897decd2.setContent(html_e8e8c380566f0e7d19c0f1d268162c72);
+        
+
+        marker_f7fb13bb8878e8c765981330b1e91e89.bindPopup(popup_a9555a7292dd26276f4ebbdd897decd2)
+        ;
+
+        
+    
+    
+            var marker_3b8a87d3746178c6bf1e79754278f29e = L.marker(
+                [25.9140256, -97.4890856],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_85001ab868d7456de652259ea63c0cb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3b8a87d3746178c6bf1e79754278f29e.setIcon(icon_85001ab868d7456de652259ea63c0cb5);
+        
+    
+        var popup_9cc850c7c15f48d5439430804cbbaf39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b826e6b7967e3fca46761ee0dfccc68 = $(`<div id="html_8b826e6b7967e3fca46761ee0dfccc68" style="width: 100.0%; height: 100.0%;">Institute: The University of Texas Rio Grande Valley<br>City: Brownsville Texas<br>Country:  USA<br>#Groups: 1<br>Coordinates: [25.9140256, -97.4890856]</div>`)[0];
+            popup_9cc850c7c15f48d5439430804cbbaf39.setContent(html_8b826e6b7967e3fca46761ee0dfccc68);
+        
+
+        marker_3b8a87d3746178c6bf1e79754278f29e.bindPopup(popup_9cc850c7c15f48d5439430804cbbaf39)
+        ;
+
+        
+    
+    
+            var marker_ae594d98d0a9c56df45778eed5bde0e8 = L.marker(
+                [47.6144219, -122.192337],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_d7b2f82ca11c12e4f27433797b0d15b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae594d98d0a9c56df45778eed5bde0e8.setIcon(icon_d7b2f82ca11c12e4f27433797b0d15b7);
+        
+    
+        var popup_5b70e1377bfe51f5ca787ed71742ae8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f9ba04d24f59e5ee500a5764afae33 = $(`<div id="html_31f9ba04d24f59e5ee500a5764afae33" style="width: 100.0%; height: 100.0%;">Institute: Bellevue College<br>City: Bellevue Washington<br>Country:  USA<br>#Groups: 1<br>Coordinates: [47.6144219, -122.192337]</div>`)[0];
+            popup_5b70e1377bfe51f5ca787ed71742ae8a.setContent(html_31f9ba04d24f59e5ee500a5764afae33);
+        
+
+        marker_ae594d98d0a9c56df45778eed5bde0e8.bindPopup(popup_5b70e1377bfe51f5ca787ed71742ae8a)
+        ;
+
+        
+    
+    
+            var marker_95af2966dfe339e4a408fd7ab6d61038 = L.marker(
+                [47.4979937, 19.0403594],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_cb32cc28d6c8384484338cd9ec8cf8ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_95af2966dfe339e4a408fd7ab6d61038.setIcon(icon_cb32cc28d6c8384484338cd9ec8cf8ae);
+        
+    
+        var popup_d477234bdc063f00381b272756d5d0a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_450ff6f81e3230e835ffccdb7c5d5acc = $(`<div id="html_450ff6f81e3230e835ffccdb7c5d5acc" style="width: 100.0%; height: 100.0%;">Institute: Eotvos University<br>City: Budapest<br>Country:  Hungary<br>#Groups: 1<br>Coordinates: [47.4979937, 19.0403594]</div>`)[0];
+            popup_d477234bdc063f00381b272756d5d0a5.setContent(html_450ff6f81e3230e835ffccdb7c5d5acc);
+        
+
+        marker_95af2966dfe339e4a408fd7ab6d61038.bindPopup(popup_d477234bdc063f00381b272756d5d0a5)
+        ;
+
+        
+    
+    
+            var marker_6db83b7e5c5cae8e516c3c4abba92e43 = L.marker(
+                [40.038791, -75.3425221],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_03a174e6959c725d51ebc1e8eb515d68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6db83b7e5c5cae8e516c3c4abba92e43.setIcon(icon_03a174e6959c725d51ebc1e8eb515d68);
+        
+    
+        var popup_b529ef022f5941f15905cbca911149ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d519c801c12d27cb83c073bffe353b16 = $(`<div id="html_d519c801c12d27cb83c073bffe353b16" style="width: 100.0%; height: 100.0%;">Institute: Villanova University<br>City: Radnor Township Pennsylvania<br>Country:  USA<br>#Groups: 1<br>Coordinates: [40.038791, -75.3425221]</div>`)[0];
+            popup_b529ef022f5941f15905cbca911149ad.setContent(html_d519c801c12d27cb83c073bffe353b16);
+        
+
+        marker_6db83b7e5c5cae8e516c3c4abba92e43.bindPopup(popup_b529ef022f5941f15905cbca911149ad)
+        ;
+
+        
+    
+    
+            var marker_a7245b19fc77e1035482ab631900c524 = L.marker(
+                [53.3806626, -1.4702278],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_5286ffd75c11688076846ee3836cf3de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a7245b19fc77e1035482ab631900c524.setIcon(icon_5286ffd75c11688076846ee3836cf3de);
+        
+    
+        var popup_e26b1996b926f6bcacc0be7f60acdacb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea53828262db47dceb3976e46d0aa791 = $(`<div id="html_ea53828262db47dceb3976e46d0aa791" style="width: 100.0%; height: 100.0%;">Institute: The University of Sheffield<br>City: Sheffield<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [53.3806626, -1.4702278]</div>`)[0];
+            popup_e26b1996b926f6bcacc0be7f60acdacb.setContent(html_ea53828262db47dceb3976e46d0aa791);
+        
+
+        marker_a7245b19fc77e1035482ab631900c524.bindPopup(popup_e26b1996b926f6bcacc0be7f60acdacb)
+        ;
+
+        
+    
+    
+            var marker_e016aa2811b2d74563ca80cbf44cf532 = L.marker(
+                [40.7596198, -111.8867975],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_148a20a701f2be909a33290588eb161a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e016aa2811b2d74563ca80cbf44cf532.setIcon(icon_148a20a701f2be909a33290588eb161a);
+        
+    
+        var popup_e464b9ecbabd1ac2acbe8c29cba1bf35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20234dde6a4976ca934878fca3a16fe6 = $(`<div id="html_20234dde6a4976ca934878fca3a16fe6" style="width: 100.0%; height: 100.0%;">Institute: The University of Utah<br>City: Salt Lake City Utah<br>Country:  USA<br>#Groups: 1<br>Coordinates: [40.7596198, -111.8867975]</div>`)[0];
+            popup_e464b9ecbabd1ac2acbe8c29cba1bf35.setContent(html_20234dde6a4976ca934878fca3a16fe6);
+        
+
+        marker_e016aa2811b2d74563ca80cbf44cf532.bindPopup(popup_e464b9ecbabd1ac2acbe8c29cba1bf35)
+        ;
+
+        
+    
+    
+            var marker_8e131c17439b74895f4a728ce3df9f9c = L.marker(
+                [44.4582041, -93.161159],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_8fb21ab2b5ae05f5b54631b146f966b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e131c17439b74895f4a728ce3df9f9c.setIcon(icon_8fb21ab2b5ae05f5b54631b146f966b3);
+        
+    
+        var popup_ab6d5313dd419a578d265cea6e69d71a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b810f45028c87fef5116efdbc5a6e307 = $(`<div id="html_b810f45028c87fef5116efdbc5a6e307" style="width: 100.0%; height: 100.0%;">Institute: Carleton College<br>City: Northfield Minnesota<br>Country:  USA<br>#Groups: 1<br>Coordinates: [44.4582041, -93.161159]</div>`)[0];
+            popup_ab6d5313dd419a578d265cea6e69d71a.setContent(html_b810f45028c87fef5116efdbc5a6e307);
+        
+
+        marker_8e131c17439b74895f4a728ce3df9f9c.bindPopup(popup_ab6d5313dd419a578d265cea6e69d71a)
+        ;
+
+        
+    
+    
+            var marker_00390c79282cdc4d8f0eab84f1ca97c5 = L.marker(
+                [47.3978349, 8.5473329],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_81b3336f6bfba73b5165a7672440a0ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_00390c79282cdc4d8f0eab84f1ca97c5.setIcon(icon_81b3336f6bfba73b5165a7672440a0ae);
+        
+    
+        var popup_d139314d2e355466970efc7b159f18e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ce70fa1bbef1ab8fdf68775b1d60200 = $(`<div id="html_2ce70fa1bbef1ab8fdf68775b1d60200" style="width: 100.0%; height: 100.0%;">Institute: University of Zurich<br>City: Zurich<br>Country:  Switzerland<br>#Groups: 1<br>Coordinates: [47.3978349, 8.5473329]</div>`)[0];
+            popup_d139314d2e355466970efc7b159f18e8.setContent(html_2ce70fa1bbef1ab8fdf68775b1d60200);
+        
+
+        marker_00390c79282cdc4d8f0eab84f1ca97c5.bindPopup(popup_d139314d2e355466970efc7b159f18e8)
+        ;
+
+        
+    
+    
+            var marker_6cdee089573f02d27dcfc0d69aa3bd07 = L.marker(
+                [43.4652699, -80.5222961],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_1d11cdad31caba323409212278576df4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_6cdee089573f02d27dcfc0d69aa3bd07.setIcon(icon_1d11cdad31caba323409212278576df4);
+        
+    
+        var popup_5c872658889429eb88bb2cd7dc9558c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fde8c8c559dd5e5477a86fdf6507663 = $(`<div id="html_4fde8c8c559dd5e5477a86fdf6507663" style="width: 100.0%; height: 100.0%;">Institute: Perimeter Institute<br>City: Waterloo<br>Country:  Canada<br>#Groups: 1<br>Coordinates: [43.4652699, -80.5222961]</div>`)[0];
+            popup_5c872658889429eb88bb2cd7dc9558c9.setContent(html_4fde8c8c559dd5e5477a86fdf6507663);
+        
+
+        marker_6cdee089573f02d27dcfc0d69aa3bd07.bindPopup(popup_5c872658889429eb88bb2cd7dc9558c9)
+        ;
+
+        
+    
+    
+            var marker_fde651f8195805fddd4d915c878f2f76 = L.marker(
+                [41.8755616, -87.6244212],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_577f3bc22ddcc2eee3387bea9e1cd51b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fde651f8195805fddd4d915c878f2f76.setIcon(icon_577f3bc22ddcc2eee3387bea9e1cd51b);
+        
+    
+        var popup_9f51c32682362792dbed70a35006ed17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45fc247c9aa844cc1e113bb5ad8d8eda = $(`<div id="html_45fc247c9aa844cc1e113bb5ad8d8eda" style="width: 100.0%; height: 100.0%;">Institute: University of Chicago<br>City: Chicago Illinois<br>Country:  USA<br>#Groups: 1<br>Coordinates: [41.8755616, -87.6244212]</div>`)[0];
+            popup_9f51c32682362792dbed70a35006ed17.setContent(html_45fc247c9aa844cc1e113bb5ad8d8eda);
+        
+
+        marker_fde651f8195805fddd4d915c878f2f76.bindPopup(popup_9f51c32682362792dbed70a35006ed17)
+        ;
+
+        
+    
+    
+            var marker_3b1a01ca4f539af68857b2392c3e0ec2 = L.marker(
+                [40.8164458, -74.2210643],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_65e81a8475ab63a3f86b02dde7c6e57d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3b1a01ca4f539af68857b2392c3e0ec2.setIcon(icon_65e81a8475ab63a3f86b02dde7c6e57d);
+        
+    
+        var popup_43de4b376562dc44e0906cf037de106d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cda1f388413af2c9c7cf5637cc15bf50 = $(`<div id="html_cda1f388413af2c9c7cf5637cc15bf50" style="width: 100.0%; height: 100.0%;">Institute: Montclair State University<br>City: Montclair New Jersey<br>Country:  USA<br>#Groups: 1<br>Coordinates: [40.8164458, -74.2210643]</div>`)[0];
+            popup_43de4b376562dc44e0906cf037de106d.setContent(html_cda1f388413af2c9c7cf5637cc15bf50);
+        
+
+        marker_3b1a01ca4f539af68857b2392c3e0ec2.bindPopup(popup_43de4b376562dc44e0906cf037de106d)
+        ;
+
+        
+    
+    
+            var marker_7d1847e63d37e8042c519550c34bd172 = L.marker(
+                [40.5559815, -105.07587251664262],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_77c91d215d40fcd44059510d337b09ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7d1847e63d37e8042c519550c34bd172.setIcon(icon_77c91d215d40fcd44059510d337b09ae);
+        
+    
+        var popup_a3a620412c4a322bb7f5f77b250c2aff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76fd53326bd8ac0baeb25f134f53089c = $(`<div id="html_76fd53326bd8ac0baeb25f134f53089c" style="width: 100.0%; height: 100.0%;">Institute: Colorado State University<br>City: Fort Collins Colorado<br>Country:  USA<br>#Groups: 1<br>Coordinates: [40.5559815, -105.07587251664262]</div>`)[0];
+            popup_a3a620412c4a322bb7f5f77b250c2aff.setContent(html_76fd53326bd8ac0baeb25f134f53089c);
+        
+
+        marker_7d1847e63d37e8042c519550c34bd172.bindPopup(popup_a3a620412c4a322bb7f5f77b250c2aff)
+        ;
+
+        
+    
+    
+            var marker_66d357e71f833f27a78a5632b3574eae = L.marker(
+                [30.2711286, -97.7436995],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_12ad82e3c9b8b44a57d7864bc0fdfdbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_66d357e71f833f27a78a5632b3574eae.setIcon(icon_12ad82e3c9b8b44a57d7864bc0fdfdbe);
+        
+    
+        var popup_3e273dd51909538174a6004b35a7254d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01402506a85ab7828310acfd6963ba94 = $(`<div id="html_01402506a85ab7828310acfd6963ba94" style="width: 100.0%; height: 100.0%;">Institute: University of Texas<br>City: Austin Texas<br>Country:  USA<br>#Groups: 1<br>Coordinates: [30.2711286, -97.7436995]</div>`)[0];
+            popup_3e273dd51909538174a6004b35a7254d.setContent(html_01402506a85ab7828310acfd6963ba94);
+        
+
+        marker_66d357e71f833f27a78a5632b3574eae.bindPopup(popup_3e273dd51909538174a6004b35a7254d)
+        ;
+
+        
+    
+    
+            var marker_81b3042d4ad6db85b5326c1329d6a01f = L.marker(
+                [36.1565461, -86.77474161400752],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_6bb23739f01a72953372cc417e888553 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_81b3042d4ad6db85b5326c1329d6a01f.setIcon(icon_6bb23739f01a72953372cc417e888553);
+        
+    
+        var popup_2f25156a26e74ce5e1320180c6c4409b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cdda2f9c9d963bc8554c3f093eaaa93 = $(`<div id="html_1cdda2f9c9d963bc8554c3f093eaaa93" style="width: 100.0%; height: 100.0%;">Institute: Vanderbilt University<br>City: Nashville Tennessee<br>Country:  USA<br>#Groups: 1<br>Coordinates: [36.1565461, -86.77474161400752]</div>`)[0];
+            popup_2f25156a26e74ce5e1320180c6c4409b.setContent(html_1cdda2f9c9d963bc8554c3f093eaaa93);
+        
+
+        marker_81b3042d4ad6db85b5326c1329d6a01f.bindPopup(popup_2f25156a26e74ce5e1320180c6c4409b)
+        ;
+
+        
+    
+    
+            var marker_22d51364f9395418ae0c15e42219f4f0 = L.marker(
+                [55.84342625, -4.430031145769734],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_7d7fb0241db3289a70ff7636837350d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_22d51364f9395418ae0c15e42219f4f0.setIcon(icon_7d7fb0241db3289a70ff7636837350d3);
+        
+    
+        var popup_05e7933dc24b12603156941051fca6df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_859e7e0c9b4b44a89ab0980c1cf94f4e = $(`<div id="html_859e7e0c9b4b44a89ab0980c1cf94f4e" style="width: 100.0%; height: 100.0%;">Institute:  University of the West of Scotland<br>City: Paisley<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [55.84342625, -4.430031145769734]</div>`)[0];
+            popup_05e7933dc24b12603156941051fca6df.setContent(html_859e7e0c9b4b44a89ab0980c1cf94f4e);
+        
+
+        marker_22d51364f9395418ae0c15e42219f4f0.bindPopup(popup_05e7933dc24b12603156941051fca6df)
+        ;
+
+        
+    
+    
+            var marker_3f2faeb4eee0302f83a61af2dfd98b38 = L.marker(
+                [46.2475214, 20.1488601],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f065fe868bf14df934a05672d6dea39e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3f2faeb4eee0302f83a61af2dfd98b38.setIcon(icon_f065fe868bf14df934a05672d6dea39e);
+        
+    
+        var popup_848e89aa968b4af782e9e1f276f7ae85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41ad847ec6d94260b78bc3b5bca553ed = $(`<div id="html_41ad847ec6d94260b78bc3b5bca553ed" style="width: 100.0%; height: 100.0%;">Institute: University of Szeged<br>City: Szeged<br>Country:  Hungary<br>#Groups: 1<br>Coordinates: [46.2475214, 20.1488601]</div>`)[0];
+            popup_848e89aa968b4af782e9e1f276f7ae85.setContent(html_41ad847ec6d94260b78bc3b5bca553ed);
+        
+
+        marker_3f2faeb4eee0302f83a61af2dfd98b38.bindPopup(popup_848e89aa968b4af782e9e1f276f7ae85)
+        ;
+
+        
+    
+    
+            var marker_a8a9f0c272eaad23008fe03c6a34300c = L.marker(
+                [51.5276441, -0.10359892518182634],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f9492b45ca3e613feb22dff7bddd7b39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a8a9f0c272eaad23008fe03c6a34300c.setIcon(icon_f9492b45ca3e613feb22dff7bddd7b39);
+        
+    
+        var popup_db313613c11d2065922c02078389b091 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee0ca70161402afd101efc303e0831f0 = $(`<div id="html_ee0ca70161402afd101efc303e0831f0" style="width: 100.0%; height: 100.0%;">Institute: Queen Mary University of London<br>City: London<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [51.5276441, -0.10359892518182634]</div>`)[0];
+            popup_db313613c11d2065922c02078389b091.setContent(html_ee0ca70161402afd101efc303e0831f0);
+        
+
+        marker_a8a9f0c272eaad23008fe03c6a34300c.bindPopup(popup_db313613c11d2065922c02078389b091)
+        ;
+
+        
+    
+    
+            var marker_32be2e0a7e90bb7f28f46e0111fea809 = L.marker(
+                [34.3653695, -89.5350279],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_92c1c0c2fe8f1442a2b517def58bd3d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_32be2e0a7e90bb7f28f46e0111fea809.setIcon(icon_92c1c0c2fe8f1442a2b517def58bd3d3);
+        
+    
+        var popup_38a7b398898235d03c893d47d84608bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92c3ef946e02d942d84be9193e22c51d = $(`<div id="html_92c3ef946e02d942d84be9193e22c51d" style="width: 100.0%; height: 100.0%;">Institute: The University of Mississippi<br>City: Oxford Mississippi<br>Country:  USA<br>#Groups: 1<br>Coordinates: [34.3653695, -89.5350279]</div>`)[0];
+            popup_38a7b398898235d03c893d47d84608bd.setContent(html_92c3ef946e02d942d84be9193e22c51d);
+        
+
+        marker_32be2e0a7e90bb7f28f46e0111fea809.bindPopup(popup_38a7b398898235d03c893d47d84608bd)
+        ;
+
+        
+    
+    
+            var marker_808116b4535fd5e11d47830d46c966e2 = L.marker(
+                [42.2681569, -83.7312291],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_1e6d19e8b9199e8ea8df058e4f74afa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_808116b4535fd5e11d47830d46c966e2.setIcon(icon_1e6d19e8b9199e8ea8df058e4f74afa6);
+        
+    
+        var popup_5bd70817744104cb2727af7ae7c1a1ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_555e7a270acc78e1a2d1c8868bf72de0 = $(`<div id="html_555e7a270acc78e1a2d1c8868bf72de0" style="width: 100.0%; height: 100.0%;">Institute: University of Michigan<br>City: Ann Arbor Michigan<br>Country:  USA<br>#Groups: 1<br>Coordinates: [42.2681569, -83.7312291]</div>`)[0];
+            popup_5bd70817744104cb2727af7ae7c1a1ea.setContent(html_555e7a270acc78e1a2d1c8868bf72de0);
+        
+
+        marker_808116b4535fd5e11d47830d46c966e2.bindPopup(popup_5bd70817744104cb2727af7ae7c1a1ea)
+        ;
+
+        
+    
+    
+            var marker_649549d4bb19dd37242dc16ca311fbf5 = L.marker(
+                [37.87094645, -122.26639872292523],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_c70bd0ca1bb42401ae0076b12dd862c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_649549d4bb19dd37242dc16ca311fbf5.setIcon(icon_c70bd0ca1bb42401ae0076b12dd862c0);
+        
+    
+        var popup_e8405446e5b7950912d51b6667aeccf8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d39031b00b3d21ea33b1bea460420b7 = $(`<div id="html_9d39031b00b3d21ea33b1bea460420b7" style="width: 100.0%; height: 100.0%;">Institute: University of California Berkeley<br>City: Berkeley California<br>Country:  USA<br>#Groups: 1<br>Coordinates: [37.87094645, -122.26639872292523]</div>`)[0];
+            popup_e8405446e5b7950912d51b6667aeccf8.setContent(html_9d39031b00b3d21ea33b1bea460420b7);
+        
+
+        marker_649549d4bb19dd37242dc16ca311fbf5.bindPopup(popup_e8405446e5b7950912d51b6667aeccf8)
+        ;
+
+        
+    
+    
+            var marker_597c59b942f725755dbc30f54bffc711 = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_4fd7e82cf508d91250ae75345e37cec0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_597c59b942f725755dbc30f54bffc711.setIcon(icon_4fd7e82cf508d91250ae75345e37cec0);
+        
+    
+        var popup_bfa71d0d21944b86c533cf545be9ff9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f17aee466b8ba40d5ca10441d8296470 = $(`<div id="html_f17aee466b8ba40d5ca10441d8296470" style="width: 100.0%; height: 100.0%;">Institute: California State University<br>City: Los Angeles California<br>Country:  USA<br>#Groups: 1<br>Coordinates: [34.0536909, -118.242766]</div>`)[0];
+            popup_bfa71d0d21944b86c533cf545be9ff9a.setContent(html_f17aee466b8ba40d5ca10441d8296470);
+        
+
+        marker_597c59b942f725755dbc30f54bffc711.bindPopup(popup_bfa71d0d21944b86c533cf545be9ff9a)
+        ;
+
+        
+    
+    
+            var marker_8860b8b27a2e9ced335afe1846d46289 = L.marker(
+                [54.0484068, -2.7990345],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_383e77649cc3b47ca8c0c6d033819cb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8860b8b27a2e9ced335afe1846d46289.setIcon(icon_383e77649cc3b47ca8c0c6d033819cb3);
+        
+    
+        var popup_8c74eb7d7519492b3b407ca99332a990 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90c1fc902407e9a915a0dba0796833a7 = $(`<div id="html_90c1fc902407e9a915a0dba0796833a7" style="width: 100.0%; height: 100.0%;">Institute: Lancaster University<br>City: Lancaster<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [54.0484068, -2.7990345]</div>`)[0];
+            popup_8c74eb7d7519492b3b407ca99332a990.setContent(html_90c1fc902407e9a915a0dba0796833a7);
+        
+
+        marker_8860b8b27a2e9ced335afe1846d46289.bindPopup(popup_8c74eb7d7519492b3b407ca99332a990)
+        ;
+
+        
+    
+    
+            var marker_f96091077b797fda53bf28114b0f6adc = L.marker(
+                [52.3727598, 4.8936041],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_4dab674156dc06f013ae544902bf3d24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_f96091077b797fda53bf28114b0f6adc.setIcon(icon_4dab674156dc06f013ae544902bf3d24);
+        
+    
+        var popup_04e1738fd9d7fcd35f35d6f0989a5213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca1ceb50e79d24375414bfc2290dd353 = $(`<div id="html_ca1ceb50e79d24375414bfc2290dd353" style="width: 100.0%; height: 100.0%;">Institute: Vrije Universiteit Amsterdam<br>City: Amsterdam<br>Country:  Netherlands<br>#Groups: 1<br>Coordinates: [52.3727598, 4.8936041]</div>`)[0];
+            popup_04e1738fd9d7fcd35f35d6f0989a5213.setContent(html_ca1ceb50e79d24375414bfc2290dd353);
+        
+
+        marker_f96091077b797fda53bf28114b0f6adc.bindPopup(popup_04e1738fd9d7fcd35f35d6f0989a5213)
+        ;
+
+        
+    
+    
+            var marker_25908c5e935b1375e7f66d811ba228fe = L.marker(
+                [51.6121773, -1.2439778415871414],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_2b81ec869b4453f509d9052824cf16c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25908c5e935b1375e7f66d811ba228fe.setIcon(icon_2b81ec869b4453f509d9052824cf16c5);
+        
+    
+        var popup_b91a95375f3ca67e1d8ea880de247d88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a8804301a94824447f140babbd1cd8a = $(`<div id="html_0a8804301a94824447f140babbd1cd8a" style="width: 100.0%; height: 100.0%;">Institute: Rutherford Appleton Laboratory<br>City: South Oxfordshire<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [51.6121773, -1.2439778415871414]</div>`)[0];
+            popup_b91a95375f3ca67e1d8ea880de247d88.setContent(html_0a8804301a94824447f140babbd1cd8a);
+        
+
+        marker_25908c5e935b1375e7f66d811ba228fe.bindPopup(popup_b91a95375f3ca67e1d8ea880de247d88)
+        ;
+
+        
+    
+    
+            var marker_dad43ab358e40f80ad6f2512d68570ba = L.marker(
+                [19.0759899, 72.8773928],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_b098ef61ae8109f31e52328568995539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dad43ab358e40f80ad6f2512d68570ba.setIcon(icon_b098ef61ae8109f31e52328568995539);
+        
+    
+        var popup_40fcdae2aa69c4f9a820674440912cc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd05dc5887fee428482afa859ea5b19c = $(`<div id="html_fd05dc5887fee428482afa859ea5b19c" style="width: 100.0%; height: 100.0%;">Institute: Directorate of Construction<br>City: Mumbai<br>Country:  India<br>#Groups: 1<br>Coordinates: [19.0759899, 72.8773928]</div>`)[0];
+            popup_40fcdae2aa69c4f9a820674440912cc9.setContent(html_fd05dc5887fee428482afa859ea5b19c);
+        
+
+        marker_dad43ab358e40f80ad6f2512d68570ba.bindPopup(popup_40fcdae2aa69c4f9a820674440912cc9)
+        ;
+
+        
+    
+    
+            var marker_2fd277b1824d7f4801753078184e38eb = L.marker(
+                [50.9025349, -1.404189],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f2db056318976e4fe4b02ff8bf8650e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2fd277b1824d7f4801753078184e38eb.setIcon(icon_f2db056318976e4fe4b02ff8bf8650e1);
+        
+    
+        var popup_c77e4ab7968c1619ae497badb8332af6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c6540e73ba0a4139293a63613d29449 = $(`<div id="html_5c6540e73ba0a4139293a63613d29449" style="width: 100.0%; height: 100.0%;">Institute: University of Southampton<br>City: Southampton<br>Country:  United Kingdom<br>#Groups: 1<br>Coordinates: [50.9025349, -1.404189]</div>`)[0];
+            popup_c77e4ab7968c1619ae497badb8332af6.setContent(html_5c6540e73ba0a4139293a63613d29449);
+        
+
+        marker_2fd277b1824d7f4801753078184e38eb.bindPopup(popup_c77e4ab7968c1619ae497badb8332af6)
+        ;
+
+        
+    
+    
+            var marker_88f79210ec1b6dee41275bb840e9eef4 = L.marker(
+                [47.77346325, -122.19721028094827],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_187b718fd020d9ccbaa767d240919f5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88f79210ec1b6dee41275bb840e9eef4.setIcon(icon_187b718fd020d9ccbaa767d240919f5a);
+        
+    
+        var popup_dc95c56a8f03bfddfbc15013b73469ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5df576381eebb4189325966e26cdf91 = $(`<div id="html_d5df576381eebb4189325966e26cdf91" style="width: 100.0%; height: 100.0%;">Institute: University of Washington Bothell<br>City: Bothell Washington<br>Country:  USA<br>#Groups: 1<br>Coordinates: [47.77346325, -122.19721028094827]</div>`)[0];
+            popup_dc95c56a8f03bfddfbc15013b73469ca.setContent(html_d5df576381eebb4189325966e26cdf91);
+        
+
+        marker_88f79210ec1b6dee41275bb840e9eef4.bindPopup(popup_dc95c56a8f03bfddfbc15013b73469ca)
+        ;
+
+        
+    
+    
+            var marker_16eafbf8237638456e2fd970158031af = L.marker(
+                [56.3264816, 44.0051395],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_06750066eeaf5366d140ad5c3cffd871 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_16eafbf8237638456e2fd970158031af.setIcon(icon_06750066eeaf5366d140ad5c3cffd871);
+        
+    
+        var popup_a98960618f2c0a98738ee496d2aefd07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4691280a352e203446adc96288003053 = $(`<div id="html_4691280a352e203446adc96288003053" style="width: 100.0%; height: 100.0%;">Institute: Institute of Applied Physics<br>City: Nizhny Novgorod<br>Country:  Russia<br>#Groups: 1<br>Coordinates: [56.3264816, 44.0051395]</div>`)[0];
+            popup_a98960618f2c0a98738ee496d2aefd07.setContent(html_4691280a352e203446adc96288003053);
+        
+
+        marker_16eafbf8237638456e2fd970158031af.bindPopup(popup_a98960618f2c0a98738ee496d2aefd07)
+        ;
+
+        
+    
+    
+            var marker_6fb4919e7b40cc92140941a58d5d1e05 = L.marker(
+                [37.5666791, 126.9782914],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_5e42c85304553d63d27e915da3213ae4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6fb4919e7b40cc92140941a58d5d1e05.setIcon(icon_5e42c85304553d63d27e915da3213ae4);
+        
+    
+        var popup_362fef013a9e6b5277abe154a184b032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8ce0362709e76a95ed06075918f4d9b = $(`<div id="html_f8ce0362709e76a95ed06075918f4d9b" style="width: 100.0%; height: 100.0%;">Institute: Ewha Womans University<br>City: Seoul<br>Country:  Republic of Korea<br>#Groups: 1<br>Coordinates: [37.5666791, 126.9782914]</div>`)[0];
+            popup_362fef013a9e6b5277abe154a184b032.setContent(html_f8ce0362709e76a95ed06075918f4d9b);
+        
+
+        marker_6fb4919e7b40cc92140941a58d5d1e05.bindPopup(popup_362fef013a9e6b5277abe154a184b032)
+        ;
+
+        
+    
+    
+            var marker_f2157d086b0ac8d3102f20ebf60300d8 = L.marker(
+                [34.865741650000004, 128.69657863616982],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_4538e6bf2a88b1d3f5f533acef56fa5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f2157d086b0ac8d3102f20ebf60300d8.setIcon(icon_4538e6bf2a88b1d3f5f533acef56fa5e);
+        
+    
+        var popup_d35a6eca3649144aab7ed855b262b707 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc6f16cb2b8c53ea3fe097163aff186e = $(`<div id="html_fc6f16cb2b8c53ea3fe097163aff186e" style="width: 100.0%; height: 100.0%;">Institute: Inje University Gimhae<br>City: Geoje-si<br>Country:  Republic of Korea<br>#Groups: 1<br>Coordinates: [34.865741650000004, 128.69657863616982]</div>`)[0];
+            popup_d35a6eca3649144aab7ed855b262b707.setContent(html_fc6f16cb2b8c53ea3fe097163aff186e);
+        
+
+        marker_f2157d086b0ac8d3102f20ebf60300d8.bindPopup(popup_d35a6eca3649144aab7ed855b262b707)
+        ;
+
+        
+    
+    
+            var marker_af746731c6d4b4c1673c45790408b598 = L.marker(
+                [37.5666791, 126.9782914],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_3a1d5b81b12bf6e75b9bb73efcf87d22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_af746731c6d4b4c1673c45790408b598.setIcon(icon_3a1d5b81b12bf6e75b9bb73efcf87d22);
+        
+    
+        var popup_285b1be701e4d9aef469377fafb41f0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dbae9a5c6641e6571019bf147f447d0 = $(`<div id="html_0dbae9a5c6641e6571019bf147f447d0" style="width: 100.0%; height: 100.0%;">Institute: Sungkyunkwan University<br>City: Seoul<br>Country:  Republic of Korea<br>#Groups: 1<br>Coordinates: [37.5666791, 126.9782914]</div>`)[0];
+            popup_285b1be701e4d9aef469377fafb41f0c.setContent(html_0dbae9a5c6641e6571019bf147f447d0);
+        
+
+        marker_af746731c6d4b4c1673c45790408b598.bindPopup(popup_285b1be701e4d9aef469377fafb41f0c)
+        ;
+
+        
+    
+    
+            var marker_248f08b19a08a7aa58542a20da96a3ea = L.marker(
+                [36.3496, 127.3848],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_227f7a32e71ed495230912b19e978a40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_248f08b19a08a7aa58542a20da96a3ea.setIcon(icon_227f7a32e71ed495230912b19e978a40);
+        
+    
+        var popup_2aff266f04e4f09d31cab18d6d8952cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d01ea994fb54a9b193dfbb887471bf1d = $(`<div id="html_d01ea994fb54a9b193dfbb887471bf1d" style="width: 100.0%; height: 100.0%;">Institute: National Institute for Mathematical Sciences<br>City: Daejeon<br>Country:  Republic of Korea<br>#Groups: 1<br>Coordinates: [36.3496, 127.3848]</div>`)[0];
+            popup_2aff266f04e4f09d31cab18d6d8952cc.setContent(html_d01ea994fb54a9b193dfbb887471bf1d);
+        
+
+        marker_248f08b19a08a7aa58542a20da96a3ea.bindPopup(popup_2aff266f04e4f09d31cab18d6d8952cc)
+        ;
+
+        
+    
+    
+            var marker_e19a7d93f41e9c388b32652847962dc8 = L.marker(
+                [35.5391697, 129.3119136],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_cd26d8fb3fcfcb509baffa39a13e83ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e19a7d93f41e9c388b32652847962dc8.setIcon(icon_cd26d8fb3fcfcb509baffa39a13e83ab);
+        
+    
+        var popup_b371e35fa2d6ea4ec0acba941d3a16e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91a304936449d3df1d322b3ae138fb4c = $(`<div id="html_91a304936449d3df1d322b3ae138fb4c" style="width: 100.0%; height: 100.0%;">Institute: Ulsan National Institute of Science and Technology<br>City: Ulsan<br>Country:  Republic of Korea<br>#Groups: 1<br>Coordinates: [35.5391697, 129.3119136]</div>`)[0];
+            popup_b371e35fa2d6ea4ec0acba941d3a16e5.setContent(html_91a304936449d3df1d322b3ae138fb4c);
+        
+
+        marker_e19a7d93f41e9c388b32652847962dc8.bindPopup(popup_b371e35fa2d6ea4ec0acba941d3a16e5)
+        ;
+
+        
+    
+    
+            var marker_ac7f2b91d9352e704b3a93df31b29703 = L.marker(
+                [42.0128695, -73.9081901],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_be2697db8bf7573cab435a3f7d683766 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ac7f2b91d9352e704b3a93df31b29703.setIcon(icon_be2697db8bf7573cab435a3f7d683766);
+        
+    
+        var popup_ee4b5e4801d40f1ec7edad9ab0282fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f516278a3aa8c0a02c67757e7bc60a2a = $(`<div id="html_f516278a3aa8c0a02c67757e7bc60a2a" style="width: 100.0%; height: 100.0%;">Institute: Bard College<br>City: Town of Red Hook New York<br>Country:  USA<br>#Groups: 1<br>Coordinates: [42.0128695, -73.9081901]</div>`)[0];
+            popup_ee4b5e4801d40f1ec7edad9ab0282fa0.setContent(html_f516278a3aa8c0a02c67757e7bc60a2a);
+        
+
+        marker_ac7f2b91d9352e704b3a93df31b29703.bindPopup(popup_ee4b5e4801d40f1ec7edad9ab0282fa0)
+        ;
+
+        
+    
+    
+            var marker_d5504ab0c3ca8f773bd9f853ff046a0c = L.marker(
+                [45.5031824, -73.5698065],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_0ac1af38392eec4c485d18c04385c60c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_d5504ab0c3ca8f773bd9f853ff046a0c.setIcon(icon_0ac1af38392eec4c485d18c04385c60c);
+        
+    
+        var popup_1783dc56143b4d4b152ac4c0c113dc0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0e19ed64ca4a3aaea5c3cbc5cc68912 = $(`<div id="html_f0e19ed64ca4a3aaea5c3cbc5cc68912" style="width: 100.0%; height: 100.0%;">Institute: Universit´e de Montr´eal/Polytechnique<br>City: Montreal<br>Country:  Canada<br>#Groups: 1<br>Coordinates: [45.5031824, -73.5698065]</div>`)[0];
+            popup_1783dc56143b4d4b152ac4c0c113dc0d.setContent(html_f0e19ed64ca4a3aaea5c3cbc5cc68912);
+        
+
+        marker_d5504ab0c3ca8f773bd9f853ff046a0c.bindPopup(popup_1783dc56143b4d4b152ac4c0c113dc0d)
+        ;
+
+        
+    
+    
+            var marker_33e1bb0fdfd9d3ecce3445966578f54b = L.marker(
+                [37.5666791, 126.9782914],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_316037743dc6c68907e780011d860037 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_33e1bb0fdfd9d3ecce3445966578f54b.setIcon(icon_316037743dc6c68907e780011d860037);
+        
+    
+        var popup_d3e89a304ab0aeda24273977771ee9e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f44e05e67245d7dcd2137d4b8141460 = $(`<div id="html_2f44e05e67245d7dcd2137d4b8141460" style="width: 100.0%; height: 100.0%;">Institute: Seoul National University<br>City: Seoul<br>Country:  Republic of Korea<br>#Groups: 1<br>Coordinates: [37.5666791, 126.9782914]</div>`)[0];
+            popup_d3e89a304ab0aeda24273977771ee9e0.setContent(html_2f44e05e67245d7dcd2137d4b8141460);
+        
+
+        marker_33e1bb0fdfd9d3ecce3445966578f54b.bindPopup(popup_d3e89a304ab0aeda24273977771ee9e0)
+        ;
+
+        
+    
+    
+            var marker_fe18522eecf9a396a99a9ad223173b5b = L.marker(
+                [34.729847, -86.5859011],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_fa1fbfb6f516f5d05826514e47396aac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe18522eecf9a396a99a9ad223173b5b.setIcon(icon_fa1fbfb6f516f5d05826514e47396aac);
+        
+    
+        var popup_fc34c078d1faf70c94ffe3e0c7cfca67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e93139a6eec60a91eab1554fcb9c8479 = $(`<div id="html_e93139a6eec60a91eab1554fcb9c8479" style="width: 100.0%; height: 100.0%;">Institute: NASA Marshall Space Flight Center<br>City: Huntsville Alabama<br>Country:  USA<br>#Groups: 1<br>Coordinates: [34.729847, -86.5859011]</div>`)[0];
+            popup_fc34c078d1faf70c94ffe3e0c7cfca67.setContent(html_e93139a6eec60a91eab1554fcb9c8479);
+        
+
+        marker_fe18522eecf9a396a99a9ad223173b5b.bindPopup(popup_fc34c078d1faf70c94ffe3e0c7cfca67)
+        ;
+
+        
+    
+    
+            var marker_d75ab97952badf0761a5dc706d14d42f = L.marker(
+                [39.6296809, -79.9559437],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_3ff5cbcfb2d21b219b109c3116f6f040 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d75ab97952badf0761a5dc706d14d42f.setIcon(icon_3ff5cbcfb2d21b219b109c3116f6f040);
+        
+    
+        var popup_1bf555cb975805cfb7294e69fc7a1b38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaa65df3f328af61a5b192378d0370a2 = $(`<div id="html_aaa65df3f328af61a5b192378d0370a2" style="width: 100.0%; height: 100.0%;">Institute: West Virginia University<br>City: Morgantown West Virginia<br>Country:  USA<br>#Groups: 1<br>Coordinates: [39.6296809, -79.9559437]</div>`)[0];
+            popup_1bf555cb975805cfb7294e69fc7a1b38.setContent(html_aaa65df3f328af61a5b192378d0370a2);
+        
+
+        marker_d75ab97952badf0761a5dc706d14d42f.bindPopup(popup_1bf555cb975805cfb7294e69fc7a1b38)
+        ;
+
+        
+    
+    
+            var marker_b7e171f2927ac528cdee5382f0a784d1 = L.marker(
+                [13.0836939, 80.270186],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f6ec37ee8bd263d21787e4a9bf50c21b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b7e171f2927ac528cdee5382f0a784d1.setIcon(icon_f6ec37ee8bd263d21787e4a9bf50c21b);
+        
+    
+        var popup_0950b4b16cbea94198930caf21c69d80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e336e2fdd1d4f1d2bd3b68072e4ffc35 = $(`<div id="html_e336e2fdd1d4f1d2bd3b68072e4ffc35" style="width: 100.0%; height: 100.0%;">Institute: Indian Institute of Technology Madras<br>City: Chennai<br>Country:  India<br>#Groups: 1<br>Coordinates: [13.0836939, 80.270186]</div>`)[0];
+            popup_0950b4b16cbea94198930caf21c69d80.setContent(html_e336e2fdd1d4f1d2bd3b68072e4ffc35);
+        
+
+        marker_b7e171f2927ac528cdee5382f0a784d1.bindPopup(popup_0950b4b16cbea94198930caf21c69d80)
+        ;
+
+        
+    
+    
+            var marker_53e414fffc28ccb7ca9f1a04b7fc5a40 = L.marker(
+                [22.9547908, 88.5279413],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_a1ed14269979021c91392ab51dfcc2fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_53e414fffc28ccb7ca9f1a04b7fc5a40.setIcon(icon_a1ed14269979021c91392ab51dfcc2fa);
+        
+    
+        var popup_832c800db6b339a0fb1daef9bb718427 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc89ee150abb6c8058ffd849cfb595cc = $(`<div id="html_cc89ee150abb6c8058ffd849cfb595cc" style="width: 100.0%; height: 100.0%;">Institute: Indian Institute of Science Education and Research Kolkata<br>City: Mohanpur<br>Country:  India<br>#Groups: 1<br>Coordinates: [22.9547908, 88.5279413]</div>`)[0];
+            popup_832c800db6b339a0fb1daef9bb718427.setContent(html_cc89ee150abb6c8058ffd849cfb595cc);
+        
+
+        marker_53e414fffc28ccb7ca9f1a04b7fc5a40.bindPopup(popup_832c800db6b339a0fb1daef9bb718427)
+        ;
+
+        
+    
+    
+            var marker_cdcd8457cd9a707cd9c0fa635d9bc0cb = L.marker(
+                [42.4396039, -76.4968019],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_730fa6f704f31204d2e0326f9177213e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cdcd8457cd9a707cd9c0fa635d9bc0cb.setIcon(icon_730fa6f704f31204d2e0326f9177213e);
+        
+    
+        var popup_edf27988588e61feda2a124c00abbf93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6cf654b06c3e680e1cc4fffbe123e20 = $(`<div id="html_d6cf654b06c3e680e1cc4fffbe123e20" style="width: 100.0%; height: 100.0%;">Institute: Cornell University<br>City: Ithaca New York<br>Country:  USA<br>#Groups: 1<br>Coordinates: [42.4396039, -76.4968019]</div>`)[0];
+            popup_edf27988588e61feda2a124c00abbf93.setContent(html_d6cf654b06c3e680e1cc4fffbe123e20);
+        
+
+        marker_cdcd8457cd9a707cd9c0fa635d9bc0cb.bindPopup(popup_edf27988588e61feda2a124c00abbf93)
+        ;
+
+        
+    
+    
+            var marker_bcc1e711fc3d3f04186a3079334fe58c = L.marker(
+                [42.86548285, -76.98075684493965],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_200f1930b7f7922511a8ca79924a97ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bcc1e711fc3d3f04186a3079334fe58c.setIcon(icon_200f1930b7f7922511a8ca79924a97ec);
+        
+    
+        var popup_6c39f53b8d3a36e68ad29775c47be78d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f84fb017e7d3deda20e1747aad346d = $(`<div id="html_31f84fb017e7d3deda20e1747aad346d" style="width: 100.0%; height: 100.0%;">Institute: Hobart and William Smith Colleges<br>City: City of Geneva New York<br>Country:  USA<br>#Groups: 1<br>Coordinates: [42.86548285, -76.98075684493965]</div>`)[0];
+            popup_6c39f53b8d3a36e68ad29775c47be78d.setContent(html_31f84fb017e7d3deda20e1747aad346d);
+        
+
+        marker_bcc1e711fc3d3f04186a3079334fe58c.bindPopup(popup_6c39f53b8d3a36e68ad29775c47be78d)
+        ;
+
+        
+    
+    
+            var marker_6b35795f07e1f2dc9f1c59cc06316303 = L.marker(
+                [-5.805398, -35.2080905],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_bab4f3388bb911df79e2cc98dd112433 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6b35795f07e1f2dc9f1c59cc06316303.setIcon(icon_bab4f3388bb911df79e2cc98dd112433);
+        
+    
+        var popup_41fd7b6f2e828ce9f6869515fee3e4e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_332fccb9c2a4f9bcf118b80232c88ae2 = $(`<div id="html_332fccb9c2a4f9bcf118b80232c88ae2" style="width: 100.0%; height: 100.0%;">Institute: International Institute of Physics<br>City: Natal<br>Country:  Brazil<br>#Groups: 1<br>Coordinates: [-5.805398, -35.2080905]</div>`)[0];
+            popup_41fd7b6f2e828ce9f6869515fee3e4e5.setContent(html_332fccb9c2a4f9bcf118b80232c88ae2);
+        
+
+        marker_6b35795f07e1f2dc9f1c59cc06316303.bindPopup(popup_41fd7b6f2e828ce9f6869515fee3e4e5)
+        ;
+
+        
+    
+    
+            var marker_7ea94c01f44baf195ff0bd0a269e5b4a = L.marker(
+                [33.96370575, -117.33978065170642],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_5578db3f49cd1369a89cb57e35caddca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ea94c01f44baf195ff0bd0a269e5b4a.setIcon(icon_5578db3f49cd1369a89cb57e35caddca);
+        
+    
+        var popup_363a795779a11735a622b3848dec12be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a5048edc58bf2217473f245e4793b49 = $(`<div id="html_7a5048edc58bf2217473f245e4793b49" style="width: 100.0%; height: 100.0%;">Institute: University of California Riverside<br>City: Riverside California<br>Country:  USA<br>#Groups: 1<br>Coordinates: [33.96370575, -117.33978065170642]</div>`)[0];
+            popup_363a795779a11735a622b3848dec12be.setContent(html_7a5048edc58bf2217473f245e4793b49);
+        
+
+        marker_7ea94c01f44baf195ff0bd0a269e5b4a.bindPopup(popup_363a795779a11735a622b3848dec12be)
+        ;
+
+        
+    
+    
+            var marker_b361f6e1af06efd63b92c8a85defab9c = L.marker(
+                [47.6038321, -122.3300624],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_627a768c170ca6a694bd123e8d8889d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b361f6e1af06efd63b92c8a85defab9c.setIcon(icon_627a768c170ca6a694bd123e8d8889d4);
+        
+    
+        var popup_a201429a5f80080a963b0d0205d6b3f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_803b147a3d9ababeffb69b016b0ef706 = $(`<div id="html_803b147a3d9ababeffb69b016b0ef706" style="width: 100.0%; height: 100.0%;">Institute: University of Washington<br>City: Seattle Washington<br>Country:  USA<br>#Groups: 1<br>Coordinates: [47.6038321, -122.3300624]</div>`)[0];
+            popup_a201429a5f80080a963b0d0205d6b3f5.setContent(html_803b147a3d9ababeffb69b016b0ef706);
+        
+
+        marker_b361f6e1af06efd63b92c8a85defab9c.bindPopup(popup_a201429a5f80080a963b0d0205d6b3f5)
+        ;
+
+        
+    
+    
+            var marker_d045756ef83f0fa38334aae37f49e7cc = L.marker(
+                [43.0349931, -87.922497],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_120c98c1a84b2c2e977cbbc02df3f624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d045756ef83f0fa38334aae37f49e7cc.setIcon(icon_120c98c1a84b2c2e977cbbc02df3f624);
+        
+    
+        var popup_18cafe72ca8ecdc9288efb9e70d03861 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a53046b48347e69a6a64d314c6f9db65 = $(`<div id="html_a53046b48347e69a6a64d314c6f9db65" style="width: 100.0%; height: 100.0%;">Institute: Marquette University<br>City: Milwaukee Wisconsin<br>Country:  USA<br>#Groups: 1<br>Coordinates: [43.0349931, -87.922497]</div>`)[0];
+            popup_18cafe72ca8ecdc9288efb9e70d03861.setContent(html_a53046b48347e69a6a64d314c6f9db65);
+        
+
+        marker_d045756ef83f0fa38334aae37f49e7cc.bindPopup(popup_18cafe72ca8ecdc9288efb9e70d03861)
+        ;
+
+        
+    
+    
+            var marker_f4fd22a492abc2f369826247e9611976 = L.marker(
+                [23.2219327, 72.7287599],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_38f17615095695f394f133af610b8694 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f4fd22a492abc2f369826247e9611976.setIcon(icon_38f17615095695f394f133af610b8694);
+        
+    
+        var popup_2b3ea7d43cff22daa86c3c68d0684661 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87213e62c11784ea4081843b8a8d6150 = $(`<div id="html_87213e62c11784ea4081843b8a8d6150" style="width: 100.0%; height: 100.0%;">Institute: Indian Institute of Technology Palaj<br>City: Gandhinagar<br>Country:  India<br>#Groups: 1<br>Coordinates: [23.2219327, 72.7287599]</div>`)[0];
+            popup_2b3ea7d43cff22daa86c3c68d0684661.setContent(html_87213e62c11784ea4081843b8a8d6150);
+        
+
+        marker_f4fd22a492abc2f369826247e9611976.bindPopup(popup_2b3ea7d43cff22daa86c3c68d0684661)
+        ;
+
+        
+    
+    
+            var marker_a18c7405ed1e4df3a06e43557ed31651 = L.marker(
+                [17.613422399999997, 78.10216501452837],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_795a2ea7a1147b82bd37ed087704007e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a18c7405ed1e4df3a06e43557ed31651.setIcon(icon_795a2ea7a1147b82bd37ed087704007e);
+        
+    
+        var popup_20d2a0a19b5209078d05168b2ef17fc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99d8d6405bc2bc1e7e86fc0bb0cff6bb = $(`<div id="html_99d8d6405bc2bc1e7e86fc0bb0cff6bb" style="width: 100.0%; height: 100.0%;">Institute: Indian Institute of Technology Hyderabad<br>City: Sangareddy<br>Country:  India<br>#Groups: 1<br>Coordinates: [17.613422399999997, 78.10216501452837]</div>`)[0];
+            popup_20d2a0a19b5209078d05168b2ef17fc5.setContent(html_99d8d6405bc2bc1e7e86fc0bb0cff6bb);
+        
+
+        marker_a18c7405ed1e4df3a06e43557ed31651.bindPopup(popup_20d2a0a19b5209078d05168b2ef17fc5)
+        ;
+
+        
+    
+    
+            var marker_fe31c47fdfd6dd06b7217a284b73e8e9 = L.marker(
+                [18.521428, 73.8544541],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_ac3f70b7a3d1ab1f10eb791b7327933d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fe31c47fdfd6dd06b7217a284b73e8e9.setIcon(icon_ac3f70b7a3d1ab1f10eb791b7327933d);
+        
+    
+        var popup_f8e517623b1ebb862f20a718014efb38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_653264147c825a683b4c3e4faa369f66 = $(`<div id="html_653264147c825a683b4c3e4faa369f66" style="width: 100.0%; height: 100.0%;">Institute: Indian Institute of Science Education and Research<br>City: Pune<br>Country:  India<br>#Groups: 1<br>Coordinates: [18.521428, 73.8544541]</div>`)[0];
+            popup_f8e517623b1ebb862f20a718014efb38.setContent(html_653264147c825a683b4c3e4faa369f66);
+        
+
+        marker_fe31c47fdfd6dd06b7217a284b73e8e9.bindPopup(popup_f8e517623b1ebb862f20a718014efb38)
+        ;
+
+        
+    
+    
+            var marker_af3768ba683bf0fd6314bb0955b83b86 = L.marker(
+                [41.9464336, -86.3388965],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_0c2b0b0d0c85fae0107e98680d228dfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af3768ba683bf0fd6314bb0955b83b86.setIcon(icon_0c2b0b0d0c85fae0107e98680d228dfc);
+        
+    
+        var popup_619f812abf29c73a02091f6a87f18f87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d852aec39404d6548c0dd5c6967fa7c9 = $(`<div id="html_d852aec39404d6548c0dd5c6967fa7c9" style="width: 100.0%; height: 100.0%;">Institute: Andrews University<br>City: Berrien Springs Michigan<br>Country:  USA<br>#Groups: 1<br>Coordinates: [41.9464336, -86.3388965]</div>`)[0];
+            popup_619f812abf29c73a02091f6a87f18f87.setContent(html_d852aec39404d6548c0dd5c6967fa7c9);
+        
+
+        marker_af3768ba683bf0fd6314bb0955b83b86.bindPopup(popup_619f812abf29c73a02091f6a87f18f87)
+        ;
+
+        
+    
+    
+            var marker_2969d94cdea78c40b45a55b0399a43c9 = L.marker(
+                [18.9792365, 72.8127667],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_028af46349d55c16fcbd9ead15e279ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2969d94cdea78c40b45a55b0399a43c9.setIcon(icon_028af46349d55c16fcbd9ead15e279ef);
+        
+    
+        var popup_0176dfc0b069fdc4b63992f67e0c0791 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71385cc38fdc74945933c36ac2c8b12d = $(`<div id="html_71385cc38fdc74945933c36ac2c8b12d" style="width: 100.0%; height: 100.0%;">Institute: Tata Institute of Fundamental Research<br>City: Mumbai<br>Country:  India<br>#Groups: 1<br>Coordinates: [18.9792365, 72.8127667]</div>`)[0];
+            popup_0176dfc0b069fdc4b63992f67e0c0791.setContent(html_71385cc38fdc74945933c36ac2c8b12d);
+        
+
+        marker_2969d94cdea78c40b45a55b0399a43c9.bindPopup(popup_0176dfc0b069fdc4b63992f67e0c0791)
+        ;
+
+        
+    
+    
+            var marker_45bf68a0ec47c6eb3631951085573ee2 = L.marker(
+                [43.2219088, -87.9822969],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_d8aad59439cb836f8620f3f85ad531a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_45bf68a0ec47c6eb3631951085573ee2.setIcon(icon_d8aad59439cb836f8620f3f85ad531a4);
+        
+    
+        var popup_ecf3048dc99a95ebe08925880e30c72d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7a0a4cbec00009c23268c19322c8bd1 = $(`<div id="html_f7a0a4cbec00009c23268c19322c8bd1" style="width: 100.0%; height: 100.0%;">Institute: Concordia University Wisconsin<br>City: Mequon Wisconsin<br>Country:  USA<br>#Groups: 1<br>Coordinates: [43.2219088, -87.9822969]</div>`)[0];
+            popup_ecf3048dc99a95ebe08925880e30c72d.setContent(html_f7a0a4cbec00009c23268c19322c8bd1);
+        
+
+        marker_45bf68a0ec47c6eb3631951085573ee2.bindPopup(popup_ecf3048dc99a95ebe08925880e30c72d)
+        ;
+
+        
+    
+    
+            var marker_b2a17e5903efe577d45954c9dc0caed6 = L.marker(
+                [40.7404832, -73.9905849],
+                {}
+            ).addTo(map_9bcb7a258dd276e57ad4b320df9dcc35);
+        
+    
+            var icon_f5471820882f6b28ddda4b3ea45cf11c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b2a17e5903efe577d45954c9dc0caed6.setIcon(icon_f5471820882f6b28ddda4b3ea45cf11c);
+        
+    
+        var popup_2763bdd575b9faac2a8aad4096b46e46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d2256db0d2c7ed97fb860b334171d6c = $(`<div id="html_0d2256db0d2c7ed97fb860b334171d6c" style="width: 100.0%; height: 100.0%;">Institute: Center for Computational Astrophysics<br>City: New York New York<br>Country:  USA<br>#Groups: 1<br>Coordinates: [40.7404832, -73.9905849]</div>`)[0];
+            popup_2763bdd575b9faac2a8aad4096b46e46.setContent(html_0d2256db0d2c7ed97fb860b334171d6c);
+        
+
+        marker_b2a17e5903efe577d45954c9dc0caed6.bindPopup(popup_2763bdd575b9faac2a8aad4096b46e46)
+        ;
+
+        
+    
+</script>
