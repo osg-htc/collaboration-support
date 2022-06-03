@@ -1,8 +1,10 @@
 site_name: OSG Collaboration Support
 site_url: https://osg-htc.org/collaboration-support
 repo_name: https://github.com/osg-htc/collaboration-support
-theme: 
+theme:
   name: material
+  features:
+    - content.tabs.link
 
 nav:
   - Home: 'index.md'
@@ -24,6 +26,9 @@ nav:
   - Meeting/Call schedule: 'misc/meeting-schedule.md'
 
 markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
   - admonition
   - codehilite:
       guess_lang: False
