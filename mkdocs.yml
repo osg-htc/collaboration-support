@@ -26,8 +26,7 @@ nav:
   - Meeting/Call schedule: 'misc/meeting-schedule.md'
 
 markdown_extensions:
-  - pymdownx.tabbed:
-      alternate_style: true
+  - pymdownx.tabbed
   - pymdownx.superfences
   - admonition
   - codehilite:
