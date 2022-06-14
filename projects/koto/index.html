@@ -517,7 +517,7 @@
 <p>KOTO is an international collaboration of an experiment based at the JPARC HEP facility in Japan.</p>
 <h2 id="access-point">Access Point<a class="headerlink" href="#access-point" title="Permanent link">&para;</a></h2>
 <p>KOTO submits out of the Connect node: login.collab.ci-connect.net. To request an account, visit the portal at https://ci-connect.net and 
-ask to join the <a href="https://www.ci-connect.net/groups/root.collab">PATh Collaborations</a>. <a href="https://www.ci-connect.net/groups/root.collab.KOTO">KOTO</a> is a subproject under PATh collaboration and a separate request needs to be made to join. </p>
+ask to join the <a href="https://www.ci-connect.net/groups/root.collab">PATh Collaborations</a> group. <a href="https://www.ci-connect.net/groups/root.collab.KOTO">KOTO</a> is a subgroup under PATh collaborations and a separate request needs to be made to join by clicking the request memberhip button.  </p>
 <h2 id="jobs-to-the-ospool">Jobs to the OSPool<a class="headerlink" href="#jobs-to-the-ospool" title="Permanent link">&para;</a></h2>
 <p>Inlined below is a submit script to run a KOTO job on the OSPool</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
@@ -553,8 +553,7 @@ ask to join the <a href="https://www.ci-connect.net/groups/root.collab">PATh Col
 Queue <span class="m">1</span>
 </code></pre></div>
 </td></tr></table>
-<p>KOTO uses a software stack that is included in the Singularity image - shown above. The image is deployed on the remote worker nodes and jobs run within
-the Singularity container. The input file, e14_201605.mac, is send to the worker node as part of the job. The execution script, run_koto.sh, sets the environment and includes all invocations to executables and data management commands. The following run_koto.sh script, runs a benchmark example from the E14 library.</p>
+<p>KOTO uses a software stack that is included in the Singularity image - shown in the script above. The image is deployed on the remote execution nodes and jobs run within the Singularity container. The input file, e14_201605.mac, is sent to the execution node as part of the job. The execution script, run_koto.sh, sets the environment and includes all invocations to executables. The following script, run_koto.sh, runs a benchmark example from the E14 library.</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -591,7 +590,8 @@ env <span class="p">|</span> grep G4
 </code></pre></div>
 </td></tr></table>
 <h2 id="storage-access">Storage access<a class="headerlink" href="#storage-access" title="Permanent link">&para;</a></h2>
-<p>Besides their homedirectories on login.collab.ci-connect.net, users have access to local storage in /scratch/<user_id> and distributed storage in /collab/user/<user_id>. In addition, the collaboration has access to /collab/project/KOTO for sharing data products between the users. </p>
+<p>Besides their home directories on login.collab.ci-connect.net, users have access to local storage in /scratch/<user_id> and distributed storage in /collab/user/<user_id>. In addition, the collaboration has access to /collab/project/KOTO for sharing data products between the users. </p>
+<p>The distributed storage is http accessible: http://stash.osgstorage.org/collab/KOTO and data can be downloaded using a browser or command line utilities like wget or curl.</p>
                 
               
               
