@@ -6,7 +6,7 @@ KOTO is an international collaboration of an experiment based at the JPARC HEP f
 ## Access Point
 
 KOTO submits out of the Connect node: login.collab.ci-connect.net. To request an account, visit the portal at https://ci-connect.net and 
-ask to join the [PATh Collaborations](https://www.ci-connect.net/groups/root.collab). [KOTO](https://www.ci-connect.net/groups/root.collab.KOTO) is a subproject under PATh collaboration and a separate request needs to be made to join. 
+ask to join the [PATh Collaborations](https://www.ci-connect.net/groups/root.collab) group. [KOTO](https://www.ci-connect.net/groups/root.collab.KOTO) is a subgroup under PATh collaborations and a separate request needs to be made to join by clicking the request memberhip button.  
 
 ## Jobs to the OSPool
 
@@ -28,10 +28,8 @@ Inlined below is a submit script to run a KOTO job on the OSPool
     request_disk = 2GB
     +ProjectName="collab.KOTO"
     Queue 1
-   
-KOTO uses a software stack that is included in the Singularity image - shown above. The image is deployed on the remote worker nodes and jobs run within
-the Singularity container. The input file, e14_201605.mac, is send to the worker node as part of the job. The execution script, run_koto.sh, sets the environment and includes all invocations to executables and data management commands. The following run_koto.sh script, runs a benchmark example from the E14 library.
 
+KOTO uses a software stack that is included in the Singularity image - shown in the script above. The image is deployed on the remote execution nodes and jobs run within the Singularity container. The input file, e14_201605.mac, is sent to the execution node as part of the job. The execution script, run_koto.sh, sets the environment and includes all invocations to executables. The following script, run_koto.sh, runs a benchmark example from the E14 library.
 
     #!/bin/bash
     echo $HOSTNAME
@@ -54,4 +52,6 @@ the Singularity container. The input file, e14_201605.mac, is send to the worker
 
 ## Storage access
 
-Besides their homedirectories on login.collab.ci-connect.net, users have access to local storage in /scratch/<user_id> and distributed storage in /collab/user/<user_id>. In addition, the collaboration has access to /collab/project/KOTO for sharing data products between the users. 
+Besides their home directories on login.collab.ci-connect.net, users have access to local storage in /scratch/<user_id> and distributed storage in /collab/user/<user_id>. In addition, the collaboration has access to /collab/project/KOTO for sharing data products between the users. 
+
+The distributed storage is http accessible: http://stash.osgstorage.org/collab/KOTO and data can be downloaded using a browser or command line utilities like wget or curl.
