@@ -398,6 +398,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#access-point" class="md-nav__link">
+    Access Point
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jobs-to-the-ospool" class="md-nav__link">
+    Jobs to the OSPool
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage-access" class="md-nav__link">
+    Storage access
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -456,6 +477,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#access-point" class="md-nav__link">
+    Access Point
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jobs-to-the-ospool" class="md-nav__link">
+    Jobs to the OSPool
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage-access" class="md-nav__link">
+    Storage access
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -473,6 +515,83 @@
                 
                 <h2 id="koto">KOTO<a class="headerlink" href="#koto" title="Permanent link">&para;</a></h2>
 <p>KOTO is an international collaboration of an experiment based at the JPARC HEP facility in Japan.</p>
+<h2 id="access-point">Access Point<a class="headerlink" href="#access-point" title="Permanent link">&para;</a></h2>
+<p>KOTO submits out of the Connect node: login.collab.ci-connect.net. To request an account, visit the portal at https://ci-connect.net and 
+ask to join the <a href="https://www.ci-connect.net/groups/root.collab">PATh Collaborations</a>. <a href="https://www.ci-connect.net/groups/root.collab.KOTO">KOTO</a> is a subproject under PATh collaboration and a separate request needs to be made to join. </p>
+<h2 id="jobs-to-the-ospool">Jobs to the OSPool<a class="headerlink" href="#jobs-to-the-ospool" title="Permanent link">&para;</a></h2>
+<p>Inlined below is a submit script to run a KOTO job on the OSPool</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<span class="nv">Universe</span> <span class="o">=</span> Vanilla
+<span class="nv">Executable</span>     <span class="o">=</span> run_koto.sh
+<span class="nv">Requirements</span> <span class="o">=</span> <span class="nv">HAS_SINGULARITY</span> <span class="o">==</span> TRUE
++SingularityImage <span class="o">=</span> <span class="s2">&quot;/cvmfs/singularity.opensciencegrid.org/ppaschos/koto-dev:latest&quot;</span>
+<span class="nv">transfer_input_files</span> <span class="o">=</span> e14_201605.mac
+<span class="nv">Error</span>   <span class="o">=</span> output.err.<span class="k">$(</span>Cluster<span class="k">)</span>-<span class="k">$(</span>Process<span class="k">)</span>
+<span class="nv">Output</span>  <span class="o">=</span> output.out.<span class="k">$(</span>Cluster<span class="k">)</span>-<span class="k">$(</span>Process<span class="k">)</span>
+<span class="nv">Log</span>     <span class="o">=</span> output.log.<span class="k">$(</span>Cluster<span class="k">)</span>
+<span class="nv">should_transfer_files</span> <span class="o">=</span> YES
+<span class="nv">WhenToTransferOutput</span> <span class="o">=</span> ON_EXIT
+<span class="nv">request_cpus</span> <span class="o">=</span> <span class="m">1</span>
+<span class="nv">request_memory</span> <span class="o">=</span> 2GB
+<span class="nv">request_disk</span> <span class="o">=</span> 2GB
++ProjectName<span class="o">=</span><span class="s2">&quot;collab.KOTO&quot;</span>
+Queue <span class="m">1</span>
+</code></pre></div>
+</td></tr></table>
+<p>KOTO uses a software stack that is included in the Singularity image - shown above. The image is deployed on the remote worker nodes and jobs run within
+the Singularity container. The input file, e14_201605.mac, is send to the worker node as part of the job. The execution script, run_koto.sh, sets the environment and includes all invocations to executables and data management commands. The following run_koto.sh script, runs a benchmark example from the E14 library.</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<span class="nb">echo</span> <span class="nv">$HOSTNAME</span>
+<span class="nb">source</span> /opt/koto/root/v6.22.02/bin/thisroot.sh
+<span class="nb">source</span> /opt/koto/geant4/10.05.p01/bin/geant4.sh
+<span class="nb">echo</span> <span class="s2">&quot;PATH --&gt; &quot;</span> <span class="nv">$PATH</span>
+<span class="nb">echo</span> <span class="s2">&quot;LD_LIBRARY_PATH --&gt; &quot;</span> <span class="nv">$LD_LIBRARY_PATH</span>
+<span class="nb">echo</span> <span class="s2">&quot;ROOTSYS --&gt; &quot;</span> <span class="nv">$ROOTSYS</span>
+<span class="nb">echo</span> <span class="s2">&quot;G4 data environent&quot;</span>
+env <span class="p">|</span> grep G4
+<span class="nb">export</span> <span class="nv">E14_TOP_DIR</span><span class="o">=</span><span class="s2">&quot;/opt/koto/e14/201605v6.2/e14&quot;</span>
+<span class="nb">echo</span> <span class="s2">&quot;E14_TOP_DIR=&quot;</span> <span class="nv">$E14_TOP_DIR</span>
+<span class="nb">source</span> /opt/koto/e14/201605v6.2/setup.sh
+<span class="nv">output</span><span class="o">=</span><span class="s2">&quot;output.root&quot;</span>
+<span class="nv">nevent</span><span class="o">=</span><span class="m">1000</span>
+<span class="nv">seed</span><span class="o">=</span><span class="m">0</span>
+<span class="nb">echo</span> <span class="s2">&quot;Running Code&quot;</span>
+/opt/koto/e14/201605v6.2/e14/examples/gsim4test/bin/gsim4test e14_201605.mac <span class="si">${</span><span class="nv">output</span><span class="si">}</span> <span class="si">${</span><span class="nv">nevent</span><span class="si">}</span> <span class="si">${</span><span class="nv">seed</span><span class="si">}</span> <span class="si">${</span><span class="nv">seed</span><span class="si">}</span>
+</code></pre></div>
+</td></tr></table>
+<h2 id="storage-access">Storage access<a class="headerlink" href="#storage-access" title="Permanent link">&para;</a></h2>
+<p>Besides their homedirectories on login.collab.ci-connect.net, users have access to local storage in /scratch/<user_id> and distributed storage in /collab/user/<user_id>. In addition, the collaboration has access to /collab/project/KOTO for sharing data products between the users. </p>
                 
               
               
