@@ -406,6 +406,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#storage-access" class="md-nav__link">
+    Storage access
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#jobs-to-the-ospool" class="md-nav__link">
     Jobs to the OSPool
   </a>
@@ -413,9 +420,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#storage-access" class="md-nav__link">
-    Storage access
+  <a href="#pegasus-workflows" class="md-nav__link">
+    Pegasus Workflows
   </a>
+  
+    <nav class="md-nav" aria-label="Pegasus Workflows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#koto-workflow-example" class="md-nav__link">
+    KOTO workflow example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -485,6 +505,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#storage-access" class="md-nav__link">
+    Storage access
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#jobs-to-the-ospool" class="md-nav__link">
     Jobs to the OSPool
   </a>
@@ -492,9 +519,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#storage-access" class="md-nav__link">
-    Storage access
+  <a href="#pegasus-workflows" class="md-nav__link">
+    Pegasus Workflows
   </a>
+  
+    <nav class="md-nav" aria-label="Pegasus Workflows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#koto-workflow-example" class="md-nav__link">
+    KOTO workflow example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -518,6 +558,9 @@
 <h2 id="access-point">Access Point<a class="headerlink" href="#access-point" title="Permanent link">&para;</a></h2>
 <p>KOTO submits out of the Connect node: login.collab.ci-connect.net. To request an account, visit the portal at https://ci-connect.net and 
 ask to join the <a href="https://www.ci-connect.net/groups/root.collab">PATh Collaborations</a> group. <a href="https://www.ci-connect.net/groups/root.collab.KOTO">KOTO</a> is a subgroup under PATh collaborations and a separate request needs to be made to join by clicking the request memberhip button.  </p>
+<h2 id="storage-access">Storage access<a class="headerlink" href="#storage-access" title="Permanent link">&para;</a></h2>
+<p>Besides their home directories on login.collab.ci-connect.net, users have access to local storage in /scratch/<user_id> and distributed storage in /collab/user/<user_id>. In addition, the collaboration has access to /collab/project/KOTO for sharing data products between the users. </p>
+<p>The distributed storage is http accessible: http://stash.osgstorage.org/collab/KOTO and data can be downloaded using a browser or command line utilities like wget or curl.</p>
 <h2 id="jobs-to-the-ospool">Jobs to the OSPool<a class="headerlink" href="#jobs-to-the-ospool" title="Permanent link">&para;</a></h2>
 <p>Inlined below is a submit script to run a KOTO job on the OSPool</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
@@ -589,9 +632,341 @@ env <span class="p">|</span> grep G4
 /opt/koto/e14/201605v6.2/e14/examples/gsim4test/bin/gsim4test e14_201605.mac <span class="si">${</span><span class="nv">output</span><span class="si">}</span> <span class="si">${</span><span class="nv">nevent</span><span class="si">}</span> <span class="si">${</span><span class="nv">seed</span><span class="si">}</span> <span class="si">${</span><span class="nv">seed</span><span class="si">}</span>
 </code></pre></div>
 </td></tr></table>
-<h2 id="storage-access">Storage access<a class="headerlink" href="#storage-access" title="Permanent link">&para;</a></h2>
-<p>Besides their home directories on login.collab.ci-connect.net, users have access to local storage in /scratch/<user_id> and distributed storage in /collab/user/<user_id>. In addition, the collaboration has access to /collab/project/KOTO for sharing data products between the users. </p>
-<p>The distributed storage is http accessible: http://stash.osgstorage.org/collab/KOTO and data can be downloaded using a browser or command line utilities like wget or curl.</p>
+<h2 id="pegasus-workflows">Pegasus Workflows<a class="headerlink" href="#pegasus-workflows" title="Permanent link">&para;</a></h2>
+<p><a href="https://pegasus.isi.edu">The Pegasus project</a> encompasses a set
+of technologies that help workflow-based applications execute in a
+number of different environments including desktops, campus clusters,
+grids, and clouds. Pegasus bridges the scientific domain and the
+execution environment by automatically mapping high-level workflow
+descriptions onto distributed resources. It automatically locates the
+necessary input data and computational resources necessary for workflow
+execution. Pegasus enables scientists to construct workflows in abstract
+terms without worrying about the details of the underlying execution
+environment or the particulars of the low-level specifications required
+by the middleware. Some of the advantages of using Pegasus include:</p>
+<ul>
+<li>
+<p><strong>Portability / Reuse</strong> - User created workflows can easily be
+     run in different environments without alteration. Pegasus currently
+     runs workflows on compute systems scheduled via HTCondor, including the
+     OSPool, and other other systems or via other schedulers (e.g. ACCESS
+     resources, Amazon EC2, Google Cloud, and many campus clusters). The same
+     workflow can run on a single system or across a heterogeneous set of
+     resources.</p>
+</li>
+<li>
+<p><strong>Performance</strong> - The Pegasus mapper can reorder, group, and prioritize
+     tasks in order to increase the overall workflow performance.</p>
+</li>
+<li>
+<p><strong>Scalability</strong> - Pegasus can easily scale both the size of the
+     workflow, and the resources that the workflow is distributed over.
+     Pegasus runs workflows ranging from just a few computational tasks up
+     to 1 million tasks. The number of resources involved in executing a
+     workflow can scale as needed without any impediments to performance.</p>
+</li>
+<li>
+<p><strong>Provenance</strong> - By default, all jobs in Pegasus are launched via
+     the kickstart process that captures runtime provenance of the job and
+     helps in debugging. The provenance data is collected in a database, and
+     the data can be summarized with tools such as pegasus-statistics or
+     directly with SQL queries.</p>
+</li>
+<li>
+<p><strong>Data Management</strong> - Pegasus handles replica selection, data
+     transfers and output registrations in data catalogs. These tasks are
+     added to a workflow as auxiliary jobs by the Pegasus planner.</p>
+</li>
+<li>
+<p><strong>Reliability</strong> - Jobs and data transfers are automatically retried
+     in case of failures. Debugging tools such as pegasus-analyzer help the
+     user to debug the workflow in case of non-recoverable failures.</p>
+</li>
+<li>
+<p><strong>Error Recovery</strong> - When errors occur, Pegasus tries to recover
+     when possible by retrying tasks, retrying the entire workflow, providing
+     workflow-level checkpointing, re-mapping portions of the workflow,
+     trying alternative data sources for staging data, and, when all else
+     fails, providing a rescue workflow containing a description of only the
+     work that remains to be done. Pegasus keeps track of what has been done
+     (provenance) including the locations of data used and produced, and
+     which software was used with which parameters.</p>
+</li>
+</ul>
+<p>OSG has no read/write enabled shared file system across the resources.
+Jobs are required to either bring inputs along with the job, or as
+part of the job stage the inputs from a remote location. The following
+examples highlight how Pegasus can be used to manage KOTO workloads in
+such an environment by providing an abstraction layer around things
+like data movements and job retries, enabling the users to run larger
+workloads, spending less time developing job management tools and
+babysitting their computations.</p>
+<p>Pegasus workflows have 4 components:</p>
+<ol>
+<li>
+<p><strong>Site Catalog</strong> - Describes the execution environment in which
+     the workflow will be executed.</p>
+</li>
+<li>
+<p><strong>Transformation Catalog</strong> - Specifies locations of the executables
+     used by the workflow.</p>
+</li>
+<li>
+<p><strong>Replica Catalog</strong> - Specifies locations of the input data to the
+     workflow.</p>
+</li>
+<li>
+<p><strong>Workflow Description</strong> - An abstract workflow description
+     containing compute steps and dependencies between the steps. We
+     refer to this workflow as abstract because it does not contain data
+     locations and available software.</p>
+</li>
+</ol>
+<p>When developing a Pegasus Workflow using the
+<a href="https://pegasus.isi.edu/documentation/reference-guide/api-reference.html">Python API</a>,
+all four components may be defined in the same file.</p>
+<p>For details, please refer to the <a href="https://pegasus.isi.edu/documentation/">Pegasus documentation</a>.</p>
+<h3 id="koto-workflow-example">KOTO workflow example<a class="headerlink" href="#koto-workflow-example" title="Permanent link">&para;</a></h3>
+<p>The GitHub repo <a href="https://github.com/pegasus-isi/koto-pegasus">https://github.com/pegasus-isi/koto-pegasus</a>
+contains a sample Pegasus workflow for KOTO processing. It is a very
+simple Monte Carlo example, containing just N independent jobs:</p>
+<p><img alt="fig 1" src="https://raw.githubusercontent.com/pegasus-isi/koto-pegasus/master/figures/KOTO-Workflow.png" /></p>
+<p>This example is using <a href="https://derekweitzel.com/2018/09/26/stashcache-by-the-numbers/">OSG StashCache</a>
+for data transfers. Credentials are transparant to the end users.</p>
+<p>Additionally, this example uses a custom container to run jobs. This
+ensures a consistent and complete environment for the jobs. Which 
+container to use is defined in <code>workflow.py</code> with the
+<code>+SingularityImage</code> attribute.</p>
+<p>When invoked, the workflow script (<code>workflow.py</code>) does the following:</p>
+<ol>
+<li>
+<p>Writes the file <code>pegasus.properties</code>. This file contains configuration settings
+     used by Pegasus and HTCondor.</p>
+<div class="codehilite"><pre><span></span><code> # --- Properties ---------------------------------------------------------------
+ props = Properties()
+ props[&quot;pegasus.data.configuration&quot;] = &quot;nonsharedfs&quot;
+
+ # Provide a full kickstart record, including the environment, even for successful jobs
+ props[&quot;pegasus.gridstart.arguments&quot;] = &quot;-f&quot;
+
+ # Limit the number of idle jobs for large workflows
+ props[&quot;dagman.maxidle&quot;] = &quot;1000&quot;
+
+ # use timestamps for all our dirs - this make sure we have unique names in stash
+ props[&quot;pegasus.dir.useTimestamp&quot;] = &quot;true&quot;
+
+ # seperate output dir for each workflow run
+ props[&quot;pegasus.dir.storage.deep&quot;] = &quot;true&quot;
+
+ # Help Pegasus developers by sharing performance data (optional)
+ props[&quot;pegasus.monitord.encoding&quot;] = &quot;json&quot;
+ props[&quot;pegasus.catalog.workflow.amqp.url&quot;] = &quot;amqp://friend:donatedata@msgs.pegasus.isi.edu:5672/prod/workflows&quot;
+ props[&quot;pegasus.metrics.app&quot;] = &quot;KOTO&quot;
+</code></pre></div>
+
+</li>
+<li>
+<p>Writes the file <code>sites.yml</code>. This file describes the execution environment in
+     which the workflow will be run.</p>
+<div class="codehilite"><pre><span></span><code> # --- Sites --------------------------------------------------------------------
+ sc = SiteCatalog()
+
+ # local site (submit machine)
+ local_site = Site(name=&quot;local&quot;)
+
+ local_shared_scratch = Directory(directory_type=Directory.SHARED_SCRATCH, path=WORK_DIR / &quot;scratch&quot;)
+ local_shared_scratch.add_file_servers(FileServer(url=&quot;file://&quot; + str(WORK_DIR / &quot;scratch&quot;), operation_type=Operation.ALL))
+ local_site.add_directories(local_shared_scratch)
+
+ local_storage = Directory(directory_type=Directory.LOCAL_STORAGE, path=WORK_DIR / &quot;outputs&quot;)
+ local_storage.add_file_servers(FileServer(url=&quot;file://&quot; + str(WORK_DIR / &quot;outputs&quot;), operation_type=Operation.ALL))
+ local_site.add_directories(local_storage)
+
+ local_site.add_env(PATH=os.environ[&quot;PATH&quot;])
+ sc.add_sites(local_site)
+
+ # stash site (staging site, where intermediate data will be stored)
+ stash_site = Site(name=&quot;stash&quot;, arch=Arch.X86_64, os_type=OS.LINUX)
+ stash_staging_path = &quot;/collab/user/{USER}/staging&quot;.format(USER=getpass.getuser())
+ stash_shared_scratch = Directory(directory_type=Directory.SHARED_SCRATCH, path=stash_staging_path)
+ stash_shared_scratch.add_file_servers(
+     FileServer(
+         url=&quot;stash:///osgconnect{STASH_STAGING_PATH}&quot;.format(STASH_STAGING_PATH=stash_staging_path), 
+         operation_type=Operation.ALL)
+ )
+ stash_site.add_directories(stash_shared_scratch)
+ sc.add_sites(stash_site)
+
+ # condorpool (execution site)
+ condorpool_site = Site(name=&quot;condorpool&quot;, arch=Arch.X86_64, os_type=OS.LINUX)
+ condorpool_site.add_pegasus_profile(style=&quot;condor&quot;)
+ condorpool_site.add_condor_profile(
+     universe=&quot;vanilla&quot;,
+     requirements=&quot;HAS_SINGULARITY == True &amp;&amp; HAS_AVX2 == True&quot;,
+     request_cpus=1,
+     request_memory=&quot;4 GB&quot;,
+     request_disk=&quot;10 GB&quot;,
+ )
+ condorpool_site.add_profiles(
+     Namespace.CONDOR, 
+     key=&quot;+SingularityImage&quot;, 
+     value=&#39;&quot;/cvmfs/singularity.opensciencegrid.org/chiehlin0212/koto-dev:latest&quot;&#39;
+ )
+ condorpool_site.add_profiles(
+     Namespace.CONDOR, 
+     key=&quot;+ProjectName&quot;, 
+     value=&#39;&quot;collab.KOTO&quot;&#39;
+ )
+
+ sc.add_sites(condorpool_site)
+
+ # write SiteCatalog to ./sites.yml
+ sc.write()
+</code></pre></div>
+
+</li>
+<li>
+<p>Writes the file <code>transformations.yml</code>. This file specifies the executables used
+     in the workflow and contains the locations where they are physically located.
+     In this example, we only have <code>run_koto.sh</code>.</p>
+<div class="codehilite"><pre><span></span><code> # --- Transformations ----------------------------------------------------------
+ run_koto = Transformation(
+                name=&quot;run_koto&quot;,
+                site=&quot;local&quot;,
+                pfn=TOP_DIR / &quot;bin/run_koto.sh&quot;,
+                is_stageable=True
+            ).add_pegasus_profile(clusters_size=1)
+
+ tc = TransformationCatalog()
+ tc.add_transformations(run_koto)
+
+ # write TransformationCatalog to ./transformations.yml
+ tc.write()
+</code></pre></div>
+
+</li>
+<li>
+<p>Writes the file <code>replicas.yml</code>. This file specifies the physical locations of
+     any input files used by the workflow. In this example, there is an entry for
+     each file in the <code>inputs/</code> directory, and all files matching
+     <code>/collab/project/KOTO/external/run87/accidental/64kW/**/*.root</code></p>
+<div class="codehilite"><pre><span></span><code> # --- Replicas -----------------------------------------------------------------
+
+ rc = ReplicaCatalog()
+
+ input_files = []
+
+ # all files in the inputs/ dir
+ input_files = glob.glob(str(TOP_DIR / &quot;inputs/*&quot;))
+
+ for f in input_files:
+     lfn = os.path.basename(f)    
+     rc.add_replica(site=&quot;local&quot;, lfn=lfn, pfn=f)
+
+ # also add all wave files
+ wave_files = glob.glob(&quot;/collab/project/KOTO/external/run87/accidental/64kW/**/*.root&quot;, recursive=True)
+
+ for f in wave_files:
+     lfn = os.path.basename(f)    
+     rc.add_replica(site=&quot;local&quot;, lfn=lfn, pfn=f)
+
+ # write ReplicaCatalog to replicas.yml
+ rc.write()
+</code></pre></div>
+
+</li>
+<li>
+<p>Builds the wordfreq workflow and submits it for execution. When <code>wf.plan</code> is
+     invoked, <code>pegasus.properties</code>, <code>sites.yml</code>, <code>transformations.yml</code>, and
+     <code>replicas.yml</code> will be consumed as part of the workflow planning process. Note that
+     in this step there is no mention of data movement and job details as these are
+     added by Pegasus when the workflow is planned into an executable workflow. As
+     part of the planning process, additional jobs which handle scratch directory
+     creation, data staging, and data cleanup are added to the workflow.</p>
+<div class="codehilite"><pre><span></span><code> # --- Workflow -----------------------------------------------------------------
+ wf = Workflow(name=&quot;koto&quot;)
+
+ random.seed()
+ for n in range(10):
+
+     # arguments
+     decay_mode = &quot;KL3pi0&quot;
+     seed = str(random.randint(0, 10000))
+     wave = os.path.basename(random.choice(wave_files))
+
+     # TODO: check if we already have a job with the seed/wave combination
+     print(&quot; ... added mc job with wave={} / seed={}&quot;.format(wave, seed))
+
+     out_root = File(&quot;{}_BasicVetoAndCuts_Accidental_{}.root&quot;.format(decay_mode, seed))
+     job = Job(run_koto)\
+              .add_args(decay_mode, seed, wave)\
+              .add_outputs(out_root)
+
+     # inputs, only use the lfn
+     for inp in input_files + [wave]:
+         job.add_inputs(os.path.basename(inp))
+
+     wf.add_jobs(job)
+
+ # plan and run the workflow
+ wf.plan(
+     dir=WORK_DIR / &quot;runs&quot;,
+     sites=[&quot;condorpool&quot;],
+     staging_sites={&quot;condorpool&quot;: &quot;stash&quot;},
+     output_sites=[&quot;local&quot;],
+     cluster=[&quot;horizontal&quot;],
+     submit=True
+ )
+</code></pre></div>
+
+</li>
+</ol>
+<p>Submit the workflow by executing <code>workflow.py</code>.</p>
+<div class="codehilite"><pre><span></span><code>$ ./workflow.py
+</code></pre></div>
+
+<p>Note that when Pegasus plans/submits a workflow, a workflow directory is created
+and presented in the output. In the following example output, the workflow directory
+is <code>/home/user/workflows/runs/pegasus/run0014</code>.</p>
+<div class="codehilite"><pre><span></span><code>2020.12.18 14:33:07.059 CST:   -----------------------------------------------------------------------
+2020.12.18 14:33:07.064 CST:   File for submitting this DAG to HTCondor           : koto-workflow-0.dag.condor.sub
+2020.12.18 14:33:07.070 CST:   Log of DAGMan debugging messages                 : koto-workflow-0.dag.dagman.out
+2020.12.18 14:33:07.075 CST:   Log of HTCondor library output                     : koto-workflow-0.dag.lib.out
+2020.12.18 14:33:07.080 CST:   Log of HTCondor library error messages             : koto-workflow-0.dag.lib.err
+2020.12.18 14:33:07.086 CST:   Log of the life of condor_dagman itself          : koto-workflow-0.dag.dagman.log
+2020.12.18 14:33:07.091 CST:
+2020.12.18 14:33:07.096 CST:   -no_submit given, not submitting DAG to HTCondor.  You can do this with:
+2020.12.18 14:33:07.107 CST:   -----------------------------------------------------------------------
+2020.12.18 14:33:11.352 CST:   Your database is compatible with Pegasus version: 5.1.0dev
+[WARNING]  Submitting to condor koto-workflow-0.dag.condor.sub
+2020.12.18 14:33:12.060 CST:   Time taken to execute is 5.818 seconds
+
+Your workflow has been started and is running in the base directory:
+
+/home/user/workflows/runs/koto-workflow/run0014
+
+*** To monitor the workflow you can run ***
+
+pegasus-status -l /home/user/workflows/runs/koto-workflow/run0014
+
+
+*** To remove your workflow run ***
+
+pegasus-remove /home/user/workflows/runs/koto-workflow/run0014
+</code></pre></div>
+
+<p>This directory is the handle to the workflow instance
+and is used by Pegasus command line tools. Some useful tools to know about:</p>
+<ul>
+<li><code>pegasus-status -v [wfdir]</code>
+     Provides status on a currently running workflow. (<a href="https://pegasus.isi.edu/documentation/manpages/pegasus-status.html">more</a>)</li>
+<li><code>pegasus-analyzer [wfdir]</code>
+     Provides debugging clues why a workflow failed. Run this after a workflow has failed. (<a href="https://pegasus.isi.edu/documentation/manpages/pegasus-analyzer.html">more</a>)</li>
+<li><code>pegasus-statistics [wfdir]</code>
+     Provides statistics, such as walltimes, on a workflow after it has completed. (<a href="https://pegasus.isi.edu/documentation/manpages/pegasus-statistics.html">more</a>)</li>
+<li><code>pegasus-remove [wfdir]</code>
+     Removes a workflow from the system. (<a href="https://pegasus.isi.edu/documentation/manpages/pegasus-remove.html">more</a>) </li>
+</ul>
                 
               
               
