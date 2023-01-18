@@ -14,7 +14,7 @@ the distributed High Throughput Computing (dHTC) ecosystem of OSG for their rese
 
 ### Contact Us
 
-Open a Ticket by sending an email to [help@osg-htc.org](help@osg-htc.org) and request support for your collaboration project.
+Open a Ticket by sending an email to [help@osg-htc.org](mailto:help@osg-htc.org) and request support for your collaboration project.
 
 ***
 
