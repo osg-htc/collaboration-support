@@ -4,7 +4,7 @@
 ### Mission
 
 The mission of OSG Collaboration Support is to enable access and lower the barrier for Midsize collaborations to leverage
-the OSG Consortium's services and technologies for their research. 
+the OSG Consortium’s services and technologies for their research. 
 
 ## Collaboration Institutions and Compute Sites
 
