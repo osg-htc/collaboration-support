@@ -9,6 +9,9 @@ user base to submit jobs to the OSPool and collaborate on their project while sh
 
 ### Obtain accounts for users/project on OSG's Collab Access Point.
 
+OSG Collab Access Point provides multi-institutional collaboration with a single point of submission of dHTC to the Open Science Pool (OSPool). A PI can visit the accounting portal (https://ci-connect.net) sign-up using CI Logon credentials and then create a project. Users from different institutions can join the project. This simplifies access to compute and storage resources as those users are not bounded by institutional barriers. For example Institution A and Institution B need to work on a project. It is not easy for students/postdocs from Institution A to obtain an identity that will allow them to collaborate with their collegues at the institution. Creating a project with users from both allows for a collaborative environment where the research team can launch jobs to the OSPool, levereage multi-TB ephemeral storage and even run computational  workflows - like post-processing or mereging on the access point (then login node itself. 
+
+A walk through through the accounting process is linked here. 
 
 
 ## Collaboration Institutions and Compute Sites
