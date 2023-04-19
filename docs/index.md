@@ -4,7 +4,12 @@
 ### Mission
 
 The mission of OSG Collaboration Support is to enable access and lower the barrier for Midsize collaborations to leverage
-the OSG Consortium’s services and technologies for their research. 
+the OSG Consortium’s services and technologies for their research. Multi-institutional projects can leverage a common access point for their
+user base to submit jobs to the OSPool and collaborate on their project while sharing data. 
+
+### Obtain accounts for users/project on OSG's Collab Access Point.
+
+
 
 ## Collaboration Institutions and Compute Sites
 
@@ -12,7 +17,7 @@ the OSG Consortium’s services and technologies for their research.
 
 ***
 
-### Regular Meeting schedule
+## Regular Meeting schedule
 
 Collaboration support holds and participates in meetings during the week to assist and coordinate on projects. A list of the weekly meeting schedule is maintained [here](misc/meeting-schedule.md)
 
@@ -20,7 +25,7 @@ Collaboration support holds and participates in meetings during the week to assi
 
 [Collaboration list](projects/project-list.md)
 
-### Contact Us
+## Contact Us
 
 Open a Ticket by sending an email to [help@osg-htc.org](mailto:help@osg-htc.org) and request support for your collaboration project.
 
