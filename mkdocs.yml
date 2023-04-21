@@ -8,6 +8,7 @@ theme:
 
 nav:
   - Home: 'index.md'
+  - Services: 'misc/services.md'
   - Current Collaborations:
     - Overview: 'projects/project-list.md'
     - REDTOP: 'projects/Redtop.md'
