@@ -7,7 +7,7 @@ theme:
     - content.tabs.link
 
 nav:
-  - Home: 'index.md'
+  - OSG Collaboration Support: 'index.md'
   - Services: 'misc/services.md'
   - Access to Collab AP: 'misc/onboard.md'
   - Current Collaborations:
