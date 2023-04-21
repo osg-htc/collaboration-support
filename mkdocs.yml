@@ -9,6 +9,7 @@ theme:
 nav:
   - Home: 'index.md'
   - Services: 'misc/services.md'
+  - Access to Collab AP: 'misc/onboard.md'
   - Current Collaborations:
     - Overview: 'projects/project-list.md'
     - REDTOP: 'projects/Redtop.md'
