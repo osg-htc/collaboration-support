@@ -1,7 +1,7 @@
 ## Services
 
 
-### Collab Access Point (A)
+### Collab Access Point (AP)
 
 Onboarding to the OSG managed and Collaboration dedicated Access Point. Users will be trained in job submission and software development appropriate for the dHTC jobs. 
 In addition, the project will be support with visible performance metrics coming from the central OSG Accounting dashboard [Gracc](https://gracc.opensciencegrid.org/d/000000074/gracc-home?orgId=1).
