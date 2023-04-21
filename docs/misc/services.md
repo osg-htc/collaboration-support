@@ -1,7 +1,4 @@
-## Services
-
-
-### Collab Access Point (AP)
+## Collab Access Point (AP)
 
 Onboarding to the OSG managed and Collaboration dedicated Access Point. Users will be trained in job submission and software development appropriate for the dHTC jobs. 
 In addition, the project will be support with visible performance metrics coming from the central OSG Accounting dashboard [Gracc](https://gracc.opensciencegrid.org/d/000000074/gracc-home?orgId=1).
@@ -9,7 +6,7 @@ Collaboration support staff will in a position to provide consultation services 
 encountered and facilitate coordination with other institutional partners that require access to procuded data products.
 
 
-### Data management and storage
+## Data management and storage
 
 All projects will be provisioned with distributed storage on the Open Science Data Federation (OSDF) and local storage on the AP. Collaboration support will
 will work with the collaboration in managing the storage within limits agreed during the onboarding process. Staff will train users on how to best 
@@ -21,7 +18,7 @@ institutional managed Caches in proximity to location where compute cycles are a
 distributing data without the need for an Origin. Data in this case is hosted in part at each member institution with Rucio providing a centralized 
 management service of where the data are and where do they need to be replicated - either for use in dHTC jobs or local batch systems.
 
-#### Integration of Collaboration owned resources
+## Integration of Collaboration owned resources
 
 This process results in a pool of resources where a job submission from an AP, e.g. the Collab AP, would be run with priority because the collaboration owns 
 the available compute cycle. This is accomplised by deploying Compute Entry (CE) points on the edge infrastructure of institutions. A project is affiliated with 
