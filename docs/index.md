@@ -12,7 +12,7 @@ A PI can visit the accounting portal (https://ci-connect.net) sign-up using CI L
 
 ### News
 
-A new Collab AP (ap23.uc.osg-htg.org) is being deployed which will replace the existing one (login.collab.ci-connect.net). 
+04/18/2023 A new Collab AP host, ap23.uc.osg-htg.org. is being deployed which will replace the existing one, login.collab.ci-connect.net. Users and projects will be from login.collab.ci-connect.net will be moved to the new one. Users will be in general responsible for migrating their data and make any necessary corrections to their workflows. Collaboration Support staff will be there to assist. A transition plan is currently being compiled and will be shared here. Staff will reach out to individual users and project managers to arrange for a timeline that meets the collaboration's needs. 
 
 ## Collaboration Institutions and Compute Sites
 
