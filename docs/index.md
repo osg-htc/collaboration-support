@@ -24,7 +24,7 @@ A new Collab AP (ap23.uc.osg-htg.org) is being deployed which will replace the e
 
 Collaboration support holds and participates in meetings during the week to assist and coordinate on projects. A list of the weekly meeting schedule is maintained [here](misc/meeting-schedule.md)
 
-### List of supported collaboratoins
+## List of supported collaboratoins
 
 [Collaboration list](projects/project-list.md)
 
