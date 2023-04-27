@@ -13,7 +13,7 @@ institutional managed caches in proximity to locations where compute cycles are 
 distributing data without the need for an Origin. Data in this case is hosted in part at each member institution with Rucio providing a centralized 
 management service of where the data are and where they need to be replicated - either for use in dHTC jobs or local batch systems.
 
-Follow this [link](https://atlas-kibana.mwt2.org:5601/s/x1t/app/dashboards?auth_provider_hint=anonymous1#/view/ce7055b0-2560-11ed-afcf-d91dad577662?_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-6w%2Cto%3Anow)) to look at the Kibana dashboard tracking FTS transfers for Icecube, LIGO and XENON and Rucio information on XENON. 
+Follow this [link](https://atlas-kibana.mwt2.org:5601/s/x1t/app/dashboards?auth_provider_hint=anonymous1#/view/ce7055b0-2560-11ed-afcf-d91dad577662?_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-6w%2Cto%3Anow))) to look at the Kibana dashboard tracking FTS transfers for Icecube, LIGO and XENON and Rucio information on XENON. 
 
 ## Integration of Collaboration owned resources
 
