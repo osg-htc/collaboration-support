@@ -1,5 +1,5 @@
 ## List of Supported Projects
-1. [IGWN(LIGO,VIRGO,KAGRA](igwn.md)
+1. [IGWN(LIGO,VIRGO,KAGRA)](igwn.md)
 2. [IceCube](icecube.md)
 3. [REDTOP](Redtop.md)
 4. [South Pole Telescope (SPT3g)](spt.md)
