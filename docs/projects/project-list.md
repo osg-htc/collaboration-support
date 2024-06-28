@@ -20,4 +20,4 @@
 19. [UHE Neutrino Obsevatory Trinity](uhe.md)
 20. [EUSO-SPB2](euso.md)
 21. [VERITAS](veritas.md)
-22. [Other Fermi Lab Collorations](fermi.md)
+22. [Other Fermi Lab Collaborations](fermi.md)
