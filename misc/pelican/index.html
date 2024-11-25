@@ -483,6 +483,28 @@ The upgrade to the Pelican platform, which uses federated urls for the origin, s
 </li>
 </ol>
 <p>If you are using a client in your runtime script at the EP, then the previous tool, <strong>stashcp</strong>, will continue to work as long as the version is &gt; 6.12 except recursive access (<em>-r</em> flag). Thefore, we recommend that groups migrate to using the pelican client instead. </p>
+<table>
+<thead>
+<tr>
+<th>Month</th>
+<th>Savings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>January</td>
+<td>$250</td>
+</tr>
+<tr>
+<td>February</td>
+<td>$80</td>
+</tr>
+<tr>
+<td>March</td>
+<td>$420</td>
+</tr>
+</tbody>
+</table>
 <p>The pelican equivalent of the stashcp client read command: <code>stashcp -d osdf:///ospool/uc-shared/project/&lt;your_project&gt;/&lt;file&gt; .</code> is  <code>pelican object get -d osdf:///ospool/uc-shared/project/&lt;your_project/&lt;file&gt; .</code>
 Similarly, the pelican equivalent of the stashcp write comamnd, <code>stashcp -d &lt;file&gt; osdf:///ospool/uc-shared/project/&lt;your_project/&lt;file&gt;</code> is <code>pelican object put -d &lt;file&gt; osdf:///ospool//uc-shared/project/&lt;your_project/&lt;file&gt;</code></p>
 <p>If your container image was built using one of the OSG base environments, then the pelican client tool is already included. The pelican client can be installed from the osg repo with <code>dnf install pelican</code>. Refer to this documentation (https://osg-htc.org/docs/common/yum/) to add the osg repository.</p>
