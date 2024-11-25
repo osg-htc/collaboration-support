@@ -1,4 +1,4 @@
-## Uprade of the OSDF origin to Pelican for Collaborations
+## Upgrade of the OSDF origin to Pelican for Collaborations
 
 The OSG Collab AP had an **OSDF** door deployed on the access point (ap23.uc.osg-htc.org) that provided users with authenticated access to a Ceph cluster, that provides high capacity storage to shared project directories. HTCondor jobs running in the OSPool at remote **Execution Points (EPs)** (remote worker nodes) can access the filesystem either via a client tool or via an HTCondor plugin that is invoked in their submit scripts. The storage is also mounted on the AP at /ospool/uc-shared/project. 
 
@@ -14,11 +14,14 @@ In a nutshell:
 
     OSDF_LOCATION = osdf:///ospool/uc-shared/project/<your_project>/<file>
     transfer_input_files = $(OSDF_LOCATION)/<file>
-The upgrade to the Pelican platform, which uses federated urls for the origin, still keeps the same prefix *osdf://*. After the upgrade, *osdf://* simply points to *pelican://osg-htc.org/* 
+Note: The Pelican platform uses federated URLs for the origin, but the prefix osdf:// remains unchanged. After the upgrade, osdf:// maps to pelican://osg-htc.org/.
 
-If you are using a client in your runtime script at the EP, then the previous tool, **stashcp**, will continue to work as long as the version is > 6.12 except recursive access (*-r* flag). Thefore, we recommend that groups migrate to using the pelican client instead. 
+### Transition from Stashcp to Pelican
+If your runtime scripts at the EP rely on the stashcp tool, it will continue to work (version 6.12 or higher), except for recursive access (-r flag). However, we recommend transitioning to the Pelican client for improved compatibility and features.
 
-| stashcp    | pelican |
+Command Comparison
+
+| Stashcp Command    | Pelican equivalent |
 | -------- | ------- |
 | `stashcp -d osdf:///ospool/uc-shared/project/<your_project>/<file> .`  |   `pelican object get -d osdf:///ospool/uc-shared/project/<your_project/<file> .` |
 |  `stashcp -d <file> osdf:///ospool/uc-shared/project/<your_project/<file>` |    `pelican object put -d <file> osdf:///ospool//uc-shared/project/<your_project/<file>` |
