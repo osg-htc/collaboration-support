@@ -9,9 +9,13 @@ A PI can visit the accounting portal (https://ci-connect.net) sign-up using CI L
 
 ## News
 
+11/21/2024
+
+    The Open Science Data Platorm (OSDF) origin that was deployed on the OSG Collab AP, ap23.uc.osg-htc.org, has moved to a separate infrastructure to accommodate upgrading to the Pelican data distribution platform and allow for users at other APs use the backend storage. For more details refer to this [section](misc/pelican.md).
+
 04/18/2023 
 
-    A new Collab AP host, ap23.uc.osg-htg.org. is being deployed which will replace the existing one, login.collab.ci-connect.net. Users and projects will     be from login.collab.ci-connect.net will be moved to the new one. Users will be in general responsible for migrating their data and make any necessary     corrections to their workflows. Collaboration Support staff will be there to assist. A transition plan is currently being compiled and will be shared       here. Staff will reach out to individual users and project managers to arrange for a timeline that meets the collaboration's needs. 
+    A new Collab AP host, ap23.uc.osg-htg.org. has been deployed which will replace the existing one, login.collab.ci-connect.net. Users and projects from login.collab.ci-connect.net have moved to the new one. Users are responsible for migrating their data and make any necessary corrections to their workflows. Collaboration Support staff will be available to assist. 
 
 ## Collaboration Institutions and Compute Sites
 
