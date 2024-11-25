@@ -6,9 +6,11 @@ The general purpose documentation found here (https://portal.osg-htc.org/documen
 In a nutshell, if you are not using the client tool then:
 
   1. Use this for your job running on the OSPool to a file from your project directory:
-  transfer_input_files = osdf:///ospool/apXX/data/<username>/<file>
-  2. Use this for your jobs running on the OSPool to write a file into your project directory:
-  OSDF_LOCATION = osdf:///ospool/
-  transfer_input_files = $(OSDF_LOCATION)/<file>
+  
+    transfer_input_files = osdf:///ospool/apXX/data/<username>/<file>
+  5. Use this for your jobs running on the OSPool to write a file into your project directory:
+
+    OSDF_LOCATION = osdf:///ospool/
+    transfer_input_files = $(OSDF_LOCATION)/<file>
 
 
