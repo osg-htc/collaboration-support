@@ -486,22 +486,18 @@ The upgrade to the Pelican platform, which uses federated urls for the origin, s
 <table>
 <thead>
 <tr>
-<th>Month</th>
-<th>Savings</th>
+<th>stashcp</th>
+<th>pelican</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>January</td>
-<td>$250</td>
+<td><code>stashcp -d osdf:///ospool/uc-shared/project/&lt;your_project&gt;/&lt;file&gt; .</code></td>
+<td><code>pelican object get -d osdf:///ospool/uc-shared/project/&lt;your_project/&lt;file&gt; .</code></td>
 </tr>
 <tr>
-<td>February</td>
-<td>$80</td>
-</tr>
-<tr>
-<td>March</td>
-<td>$420</td>
+<td><code>stashcp -d &lt;file&gt; osdf:///ospool/uc-shared/project/&lt;your_project/&lt;file&gt;</code></td>
+<td><code>pelican object put -d &lt;file&gt; osdf:///ospool//uc-shared/project/&lt;your_project/&lt;file&gt;</code></td>
 </tr>
 </tbody>
 </table>
