@@ -6,9 +6,9 @@ On **11/21/2024**, OSG/PATh staff migrated the OSDF door from the OSG Collab AP 
 
 The migration was designed to be transparent to users of the OSG Collab AP.
 
-## HTCondor Plugin Users: No changes are needed in your submission scripts. 
+## HTCondor Plugin Users: 
 
-The [OSDF documentation](https://portal.osg-htc.org/documentation/htc_workloads/managing_data/osdf/) remains applicable and describes how to use the HTCondor plugin to move data to and from the OSDF/Pelican origin.
+No changes are needed in your submission scripts. The [OSDF documentation](https://portal.osg-htc.org/documentation/htc_workloads/managing_data/osdf/) remains applicable and describes how to use the HTCondor plugin to move data to and from the OSDF/Pelican origin.
 
 Here are key examples for transferring files using the HTCondor plugin:
 
@@ -22,7 +22,7 @@ Here are key examples for transferring files using the HTCondor plugin:
 
 Note: The Pelican platform uses federated URLs for the origin, but the prefix osdf:// remains unchanged. After the upgrade, osdf:// maps to pelican://osg-htc.org/.
 
-### Transition from Stashcp to Pelican
+### Client tool Users - Transition from Stashcp to Pelican
 If your runtime scripts at the EP rely on the stashcp tool, it will continue to work (version 6.12 or higher), except for recursive access (-r flag). However, we recommend transitioning to the Pelican client for improved compatibility and features.
 
 Command Comparison
