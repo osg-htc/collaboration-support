@@ -60,6 +60,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#uprade-of-osdf-to-pelican-for-collaborations" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -423,6 +428,35 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uprade-of-osdf-to-pelican-for-collaborations" class="md-nav__link">
+    Uprade of OSDF to Pelican for Collaborations
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -431,7 +465,15 @@
                 
                   <h1>Pelican</h1>
                 
-                
+                <h2 id="uprade-of-osdf-to-pelican-for-collaborations">Uprade of OSDF to Pelican for Collaborations<a class="headerlink" href="#uprade-of-osdf-to-pelican-for-collaborations" title="Permanent link">&para;</a></h2>
+<p>The OSG Collab AP had an OSDF door deployed on the access point that provided users with authenticated access to a Ceph storage cluster for shared projects from HTCondor jobs to the OSPool running at remote Execution Points (EPs). Users running jobs on the OSPool access the filesystem either via a client tool (stashcp) or via an HTCondor plugin that is invoked in their submit scripts. The storage is also mounted on the AP at /ospool/uc-shared/project. </p>
+<p>The general purpose documentation found here (https://portal.osg-htc.org/documentation/htc_workloads/managing_data/osdf/) is also applicable for the users on the OSG Collab AP. It describes using the HTCondor plugin to move data to and from the OSDF Origin. 
+In a nutshell:
+  1. Use this for your job running on the OSPool to a file from your project directory:
+  transfer_input_files = osdf:///ospool/apXX/data/<username>/<file>
+  2. Use this for your jobs running on the OSPool to write a file into your project directory:
+  OSDF_LOCATION = osdf:///ospool/
+  transfer_input_files = $(OSDF_LOCATION)/<file></p>
                 
               
               
