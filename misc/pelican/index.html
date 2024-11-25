@@ -458,6 +458,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#installing-the-pelican-client" class="md-nav__link">
+    Installing the Pelican Client
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -516,10 +523,13 @@ Note: The Pelican platform uses federated URLs for the origin, but the prefix os
 </tr>
 </tbody>
 </table>
-<p>The pelican equivalent of the stashcp client read command: <code>stashcp -d osdf:///ospool/uc-shared/project/&lt;your_project&gt;/&lt;file&gt; .</code> is  <code>pelican object get -d osdf:///ospool/uc-shared/project/&lt;your_project/&lt;file&gt; .</code>
-Similarly, the pelican equivalent of the stashcp write comamnd, <code>stashcp -d &lt;file&gt; osdf:///ospool/uc-shared/project/&lt;your_project/&lt;file&gt;</code> is <code>pelican object put -d &lt;file&gt; osdf:///ospool//uc-shared/project/&lt;your_project/&lt;file&gt;</code></p>
-<p>If your container image was built using one of the OSG base environments, then the pelican client tool is already included. The pelican client can be installed from the osg repo with <code>dnf install pelican</code>. Refer to this documentation (https://osg-htc.org/docs/common/yum/) to add the osg repository.</p>
-<p>You can find detailed instruction in using the Pelican platform here: https://docs.pelicanplatform.org/ </p>
+<h3 id="installing-the-pelican-client">Installing the Pelican Client<a class="headerlink" href="#installing-the-pelican-client" title="Permanent link">&para;</a></h3>
+<p>If your container image is built using an OSG base environment, the Pelican client is already included. Otherwise, you can install it from the OSG repository:</p>
+<div class="codehilite"><pre><span></span><code>dnf install pelican
+</code></pre></div>
+
+<p>Refer to the <a href="https://osg-htc.org/docs/common/yum/">OSG Yum documentation</a> to configure and add the osg repository.</p>
+<p>For detailed instructions on using the Pelican platform, visit the <a href="https://docs.pelicanplatform.org/">Pelican Platform Documentation</a>.</p>
                 
               
               
