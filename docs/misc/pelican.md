@@ -5,8 +5,8 @@ The OSG Collab AP had an **OSDF** door deployed on the access point (ap23.uc.osg
 On **11/21/2024**, OSG/PATh staff migrated the OSDF door from the OSG Collab AP to a separate infrastructure to allow upgrading the origin to the Pelican Platform (https://pelicanplatform.org/) and provide shared project access to users at other APs (ap20.uc.osg-htc.org and ap21.uc.osg-htc.org).
 
 The migration should have been transparent to the OSG Collab AP. If using the HTCondor plugin, no changes are needed in your submission scripts. For reference, the general purpose documentation found here (https://portal.osg-htc.org/documentation/htc_workloads/managing_data/osdf/) is also applicable to the users of the OSG Collab AP. It describes using the HTCondor plugin to move data to and from the OSDF/Pelican Origin. 
-In a nutshell then:
 
+In a nutshell:
   1. Include the following in your submit script for an OSPool job read a file from your project directory at the EP:
   
     transfer_input_files = osdf:///ospool/uc-shared/project/<your_project>/<file>
