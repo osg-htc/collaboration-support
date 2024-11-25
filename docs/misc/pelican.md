@@ -18,7 +18,7 @@ The upgrade to the Pelican platform, which uses federated urls for the origin, s
 
 If you are using a client in your runtime script at the EP, then the previous tool, **stashcp**, will continue to work as long as the version is > 6.12 except recursive access (*-r* flag). Thefore, we recommend that groups migrate to using the pelican client instead. 
 
-The pelican equivalent of the stashcp client read command: `stashcp -d osdf:///ospool/uc-shared/project/<your_project>/<file>` is  `pelican object get -d osdf:///ospool/uc-shared/project/xenon/ppaschos/testfile .`
+The pelican equivalent of the stashcp client read command: `stashcp -d osdf:///ospool/uc-shared/project/<your_project>/<file>` is  `pelican object get -d osdf:///ospool/uc-shared/project/<your_project/<file> .`
 Similarly, the pelican equivalent of the stashcp write comamnd, `stashcp -d <file> osdf:///ospool/uc-shared/project/<your_project/<file>` is `pelican object put -d <file> osdf:///ospool//uc-shared/project/<your_project/<file>`
 
 If your container image was built using one of the OSG base environments, then the pelican client tool is already included. The pelican client can be installed from the osg repo with `dnf install pelican`. Refer to this documentation (https://osg-htc.org/docs/common/yum/) to add the osg repository.
