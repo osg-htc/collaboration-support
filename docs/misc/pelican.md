@@ -26,11 +26,13 @@ Command Comparison
 | `stashcp -d osdf:///ospool/uc-shared/project/<your_project>/<file> .`  |   `pelican object get -d osdf:///ospool/uc-shared/project/<your_project/<file> .` |
 |  `stashcp -d <file> osdf:///ospool/uc-shared/project/<your_project/<file>` |    `pelican object put -d <file> osdf:///ospool//uc-shared/project/<your_project/<file>` |
 
+###Installing the Pelican Client
 
-The pelican equivalent of the stashcp client read command: `stashcp -d osdf:///ospool/uc-shared/project/<your_project>/<file> .` is  `pelican object get -d osdf:///ospool/uc-shared/project/<your_project/<file> .`
-Similarly, the pelican equivalent of the stashcp write comamnd, `stashcp -d <file> osdf:///ospool/uc-shared/project/<your_project/<file>` is `pelican object put -d <file> osdf:///ospool//uc-shared/project/<your_project/<file>`
+If your container image is built using an OSG base environment, the Pelican client is already included. Otherwise, you can install it from the OSG repository:
 
-If your container image was built using one of the OSG base environments, then the pelican client tool is already included. The pelican client can be installed from the osg repo with `dnf install pelican`. Refer to this documentation (https://osg-htc.org/docs/common/yum/) to add the osg repository.
+    dnf install pelican 
 
-You can find detailed instruction in using the Pelican platform here: https://docs.pelicanplatform.org/ 
+Refer to the [OSG Yum documentation](https://osg-htc.org/docs/common/yum/) to configure and add the osg repository.
+
+For detailed instructions on using the Pelican platform, visit the [Pelican Platform Documentation](https://docs.pelicanplatform.org/).
 
