@@ -1,8 +1,8 @@
 ## Upgrade of the OSDF origin to Pelican for Collaborations
 
-The OSG Collab AP had an **OSDF** door deployed on the access point (ap23.uc.osg-htc.org) that provided users with authenticated access to a Ceph cluster, that provides high capacity storage to shared project directories. HTCondor jobs running in the OSPool at remote **Execution Points (EPs)** (remote worker nodes) can access the filesystem either via a client tool or via an HTCondor plugin that is invoked in their submit scripts. The storage is also mounted on the AP at /ospool/uc-shared/project. 
+The OSG Collab AP (ap23.uc.osg-htc.org) previously had deployed an OSDF transfer door. This provided authenticated user access to a Ceph cluster, offering high-capacity storage in shared project directories. HTCondor jobs running in the OSPool at remote Execution Points (EPs) (worker nodes) could access this filesystem either via a client tool or through an HTCondor plugin invoked in their submit scripts. The storage is mounted on the AP at /ospool/uc-shared/project.
 
-On **11/21/2024**, OSG/PATh staff migrated the OSDF door from the OSG Collab AP to a separate infrastructure to allow upgrading the origin to the Pelican Platform (https://pelicanplatform.org/) and provide shared project access to users at other APs (ap20.uc.osg-htc.org and ap21.uc.osg-htc.org).
+On 11/21/2024, OSG/PATh staff migrated the OSDF door to a separate infrastructure to upgrade the origin to the Pelican Platform (pelicanplatform.org) and enable access to the shared project space for users across other APs (ap20.uc.osg-htc.org and ap21.uc.osg-htc.org).
 
 The migration was designed to be transparent to users of the OSG Collab AP.
 
