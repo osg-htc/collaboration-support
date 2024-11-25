@@ -26,7 +26,7 @@ Command Comparison
 | `stashcp -d osdf:///ospool/uc-shared/project/<your_project>/<file> .`  |   `pelican object get -d osdf:///ospool/uc-shared/project/<your_project/<file> .` |
 |  `stashcp -d <file> osdf:///ospool/uc-shared/project/<your_project/<file>` |    `pelican object put -d <file> osdf:///ospool//uc-shared/project/<your_project/<file>` |
 
-###Installing the Pelican Client
+### Installing the Pelican Client
 
 If your container image is built using an OSG base environment, the Pelican client is already included. Otherwise, you can install it from the OSG repository:
 
