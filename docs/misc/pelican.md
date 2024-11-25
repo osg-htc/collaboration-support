@@ -18,11 +18,11 @@ The upgrade to the Pelican platform, which uses federated urls for the origin, s
 
 If you are using a client in your runtime script at the EP, then the previous tool, **stashcp**, will continue to work as long as the version is > 6.12 except recursive access (*-r* flag). Thefore, we recommend that groups migrate to using the pelican client instead. 
 
-| Month    | Savings |
+| stashcp    | pelican |
 | -------- | ------- |
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+| `stashcp -d osdf:///ospool/uc-shared/project/<your_project>/<file> .`  |   `pelican object get -d osdf:///ospool/uc-shared/project/<your_project/<file> .` |
+|  `stashcp -d <file> osdf:///ospool/uc-shared/project/<your_project/<file>` |    `pelican object put -d <file> osdf:///ospool//uc-shared/project/<your_project/<file>` |
+
 
 The pelican equivalent of the stashcp client read command: `stashcp -d osdf:///ospool/uc-shared/project/<your_project>/<file> .` is  `pelican object get -d osdf:///ospool/uc-shared/project/<your_project/<file> .`
 Similarly, the pelican equivalent of the stashcp write comamnd, `stashcp -d <file> osdf:///ospool/uc-shared/project/<your_project/<file>` is `pelican object put -d <file> osdf:///ospool//uc-shared/project/<your_project/<file>`
