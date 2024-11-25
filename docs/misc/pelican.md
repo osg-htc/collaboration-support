@@ -29,3 +29,5 @@ Similarly, the pelican equivalent of the stashcp write comamnd, `stashcp -d <fil
 
 If your container image was built using one of the OSG base environments, then the pelican client tool is already included. The pelican client can be installed from the osg repo with `dnf install pelican`. Refer to this documentation (https://osg-htc.org/docs/common/yum/) to add the osg repository.
 
+You can find detailed instruction in using the Pelican platform here: https://docs.pelicanplatform.org/ 
+
