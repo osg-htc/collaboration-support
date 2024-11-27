@@ -1,7 +1,15 @@
-## Mission
+## Welcome to OSG Collaboration Support
 
-The mission of OSG Collaboration Support is to help Midsize Collaborations leverage the OSG Consortium services and technologies for their research.
-A list of services can be found [here](misc/services.md). Among them, is provisioning access to an OSG-managed Collab Access Point as a single point of submission of dHTC jobs to the Open Science Pool (OSPool). Users from different institutions can join a collaboration specific project. This simplifies access to compute and storage resources as users are not bound by institutional barriers - such as the need for insitutional based identies. For example Institutions A and B need to work on a project. It is not easy for students/postdocs from Institution A to obtain an identity that will allow them to collaborate with their collegues at the Institution B. On the Collab AP, PIs can create a single project with users from both institutions. This allows for a collaborative environment where the research team can launch jobs to the OSPool, levereage multi-TB ephemeral storage and even run computational workflows - like post-processing or mereging jobs on the access point (the login node). 
+Our mission is to empower research collaborations by helping teams leverage the services and technologies of the OSG Consortium. With our support, researchers can overcome institutional barriers and access powerful computing and storage resources.
+
+###Simplified Collaboration Access Across Institutions 
+Collaborations often involve researchers from multiple institutions, which can create challenges when institutional-specific identities are required. The OSG Collaboration Access Point (Collab AP) resolves this by enabling principal investigators (PIs) to create projects that include members from all participating institutions. This streamlined approach fosters seamless collaboration, allowing teams to:
+
+  * Access the OSPool for launching compute jobs.
+  * Utilize multi-terabyte ephemeral storage.
+  * Run complex workflows, such as post-processing or job merging, directly on the access point (login node).
+
+To explore the full range of services, visit our services page or reach out to collab-support@osg-htc.org.
 
 ### Obtain accounts on OSG's Collab Access Point.
 
