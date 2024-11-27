@@ -13,10 +13,6 @@ Collaborations often involve researchers from multiple institutions, which can c
 
 To explore the full range of services, visit our services page or reach out to <collab-support@osg-htc.org>.
 
-### Obtain accounts on OSG's Collab Access Point.
-
-A PI can visit the accounting portal (https://ci-connect.net) sign-up using CI Logon credentials, create a project and add users. A consultation with someone from Collaboration Support is required. A walk through through the process is linked [here](misc/onboard.md). 
-
 ## Getting Started with Your Project
 Principal Investigators (PIs) can easily create and manage projects through the [Accounting Portal](https://ci-connect.net). When a PI signs up with their [CI-Logon](https://www.cilogon.org/) credentials, they can:
 
@@ -52,8 +48,8 @@ Collaboration support holds and participates in meetings during the week to assi
 
 ## Contact Us
 
-Open a Ticket by sending an email to [help@osg-htc.org](mailto:help@osg-htc.org) and request support for your collaboration project.
-
+ * For technical support of existing project create a ticket by sending an email to [support@osg-htc.org](mailto:support@osg-htc.org). Please, ensure that you mention in your email the name of your collaboration and the access point where you have an account.
+ * For new projects and to learn more about OSG/PATh collaborations services please email: <collab-support@osg-htc.org>. 
 ***
 
 
