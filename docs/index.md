@@ -2,7 +2,8 @@
 
 Our mission is to empower research collaborations by helping teams leverage the services and technologies of the OSG Consortium. With our support, researchers can overcome institutional barriers and access powerful computing and storage resources.
 
-###Simplified Collaboration Access Across Institutions 
+### Simplified Collaboration Access Across Institutions 
+
 Collaborations often involve researchers from multiple institutions, which can create challenges when institutional-specific identities are required. The OSG Collaboration Access Point (Collab AP) resolves this by enabling principal investigators (PIs) to create projects that include members from all participating institutions. This streamlined approach fosters seamless collaboration, allowing teams to:
 
   * Access the OSPool for launching compute jobs.
