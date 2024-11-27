@@ -11,20 +11,20 @@ Collaborations often involve researchers from multiple institutions, which can c
   * Run complex workflows, such as post-processing, directly on the access point (login node)
   * Utilize the [Open Science Data Federation](https://osg-htc.org/services/osdf.html) to distribute your data production to execution points at global scale
 
-To explore the full range of services, visit our services page or reach out to collab-support@osg-htc.org.
+To explore the full range of services, visit our services page or reach out to <collab-support@osg-htc.org>.
 
 ### Obtain accounts on OSG's Collab Access Point.
 
 A PI can visit the accounting portal (https://ci-connect.net) sign-up using CI Logon credentials, create a project and add users. A consultation with someone from Collaboration Support is required. A walk through through the process is linked [here](misc/onboard.md). 
 
 ## Getting Started with Your Project
-Principal Investigators (PIs) can easily create and manage projects through the [Accounting Portal](https://ci-connect.net). When a PI signs up with their CI Logon credentials, they can:
+Principal Investigators (PIs) can easily create and manage projects through the [Accounting Portal](https://ci-connect.net). When a PI signs up with their [CI-Logon](https://www.cilogon.org/) credentials, they can:
 
  * Request to join the PATh Collaborations group
  * Request to create an accounting group for the collaboration
  * When these requests are approved, the PI can then add team members to collaborate seamlessly.
 
-Before proceeding, a consultation with our Collaboration Support team is required to better understand the science case, compuational and storage requirements. Please email us at collab-support@osg-htc.org.
+Before proceeding, a consultation with our Collaboration Support team is required to better understand the science case, compuational and storage requirements. Please email us at <collab-support@osg-htc.org>.
 
 ## News
 
