@@ -1,4 +1,4 @@
-## Welcome to OSG Collaboration Support
+## Welcome to OSG/PATh Collaboration Support
 
 Our mission is to empower research collaborations by helping teams leverage the services and technologies of the OSG Consortium. With our support, researchers can overcome institutional barriers and access powerful computing and storage resources.
 
