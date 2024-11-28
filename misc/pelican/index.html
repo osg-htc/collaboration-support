@@ -502,13 +502,15 @@
 <ol>
 <li>
 <p>Transfer a file from the project directory to the EP environment:</p>
-<p>transfer_input_files = osdf:///ospool/uc-shared/project/<your_project>/<file>
-  5. Transfer a file to the project directory from the EP environment:</p>
+<p>transfer_input_files = osdf:///ospool/uc-shared/project/<your_project>/<file></p>
+</li>
+<li>
+<p>Transfer a file to the project directory from the EP environment:</p>
 <p>OSDF_LOCATION = osdf:///ospool/uc-shared/project/<your_project>/<file>
 transfer_input_files = $(OSDF_LOCATION)/<file></p>
 </li>
 </ol>
-<p>Note: The Pelican platform uses federated URLs for the origin, but the prefix osdf:// remains unchanged. After the upgrade, osdf:// maps to pelican://osg-htc.org/.</p>
+<p>Note: The Pelican platform uses federated URLs for the origin, but the prefix osdf:// remains unchanged. After the upgrade, <code>osdf://</code> maps to <code>pelican://osg-htc.org/</code></p>
 <h3 id="client-tool-users-transition-from-stashcp-to-pelican">Client tool Users - Transition from Stashcp to Pelican<a class="headerlink" href="#client-tool-users-transition-from-stashcp-to-pelican" title="Permanent link">&para;</a></h3>
 <p>If your runtime scripts at the EP rely on the stashcp tool, it will continue to work (version 6.12 or higher), except for recursive access (-r flag). However, we recommend transitioning to the Pelican client for improved compatibility and features.</p>
 <p>Command Comparison</p>
