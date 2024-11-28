@@ -15,12 +15,13 @@ Here are key examples for transferring files using the HTCondor plugin:
   1. Transfer a file from the project directory to the EP environment:
   
     transfer_input_files = osdf:///ospool/uc-shared/project/<your_project>/<file>
-  5. Transfer a file to the project directory from the EP environment:
+    
+  2. Transfer a file to the project directory from the EP environment:
 
     OSDF_LOCATION = osdf:///ospool/uc-shared/project/<your_project>/<file>
     transfer_input_files = $(OSDF_LOCATION)/<file>
 
-Note: The Pelican platform uses federated URLs for the origin, but the prefix osdf:// remains unchanged. After the upgrade, osdf:// maps to pelican://osg-htc.org/.
+Note: The Pelican platform uses federated URLs for the origin, but the prefix osdf:// remains unchanged. After the upgrade, `osdf://` maps to `pelican://osg-htc.org/`
 
 ### Client tool Users - Transition from Stashcp to Pelican
 If your runtime scripts at the EP rely on the stashcp tool, it will continue to work (version 6.12 or higher), except for recursive access (-r flag). However, we recommend transitioning to the Pelican client for improved compatibility and features.
