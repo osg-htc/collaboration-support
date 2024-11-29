@@ -8,3 +8,12 @@ This is a recurring, biweekly call between OSG/PATh staff and representatives fr
 If you would like to participate send an email to collab-support@osg-htc.org and we will provide a zoom link. 
 
 Next collaboration roundtable call: Dec 02/ 2004
+
+
+### Conferences & Meetings
+
+Upcoming:
+
+LIGO Face2Face: Atlanta GA, Jan 4th 2025
+
+Past:
