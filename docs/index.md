@@ -32,19 +32,10 @@ The Open Science Data Platorm (OSDF) origin that was deployed on the OSG Collab 
 
 A new Collab AP host, ap23.uc.osg-htg.org. has been deployed which will replace the existing one, login.collab.ci-connect.net. Users and projects from login.collab.ci-connect.net have moved to the new one. Users are responsible for migrating their data and make any necessary corrections to their workflows. Collaboration Support staff will be available to assist. 
 
-### Collaboration Institutions and Compute Sites
-
-<iframe src="https://osg-htc.org/organization/iframe.html" height="500" width="900" allow="fullscreen"></iframe>
-
-***
-
 ### Regular Meeting schedule
 
-Collaboration support holds and participates in meetings during the week to assist and coordinate on projects. A list of the weekly meeting schedule is maintained [here](misc/meeting-schedule.md)
+Collaboration support holds and participates in meetings during the week to assist and coordinate on projects. A list of theweekly meeting schedule is maintained [here](misc/meeting-schedule.md)
 
-## List of supported collaboratoins
-
-[Collaboration list](projects/project-list.md)
 
 ## Contact Us
 
