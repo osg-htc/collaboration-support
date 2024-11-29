@@ -34,10 +34,9 @@ A new Collab AP host, ap23.uc.osg-htg.org. has been deployed which will replace 
 
 ### Regular Meeting schedule
 
-Collaboration support holds and participates in meetings during the week to assist and coordinate on projects. A list of theweekly meeting schedule is maintained [here](misc/meeting-schedule.md)
+Recurring meeting schedule is [here](misc/meeting-schedule.md)
 
-
-## Contact Us
+### Contact Us
 
  * For technical support of existing project create a ticket by sending an email to [support@osg-htc.org](mailto:support@osg-htc.org). Please, ensure that you mention in your email the name of your collaboration and the access point where you have an account.
  * For new projects and to learn more about OSG/PATh collaborations services please email: <collab-support@osg-htc.org>. 
